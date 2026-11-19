@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.20)
+project(SSOProxy LANGUAGES CXX)
+
+if(NOT WIN32)
+    message(FATAL_ERROR "The UDP relay uses Windows Winsock.")
+endif()
+
+add_executable(sso-proxy src/udp_relay.cpp)
+target_compile_features(sso-proxy PRIVATE cxx_std_20)
+target_compile_definitions(sso-proxy PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX)
+target_link_libraries(sso-proxy PRIVATE ws2_32)
+if(MSVC)
+    target_compile_options(sso-proxy PRIVATE /W4 /permissive-)
+else()
+    target_compile_options(sso-proxy PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+include(CTest)
+if(BUILD_TESTING)
+    find_package(Python3 3.11 QUIET COMPONENTS Interpreter)
+    if(Python3_Interpreter_FOUND)
+        add_test(NAME proxy-smoke COMMAND "${Python3_EXECUTABLE}"
+            "${CMAKE_CURRENT_SOURCE_DIR}/tests/smoke_proxy.py" "$<TARGET_FILE:sso-proxy>")
+        set_tests_properties(proxy-smoke PROPERTIES TIMEOUT 30)
+    endif()
+endif()

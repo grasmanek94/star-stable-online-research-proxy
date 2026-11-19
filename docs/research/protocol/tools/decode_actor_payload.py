@@ -93,8 +93,8 @@ class Reader:
         raise DecodeError(f"Unknown grammar type {wire}")
 
 
-def decode(message, payload):
-    reader = Reader(payload)
+def decode(message, payload, *, reader_type=Reader):
+    reader = reader_type(payload)
     result = {"message": message, "length": len(payload)}
     if message == "master":
         result["body"] = reader.read("MasterDecompressed")

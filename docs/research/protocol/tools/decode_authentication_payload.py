@@ -27,11 +27,11 @@ def feature_mask(entries, names):
     return mask
 
 
-def decode(message, payload):
+def decode(message, payload, *, reader_type=Reader):
     message = int(message)
     if message not in PACKETS:
         raise DecodeError(f"Unsupported authentication message {message}")
-    reader = Reader(payload, schemas=SCHEMAS)
+    reader = reader_type(payload, schemas=SCHEMAS)
     body = reader.read(PACKETS[message])
     if reader.offset != len(payload):
         raise DecodeError(f"Unexpected trailing bytes at {reader.offset}")

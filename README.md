@@ -1,6 +1,6 @@
 # Star Stable Online protocol research
 
-Protocol specifications, reverse-engineering journals, static evidence and offline decoders for Star Stable Online. This repository is the research foundation for a future traffic-inspection proxy. A forwarding/filtering proxy is not implemented here.
+Protocol specifications, reverse-engineering journals, static evidence, offline decoders and a Windows UDP forwarding proxy for controlled endpoints.
 
 ## Start here
 
@@ -21,7 +21,36 @@ The gameplay protocol recovered here uses custom reliable/encrypted **UDP**. HTT
 
 The primary reference is Windows client **647.349716**, SHA256 `62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1`, and launcher **2.60.0**. Addresses identify that executable, not arbitrary future versions.
 
-Findings are based on static analysis and synthetic checks. Complete message-name coverage does not mean every server payload or field meaning is known. No captured golden login session, server acceptance, functioning relay or live TLS decryption is claimed. The documents label unknowns and corrections.
+Findings are based on static analysis and synthetic checks. The relay and its inspector have been exercised with local UDP peers. Live game compatibility and TLS plaintext remain unverified. The message catalog supplies names while the focused schemas define the layouts and field meanings established so far.
+
+## Build and run the UDP relay
+
+Use CMake 3.20 or newer and a Windows C++20 compiler. Install Python 3.11 or newer to run the inspector and enable the loopback test at configure time.
+
+```powershell
+cmake -S . -B out/proxy -A x64
+cmake --build out/proxy --config Release
+ctest --test-dir out/proxy -C Release --output-on-failure
+```
+
+Start a UDP test server at `127.0.0.1:19000`, run the relay, and point a test client at `127.0.0.1:18971`.
+
+```powershell
+.\out\proxy\Release\sso-proxy.exe --upstream 127.0.0.1:19000
+```
+
+Use `--listen 127.0.0.1:PORT` or `--listen [::1]:PORT` to choose the local endpoint. The relay resolves `--upstream HOST:PORT` once before binding, prints the selected numeric address on stderr, and uses a separate connected upstream socket for each client endpoint. It forwards datagram bytes in both directions and logs length, direction, timestamp and the Winsock send outcome as JSON lines. UDP delivery still depends on the network and peers. Up to 256 client endpoints are retained, and sockets expire after five minutes of inactivity.
+
+For a controlled client647 test exchange, store its eight little-endian context words in a 32-byte binary file. Pass that file to the inspector and pipe the opt-in trace into it.
+
+```powershell
+.\out\proxy\Release\sso-proxy.exe --upstream 127.0.0.1:19000 --trace |
+    python docs/research/protocol/tools/inspect_udp_trace.py --context-file .\private\test-context.bin
+```
+
+`--trace` emits full wire bytes. The inspector takes one explicit context, verifies the envelope, labels ACKs, assembles supported fragments, and uses the reviewed login and actor body schemas. It includes readable numeric transforms and UTF-8 text where the bytes support it. The output omits raw datagrams and redacts login identifiers, tickets and response 2 context words. Catalog-only payloads are reported as unsupported and unidentified fields retain their recorded labels. The relay sends before queuing the log, and `log_overflow` reports skipped observations when the sink falls behind. Stop the relay with Ctrl+C.
+
+The relay expects the client to use its loopback address explicitly. The assigned gameplay UDP endpoint is separate from the production HTTPS hostname. The build and tests use synthetic or explicitly configured endpoints and test contexts.
 
 ## Run the offline checks
 
@@ -34,7 +63,7 @@ python docs/research/protocol/tools/verify_datagram_codec.py
 python docs/research/protocol/tools/verify_authentication_payloads.py
 ```
 
-The decoders process local bytes only. Actor/login decoders expect complete, decrypted, header-free, reassembled application bodies. The datagram codec handles the envelope/header and does not supply a live capture, TLS interceptor or reliability-aware relay.
+The standalone decoders process local bytes. Actor/login decoders expect complete, decrypted, header-free, reassembled application bodies. The datagram codec handles the UDP envelope and header. The relay inspector links these readers and observes reliability metadata while the endpoints perform delivery and retries.
 
 ## Regenerate the specification
 
