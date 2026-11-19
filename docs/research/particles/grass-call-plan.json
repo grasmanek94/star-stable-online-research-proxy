@@ -1,0 +1,9 @@
+{
+  "rva": "0x241584",
+  "patch_offset": 10,
+  "patch_rva": "0x24158e",
+  "target_rva": "0x2415d0",
+  "patch_length": 5,
+  "window": "0e 4d 8b c6 48 8b d6 48 8b cf e8 3d 00 00 00 c6 87 ac 00 00 00 00 4c 8b c6 49 8b d6 48 8b cf e8 e8 1d e7 ff 48 8b 8c 24",
+  "pattern": "0E 4D 8B C6 48 8B D6 48 8B CF E8 ?? ?? ?? ?? C6 87 AC 00 00 00 00 4C 8B C6 49 8B D6 48 8B CF E8 E8 1D E7 FF 48 8B 8C 24"
+}

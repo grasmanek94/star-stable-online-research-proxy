@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "json_files": 19,
+  "ids": 436,
+  "typed_rpcs": 175,
+  "raw_callbacks": 9,
+  "procedure_blocks": 490,
+  "mermaid_blocks": 10,
+  "identified_component_records": 7,
+  "actor_update_subtypes": 12,
+  "launcher_source_records": 18,
+  "limit": "Static evidence/document consistency; no live or server acceptance test; Mermaid syntax not rendered."
+}

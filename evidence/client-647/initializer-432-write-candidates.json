@@ -1,0 +1,1094 @@
+{
+  "20380": {
+    "function_rva": "0x4f80",
+    "instruction": ""
+  },
+  "34550": {
+    "function_rva": "0x8400",
+    "instruction": ""
+  },
+  "38927": {
+    "function_rva": "0x9220",
+    "instruction": ""
+  },
+  "44792": {
+    "function_rva": "0xaa40",
+    "instruction": ""
+  },
+  "100923": {
+    "function_rva": "0x18750",
+    "instruction": ""
+  },
+  "155316": {
+    "function_rva": "0x259f0",
+    "instruction": ""
+  },
+  "164647": {
+    "function_rva": "0x28170",
+    "instruction": ""
+  },
+  "361261": {
+    "function_rva": "0x58310",
+    "instruction": ""
+  },
+  "414869": {
+    "function_rva": "0x65470",
+    "instruction": ""
+  },
+  "415291": {
+    "function_rva": "0x65610",
+    "instruction": ""
+  },
+  "465228": {
+    "function_rva": "0x71770",
+    "instruction": ""
+  },
+  "643313": {
+    "function_rva": "0x9d0a0",
+    "instruction": ""
+  },
+  "643584": {
+    "function_rva": "0x9d1d0",
+    "instruction": ""
+  },
+  "657138": {
+    "function_rva": "0xa06b0",
+    "instruction": ""
+  },
+  "660630": {
+    "function_rva": "0xa1290",
+    "instruction": ""
+  },
+  "666938": {
+    "function_rva": "0xa2d20",
+    "instruction": ""
+  },
+  "671228": {
+    "function_rva": "0xa3d10",
+    "instruction": ""
+  },
+  "671265": {
+    "function_rva": "0xa3d10",
+    "instruction": ""
+  },
+  "671346": {
+    "function_rva": "0xa3d10",
+    "instruction": ""
+  },
+  "671692": {
+    "function_rva": "0xa3ee0",
+    "instruction": ""
+  },
+  "671729": {
+    "function_rva": "0xa3ee0",
+    "instruction": ""
+  },
+  "671810": {
+    "function_rva": "0xa3ee0",
+    "instruction": ""
+  },
+  "816465": {
+    "function_rva": "0xc72e0",
+    "instruction": ""
+  },
+  "818676": {
+    "function_rva": "0xc7d60",
+    "instruction": ""
+  },
+  "866165": {
+    "function_rva": "0xd3600",
+    "instruction": ""
+  },
+  "906293": {
+    "function_rva": "0xdd2e0",
+    "instruction": ""
+  },
+  "908449": {
+    "function_rva": "0xddab0",
+    "instruction": ""
+  },
+  "956530": {
+    "function_rva": "0xe9790",
+    "instruction": ""
+  },
+  "1066677": {
+    "function_rva": "0x1045a0",
+    "instruction": ""
+  },
+  "1106787": {
+    "function_rva": "0x10dd10",
+    "instruction": ""
+  },
+  "1117629": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1117794": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1117985": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1118119": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1118318": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1118482": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1118682": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1118868": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1119047": {
+    "function_rva": "0x110ca0",
+    "instruction": ""
+  },
+  "1253746": {
+    "function_rva": "0x132110",
+    "instruction": ""
+  },
+  "1255821": {
+    "function_rva": "0x132110",
+    "instruction": ""
+  },
+  "1267690": {
+    "function_rva": "0x135690",
+    "instruction": ""
+  },
+  "1299810": {
+    "function_rva": "0x13be70",
+    "instruction": ""
+  },
+  "1314353": {
+    "function_rva": "0x140bb0",
+    "instruction": ""
+  },
+  "1361214": {
+    "function_rva": "0x14c410",
+    "instruction": ""
+  },
+  "1361504": {
+    "function_rva": "0x14c410",
+    "instruction": ""
+  },
+  "1361785": {
+    "function_rva": "0x14c410",
+    "instruction": ""
+  },
+  "1379187": {
+    "function_rva": "0x150950",
+    "instruction": ""
+  },
+  "1423647": {
+    "function_rva": "0x15b600",
+    "instruction": ""
+  },
+  "1423672": {
+    "function_rva": "0x15b600",
+    "instruction": ""
+  },
+  "1424093": {
+    "function_rva": "0x15b980",
+    "instruction": ""
+  },
+  "1424118": {
+    "function_rva": "0x15b980",
+    "instruction": ""
+  },
+  "1424202": {
+    "function_rva": "0x15bb20",
+    "instruction": ""
+  },
+  "1458145": {
+    "function_rva": "0x163f00",
+    "instruction": ""
+  },
+  "1502919": {
+    "function_rva": "0x16ed80",
+    "instruction": ""
+  },
+  "1516384": {
+    "function_rva": "0x171930",
+    "instruction": ""
+  },
+  "1526576": {
+    "function_rva": "0x174b10",
+    "instruction": ""
+  },
+  "1638186": {
+    "function_rva": "0x18fca0",
+    "instruction": ""
+  },
+  "1658130": {
+    "function_rva": "0x194c20",
+    "instruction": ""
+  },
+  "1678983": {
+    "function_rva": "0x199df0",
+    "instruction": ""
+  },
+  "1724895": {
+    "function_rva": "0x1a51c0",
+    "instruction": ""
+  },
+  "1780746": {
+    "function_rva": "0x1b2680",
+    "instruction": ""
+  },
+  "1824948": {
+    "function_rva": "0x1bd270",
+    "instruction": ""
+  },
+  "1831415": {
+    "function_rva": "0x1bf0d0",
+    "instruction": ""
+  },
+  "1831440": {
+    "function_rva": "0x1bf0d0",
+    "instruction": ""
+  },
+  "2072720": {
+    "function_rva": "0x1f9fc0",
+    "instruction": ""
+  },
+  "2113167": {
+    "function_rva": "0x203d80",
+    "instruction": ""
+  },
+  "2277696": {
+    "function_rva": "0x22bf80",
+    "instruction": ""
+  },
+  "2281006": {
+    "function_rva": "0x22cd20",
+    "instruction": ""
+  },
+  "2334106": {
+    "function_rva": "0x239ad0",
+    "instruction": ""
+  },
+  "2335812": {
+    "function_rva": "0x23a280",
+    "instruction": ""
+  },
+  "2342998": {
+    "function_rva": "0x23bbf0",
+    "instruction": ""
+  },
+  "2344689": {
+    "function_rva": "0x23c540",
+    "instruction": ""
+  },
+  "2345460": {
+    "function_rva": "0x23c540",
+    "instruction": ""
+  },
+  "2347383": {
+    "function_rva": "0x23cb20",
+    "instruction": ""
+  },
+  "2347412": {
+    "function_rva": "0x23cb20",
+    "instruction": ""
+  },
+  "2347432": {
+    "function_rva": "0x23cb20",
+    "instruction": ""
+  },
+  "2367210": {
+    "function_rva": "0x2414a0",
+    "instruction": ""
+  },
+  "2384586": {
+    "function_rva": "0x246190",
+    "instruction": ""
+  },
+  "2469311": {
+    "function_rva": "0x25ac40",
+    "instruction": ""
+  },
+  "2472605": {
+    "function_rva": "0x25b690",
+    "instruction": ""
+  },
+  "2537583": {
+    "function_rva": "0x26b740",
+    "instruction": ""
+  },
+  "2538656": {
+    "function_rva": "0x26bbb0",
+    "instruction": ""
+  },
+  "2602257": {
+    "function_rva": "0x27b210",
+    "instruction": ""
+  },
+  "2714760": {
+    "function_rva": "0x296bb0",
+    "instruction": ""
+  },
+  "2716211": {
+    "function_rva": "0x296f50",
+    "instruction": ""
+  },
+  "2787061": {
+    "function_rva": "0x2a8560",
+    "instruction": ""
+  },
+  "2789174": {
+    "function_rva": "0x2a8ea0",
+    "instruction": ""
+  },
+  "2867978": {
+    "function_rva": "0x2bc1f0",
+    "instruction": ""
+  },
+  "2870617": {
+    "function_rva": "0x2bcbe0",
+    "instruction": ""
+  },
+  "2917327": {
+    "function_rva": "0x2c8080",
+    "instruction": ""
+  },
+  "2918157": {
+    "function_rva": "0x2c8560",
+    "instruction": ""
+  },
+  "2946535": {
+    "function_rva": "0x2cf490",
+    "instruction": ""
+  },
+  "2946945": {
+    "function_rva": "0x2cf670",
+    "instruction": ""
+  },
+  "2961334": {
+    "function_rva": "0x2d2e20",
+    "instruction": ""
+  },
+  "2980916": {
+    "function_rva": "0x2d75e0",
+    "instruction": ""
+  },
+  "2992198": {
+    "function_rva": "0x2da6e0",
+    "instruction": ""
+  },
+  "3065603": {
+    "function_rva": "0x2ec680",
+    "instruction": ""
+  },
+  "3066542": {
+    "function_rva": "0x2eca30",
+    "instruction": ""
+  },
+  "3180657": {
+    "function_rva": "0x3086b0",
+    "instruction": ""
+  },
+  "3181239": {
+    "function_rva": "0x3086b0",
+    "instruction": ""
+  },
+  "3181405": {
+    "function_rva": "0x3086b0",
+    "instruction": ""
+  },
+  "3261623": {
+    "function_rva": "0x31b820",
+    "instruction": ""
+  },
+  "3294426": {
+    "function_rva": "0x324100",
+    "instruction": ""
+  },
+  "3300696": {
+    "function_rva": "0x325770",
+    "instruction": ""
+  },
+  "3308946": {
+    "function_rva": "0x3275a0",
+    "instruction": ""
+  },
+  "3317670": {
+    "function_rva": "0x329ce0",
+    "instruction": ""
+  },
+  "3318863": {
+    "function_rva": "0x32a400",
+    "instruction": ""
+  },
+  "3358570": {
+    "function_rva": "0x333e30",
+    "instruction": ""
+  },
+  "3359832": {
+    "function_rva": "0x334350",
+    "instruction": ""
+  },
+  "3361475": {
+    "function_rva": "0x335eb0",
+    "instruction": ""
+  },
+  "3366769": {
+    "function_rva": "0x335f40",
+    "instruction": ""
+  },
+  "3367000": {
+    "function_rva": "0x335f40",
+    "instruction": ""
+  },
+  "3451779": {
+    "function_rva": "0x34a9b0",
+    "instruction": ""
+  },
+  "3568281": {
+    "function_rva": "0x366fb0",
+    "instruction": ""
+  },
+  "3568405": {
+    "function_rva": "0x3672e0",
+    "instruction": ""
+  },
+  "3646453": {
+    "function_rva": "0x37a160",
+    "instruction": ""
+  },
+  "3646574": {
+    "function_rva": "0x37a440",
+    "instruction": ""
+  },
+  "3742952": {
+    "function_rva": "0x391c60",
+    "instruction": ""
+  },
+  "3746720": {
+    "function_rva": "0x392b80",
+    "instruction": ""
+  },
+  "3843525": {
+    "function_rva": "0x3aa440",
+    "instruction": ""
+  },
+  "3852639": {
+    "function_rva": "0x3ac4c0",
+    "instruction": ""
+  },
+  "3892968": {
+    "function_rva": "0x3b6590",
+    "instruction": ""
+  },
+  "3902732": {
+    "function_rva": "0x3b8b90",
+    "instruction": ""
+  },
+  "3919959": {
+    "function_rva": "0x3bce10",
+    "instruction": ""
+  },
+  "4012243": {
+    "function_rva": "0x3d37a0",
+    "instruction": ""
+  },
+  "4076420": {
+    "function_rva": "0x3e3250",
+    "instruction": ""
+  },
+  "4077444": {
+    "function_rva": "0x3e3690",
+    "instruction": ""
+  },
+  "4156013": {
+    "function_rva": "0x3f6650",
+    "instruction": ""
+  },
+  "4168637": {
+    "function_rva": "0x3f9320",
+    "instruction": ""
+  },
+  "4168666": {
+    "function_rva": "0x3f9320",
+    "instruction": ""
+  },
+  "4264202": {
+    "function_rva": "0x411040",
+    "instruction": ""
+  },
+  "4270885": {
+    "function_rva": "0x412a40",
+    "instruction": ""
+  },
+  "4271366": {
+    "function_rva": "0x412be0",
+    "instruction": ""
+  },
+  "4271816": {
+    "function_rva": "0x412e10",
+    "instruction": ""
+  },
+  "4276118": {
+    "function_rva": "0x413e40",
+    "instruction": ""
+  },
+  "4277464": {
+    "function_rva": "0x414380",
+    "instruction": ""
+  },
+  "4281950": {
+    "function_rva": "0x415190",
+    "instruction": ""
+  },
+  "4315724": {
+    "function_rva": "0x41d540",
+    "instruction": ""
+  },
+  "4344213": {
+    "function_rva": "0x4246e0",
+    "instruction": ""
+  },
+  "4506247": {
+    "function_rva": "0x44c270",
+    "instruction": ""
+  },
+  "4520102": {
+    "function_rva": "0x44f5c0",
+    "instruction": ""
+  },
+  "4521260": {
+    "function_rva": "0x44fb00",
+    "instruction": ""
+  },
+  "4543273": {
+    "function_rva": "0x453790",
+    "instruction": ""
+  },
+  "4574775": {
+    "function_rva": "0x45c5f0",
+    "instruction": ""
+  },
+  "4616031": {
+    "function_rva": "0x466e50",
+    "instruction": ""
+  },
+  "4616056": {
+    "function_rva": "0x466e50",
+    "instruction": ""
+  },
+  "4618069": {
+    "function_rva": "0x4676e0",
+    "instruction": ""
+  },
+  "4782808": {
+    "function_rva": "0x48fa30",
+    "instruction": ""
+  },
+  "5219304": {
+    "function_rva": "0x4fa230",
+    "instruction": ""
+  },
+  "5252823": {
+    "function_rva": "0x502490",
+    "instruction": ""
+  },
+  "5519281": {
+    "function_rva": "0x543670",
+    "instruction": ""
+  },
+  "5571594": {
+    "function_rva": "0x550300",
+    "instruction": ""
+  },
+  "5623906": {
+    "function_rva": "0x55cf20",
+    "instruction": ""
+  },
+  "5939173": {
+    "function_rva": "0x5a9c90",
+    "instruction": ""
+  },
+  "6022092": {
+    "function_rva": "0x5be240",
+    "instruction": ""
+  },
+  "6070162": {
+    "function_rva": "0x5c9e30",
+    "instruction": ""
+  },
+  "6124650": {
+    "function_rva": "0x5d7350",
+    "instruction": ""
+  },
+  "6208138": {
+    "function_rva": "0x5eba50",
+    "instruction": ""
+  },
+  "6208240": {
+    "function_rva": "0x5eba50",
+    "instruction": ""
+  },
+  "6208368": {
+    "function_rva": "0x5eba50",
+    "instruction": ""
+  },
+  "6208749": {
+    "function_rva": "0x5eba50",
+    "instruction": ""
+  },
+  "6209133": {
+    "function_rva": "0x5eba50",
+    "instruction": ""
+  },
+  "6252264": {
+    "function_rva": "0x5f64d0",
+    "instruction": ""
+  },
+  "6304812": {
+    "function_rva": "0x603050",
+    "instruction": ""
+  },
+  "6337693": {
+    "function_rva": "0x60b3f0",
+    "instruction": ""
+  },
+  "6340741": {
+    "function_rva": "0x60be10",
+    "instruction": ""
+  },
+  "6349682": {
+    "function_rva": "0x60e280",
+    "instruction": ""
+  },
+  "6401415": {
+    "function_rva": "0x61abf0",
+    "instruction": ""
+  },
+  "6512845": {
+    "function_rva": "0x635e00",
+    "instruction": ""
+  },
+  "6514608": {
+    "function_rva": "0x636430",
+    "instruction": ""
+  },
+  "6543704": {
+    "function_rva": "0x63d700",
+    "instruction": ""
+  },
+  "6543729": {
+    "function_rva": "0x63d700",
+    "instruction": ""
+  },
+  "6610975": {
+    "function_rva": "0x64dac0",
+    "instruction": ""
+  },
+  "6611003": {
+    "function_rva": "0x64dac0",
+    "instruction": ""
+  },
+  "6612345": {
+    "function_rva": "0x64dac0",
+    "instruction": ""
+  },
+  "6623511": {
+    "function_rva": "0x6507d0",
+    "instruction": ""
+  },
+  "6676705": {
+    "function_rva": "0x65dfd0",
+    "instruction": ""
+  },
+  "6682592": {
+    "function_rva": "0x65f6f0",
+    "instruction": ""
+  },
+  "6688632": {
+    "function_rva": "0x660f10",
+    "instruction": ""
+  },
+  "6688642": {
+    "function_rva": "0x660f10",
+    "instruction": ""
+  },
+  "6689741": {
+    "function_rva": "0x660fa0",
+    "instruction": ""
+  },
+  "6689871": {
+    "function_rva": "0x660fa0",
+    "instruction": ""
+  },
+  "6691695": {
+    "function_rva": "0x660fa0",
+    "instruction": ""
+  },
+  "6693590": {
+    "function_rva": "0x660fa0",
+    "instruction": ""
+  },
+  "6695693": {
+    "function_rva": "0x6625a0",
+    "instruction": ""
+  },
+  "6695718": {
+    "function_rva": "0x6625a0",
+    "instruction": ""
+  },
+  "6709058": {
+    "function_rva": "0x665d90",
+    "instruction": ""
+  },
+  "6713694": {
+    "function_rva": "0x666bc0",
+    "instruction": ""
+  },
+  "6741026": {
+    "function_rva": "0x66d850",
+    "instruction": ""
+  },
+  "6883563": {
+    "function_rva": "0x6907a0",
+    "instruction": ""
+  },
+  "6883915": {
+    "function_rva": "0x690900",
+    "instruction": ""
+  },
+  "6918860": {
+    "function_rva": "0x698d00",
+    "instruction": ""
+  },
+  "6981762": {
+    "function_rva": "0x6a8800",
+    "instruction": ""
+  },
+  "7029086": {
+    "function_rva": "0x6b4100",
+    "instruction": ""
+  },
+  "7124414": {
+    "function_rva": "0x6caf20",
+    "instruction": ""
+  },
+  "7124467": {
+    "function_rva": "0x6caf20",
+    "instruction": ""
+  },
+  "7126606": {
+    "function_rva": "0x6cb7b0",
+    "instruction": ""
+  },
+  "7126659": {
+    "function_rva": "0x6cb7b0",
+    "instruction": ""
+  },
+  "7134486": {
+    "function_rva": "0x6cdbd0",
+    "instruction": ""
+  },
+  "7168455": {
+    "function_rva": "0x6d3450",
+    "instruction": ""
+  },
+  "7195457": {
+    "function_rva": "0x6dca00",
+    "instruction": ""
+  },
+  "7277819": {
+    "function_rva": "0x6f0bb0",
+    "instruction": ""
+  },
+  "7333077": {
+    "function_rva": "0x6fe4b0",
+    "instruction": ""
+  },
+  "7503455": {
+    "function_rva": "0x727be0",
+    "instruction": ""
+  },
+  "7597189": {
+    "function_rva": "0x73eb70",
+    "instruction": ""
+  },
+  "7799894": {
+    "function_rva": "0x76f7a0",
+    "instruction": ""
+  },
+  "7799922": {
+    "function_rva": "0x76f7a0",
+    "instruction": ""
+  },
+  "7800118": {
+    "function_rva": "0x76f7a0",
+    "instruction": ""
+  },
+  "7862531": {
+    "function_rva": "0x77f690",
+    "instruction": ""
+  },
+  "7866872": {
+    "function_rva": "0x780850",
+    "instruction": ""
+  },
+  "7945887": {
+    "function_rva": "0x793640",
+    "instruction": ""
+  },
+  "8036325": {
+    "function_rva": "0x7a9f50",
+    "instruction": ""
+  },
+  "8037808": {
+    "function_rva": "0x7a9f50",
+    "instruction": ""
+  },
+  "8062519": {
+    "function_rva": "0x7b0470",
+    "instruction": ""
+  },
+  "8063124": {
+    "function_rva": "0x7b0780",
+    "instruction": ""
+  },
+  "8065635": {
+    "function_rva": "0x7b11f0",
+    "instruction": ""
+  },
+  "8065656": {
+    "function_rva": "0x7b11f0",
+    "instruction": ""
+  },
+  "8067208": {
+    "function_rva": "0x7b1530",
+    "instruction": ""
+  },
+  "8067236": {
+    "function_rva": "0x7b1530",
+    "instruction": ""
+  },
+  "8067584": {
+    "function_rva": "0x7b18d0",
+    "instruction": ""
+  },
+  "8073227": {
+    "function_rva": "0x7b2cc0",
+    "instruction": ""
+  },
+  "8073752": {
+    "function_rva": "0x7b3150",
+    "instruction": ""
+  },
+  "8073851": {
+    "function_rva": "0x7b3250",
+    "instruction": ""
+  },
+  "8078039": {
+    "function_rva": "0x7b3f50",
+    "instruction": ""
+  },
+  "8078067": {
+    "function_rva": "0x7b3f50",
+    "instruction": ""
+  },
+  "8080197": {
+    "function_rva": "0x7b4ad0",
+    "instruction": ""
+  },
+  "8172580": {
+    "function_rva": "0x7cb340",
+    "instruction": ""
+  },
+  "8185729": {
+    "function_rva": "0x7ce750",
+    "instruction": ""
+  },
+  "8286602": {
+    "function_rva": "0x7e7080",
+    "instruction": ""
+  },
+  "8291227": {
+    "function_rva": "0x7e7cf0",
+    "instruction": ""
+  },
+  "8296547": {
+    "function_rva": "0x7e9610",
+    "instruction": ""
+  },
+  "8305044": {
+    "function_rva": "0x7eb790",
+    "instruction": ""
+  },
+  "8310555": {
+    "function_rva": "0x7ece70",
+    "instruction": ""
+  },
+  "8311651": {
+    "function_rva": "0x7ece70",
+    "instruction": ""
+  },
+  "8311673": {
+    "function_rva": "0x7ece70",
+    "instruction": ""
+  },
+  "8327218": {
+    "function_rva": "0x7f0df0",
+    "instruction": ""
+  },
+  "8407072": {
+    "function_rva": "0x8042b0",
+    "instruction": ""
+  },
+  "8488313": {
+    "function_rva": "0x818480",
+    "instruction": ""
+  },
+  "8488946": {
+    "function_rva": "0x818720",
+    "instruction": ""
+  },
+  "8539630": {
+    "function_rva": "0x824cd0",
+    "instruction": ""
+  },
+  "8540341": {
+    "function_rva": "0x824f10",
+    "instruction": ""
+  },
+  "8563608": {
+    "function_rva": "0x82ab60",
+    "instruction": ""
+  },
+  "8564353": {
+    "function_rva": "0x82acd0",
+    "instruction": ""
+  },
+  "9026081": {
+    "function_rva": "0x89a810",
+    "instruction": ""
+  },
+  "9026204": {
+    "function_rva": "0x89a810",
+    "instruction": ""
+  },
+  "9040189": {
+    "function_rva": "0x89f0d0",
+    "instruction": ""
+  },
+  "9079911": {
+    "function_rva": "0x8a8940",
+    "instruction": ""
+  },
+  "9148529": {
+    "function_rva": "0x8b9830",
+    "instruction": ""
+  },
+  "9179970": {
+    "function_rva": "0x8c0cb0",
+    "instruction": ""
+  },
+  "9200171": {
+    "function_rva": "0x8c6150",
+    "instruction": ""
+  },
+  "9206476": {
+    "function_rva": "0x8c7a60",
+    "instruction": ""
+  },
+  "9760973": {
+    "function_rva": "0x94efc0",
+    "instruction": ""
+  },
+  "9767295": {
+    "function_rva": "0x950690",
+    "instruction": ""
+  },
+  "9767316": {
+    "function_rva": "0x950690",
+    "instruction": ""
+  },
+  "9792265": {
+    "function_rva": "0x956ab0",
+    "instruction": ""
+  },
+  "9835635": {
+    "function_rva": "0x961430",
+    "instruction": ""
+  },
+  "9836236": {
+    "function_rva": "0x961620",
+    "instruction": ""
+  },
+  "9836454": {
+    "function_rva": "0x961760",
+    "instruction": ""
+  },
+  "9837493": {
+    "function_rva": "0x961b60",
+    "instruction": ""
+  },
+  "9837788": {
+    "function_rva": "0x961c70",
+    "instruction": ""
+  },
+  "9840350": {
+    "function_rva": "0x962650",
+    "instruction": ""
+  },
+  "9841768": {
+    "function_rva": "0x962bf0",
+    "instruction": ""
+  },
+  "9841891": {
+    "function_rva": "0x962bf0",
+    "instruction": ""
+  },
+  "9842758": {
+    "function_rva": "0x962fd0",
+    "instruction": ""
+  },
+  "9842822": {
+    "function_rva": "0x963070",
+    "instruction": ""
+  },
+  "9843139": {
+    "function_rva": "0x9630d0",
+    "instruction": ""
+  },
+  "9878875": {
+    "function_rva": "0x96bbb0",
+    "instruction": ""
+  },
+  "9942092": {
+    "function_rva": "0x97b430",
+    "instruction": ""
+  },
+  "10066278": {
+    "function_rva": "0x999750",
+    "instruction": ""
+  },
+  "10067911": {
+    "function_rva": "0x999ee0",
+    "instruction": ""
+  },
+  "10249152": {
+    "function_rva": "0x9c6130",
+    "instruction": ""
+  },
+  "10249310": {
+    "function_rva": "0x9c6130",
+    "instruction": ""
+  }
+}

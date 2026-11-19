@@ -1,0 +1,30 @@
+{
+  "archive_sha256": "390abe5340bfc5dc665bd8f5894b3e77af5f3d92cdea105f712d87bfd40f6b20",
+  "config_path": "dist/utils/config.js",
+  "config_sha256": "18c0398799dbc44ee5235c276d0b0ac8a9b81533d9c2b55e15598dcdfcf9882f",
+  "env_path": "dist/.env",
+  "env_sha256": "a0a02f0fbd0c18da12cef22b628fc267cd11db7de2bd1722e63c185e58d69101",
+  "endpoint_allowlist_only": true,
+  "entries": [
+    {
+      "key": "API_ENDPOINT",
+      "value": "https://lb-pub.prod.starstable.com/proxy-launcher",
+      "line": 4
+    },
+    {
+      "key": "API_GATEWAY_ENDPOINT",
+      "value": "https://lb-pub.prod.starstable.com/api-gateway/1.0",
+      "line": 5
+    },
+    {
+      "key": "AUTO_UPDATE_URL",
+      "value": "https://launcher-release-prod.starstable.com",
+      "line": 7
+    },
+    {
+      "key": "PRODUCTION",
+      "value": "true",
+      "line": 11
+    }
+  ]
+}

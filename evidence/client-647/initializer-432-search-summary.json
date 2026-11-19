@@ -1,0 +1,22 @@
+{
+  "client_sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "range_rva": [
+    "0x1000",
+    "0xA4D000"
+  ],
+  "direct_memory_destination_displacement": 432,
+  "matching_sites": 273,
+  "matching_initializer_neighborhood": [
+    {
+      "rva": "0x63d958",
+      "function_rva": "0x63d700",
+      "instruction": "movups  xmmword ptr [rcx+1B0h], xmm0"
+    },
+    {
+      "rva": "0x63d971",
+      "function_rva": "0x63d700",
+      "instruction": "mov     [rcx+1B0h], r8b"
+    }
+  ],
+  "limit": "Direct operand0 writes only; excludes address-taken aliases, copies, different base offsets and unreviewed paths. Not proof no override exists."
+}

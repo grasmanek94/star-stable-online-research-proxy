@@ -1,0 +1,534 @@
+[
+  [
+    "0x7d0b00",
+    "mov     qword ptr [rbp+1F0h+var_1B0], r12"
+  ],
+  [
+    "0x7d0b03",
+    "mov     byte ptr [rbp+1F0h+var_1B0+0Ch], r12b"
+  ],
+  [
+    "0x7d0b07",
+    "mov     [rbp+1F0h+var_19C], r12b"
+  ],
+  [
+    "0x7d0b0b",
+    "mov     [rbp+1F0h+var_170], r12b"
+  ],
+  [
+    "0x7d0b12",
+    "mov     [rbp+1F0h+var_16C], r12b"
+  ],
+  [
+    "0x7d0b19",
+    "mov     [rbp+1F0h+var_168], r12"
+  ],
+  [
+    "0x7d0b20",
+    "lea     rdx, [rbp+1F0h+var_210]"
+  ],
+  [
+    "0x7d0b24",
+    "lea     rcx, [rsp+2F0h+var_2B0]"
+  ],
+  [
+    "0x7d0b29",
+    "call    sub_14080BFE0"
+  ],
+  [
+    "0x7d0b2e",
+    "test    al, al"
+  ],
+  [
+    "0x7d0b30",
+    "jz      loc_1407D0C67"
+  ],
+  [
+    "0x7d0b36",
+    "mov     ebx, [rsp+2F0h+var_2BC]"
+  ],
+  [
+    "0x7d0b3a",
+    "mov     rcx, [rsi+778h]"
+  ],
+  [
+    "0x7d0b41",
+    "mov     rax, [rcx+8]"
+  ],
+  [
+    "0x7d0b45",
+    "mov     rdx, rcx"
+  ],
+  [
+    "0x7d0b48",
+    "cmp     [rax+19h], r12b"
+  ],
+  [
+    "0x7d0b4c",
+    "jnz     short loc_1407D0B67"
+  ],
+  [
+    "0x7d0b4e",
+    "xchg    ax, ax"
+  ],
+  [
+    "0x7d0b50",
+    "cmp     [rax+20h], ebx"
+  ],
+  [
+    "0x7d0b53",
+    "jnb     short loc_1407D0B5B"
+  ],
+  [
+    "0x7d0b55",
+    "mov     rax, [rax+10h]"
+  ],
+  [
+    "0x7d0b59",
+    "jmp     short loc_1407D0B61"
+  ],
+  [
+    "0x7d0b5b",
+    "mov     rdx, rax"
+  ],
+  [
+    "0x7d0b5e",
+    "mov     rax, [rax]"
+  ],
+  [
+    "0x7d0b61",
+    "cmp     [rax+19h], r12b"
+  ],
+  [
+    "0x7d0b65",
+    "jz      short loc_1407D0B50"
+  ],
+  [
+    "0x7d0b67",
+    "cmp     [rdx+19h], r12b"
+  ],
+  [
+    "0x7d0b6b",
+    "jnz     short loc_1407D0B87"
+  ],
+  [
+    "0x7d0b6d",
+    "cmp     ebx, [rdx+20h]"
+  ],
+  [
+    "0x7d0b70",
+    "jb      short loc_1407D0B87"
+  ],
+  [
+    "0x7d0b72",
+    "cmp     rdx, rcx"
+  ],
+  [
+    "0x7d0b75",
+    "jz      short loc_1407D0B87"
+  ],
+  [
+    "0x7d0b77",
+    "add     rdx, 28h ; '('"
+  ],
+  [
+    "0x7d0b7b",
+    "lea     rcx, [rsp+2F0h+var_280]"
+  ],
+  [
+    "0x7d0b80",
+    "call    sub_1405F1D40"
+  ],
+  [
+    "0x7d0b85",
+    "jmp     short loc_1407D0B94"
+  ],
+  [
+    "0x7d0b87",
+    "mov     dword ptr [rsp+2F0h+var_278], r12d"
+  ],
+  [
+    "0x7d0b8c",
+    "mov     dword ptr [rsp+2F0h+var_278+4], 0BADF00Dh"
+  ],
+  [
+    "0x7d0b94",
+    "mov     [rsp+2F0h+var_280], r13"
+  ],
+  [
+    "0x7d0b99",
+    "lea     rcx, [rsp+2F0h+var_280]"
+  ],
+  [
+    "0x7d0b9e",
+    "call    sub_1405F1EE0"
+  ],
+  [
+    "0x7d0ba3",
+    "mov     rdi, rax"
+  ],
+  [
+    "0x7d0ba6",
+    "test    rax, rax"
+  ],
+  [
+    "0x7d0ba9",
+    "jz      loc_1407D101D"
+  ],
+  [
+    "0x7d0baf",
+    "lea     rdx, [rbp+1F0h+var_210]"
+  ],
+  [
+    "0x7d0bb3",
+    "mov     rcx, rax"
+  ],
+  [
+    "0x7d0bb6",
+    "call    sub_140790DD0"
+  ],
+  [
+    "0x7d0bbb",
+    "cmp     rdi, r15"
+  ],
+  [
+    "0x7d0bbe",
+    "jz      loc_1407D0AB0"
+  ],
+  [
+    "0x7d0bc4",
+    "lea     rcx, [rdi+648h]"
+  ],
+  [
+    "0x7d0bcb",
+    "call    sub_1405F1EE0"
+  ],
+  [
+    "0x7d0bd0",
+    "mov     r14, rax"
+  ],
+  [
+    "0x7d0bd3",
+    "cmp     byte ptr [rdi+0FCh], 12h"
+  ],
+  [
+    "0x7d0bda",
+    "cmovb   r14, rdi"
+  ],
+  [
+    "0x7d0bde",
+    "lea     rdx, [r14+20h]"
+  ],
+  [
+    "0x7d0be2",
+    "lea     rcx, [rbp+1F0h+var_250]"
+  ],
+  [
+    "0x7d0be6",
+    "call    sub_1405F1D40"
+  ],
+  [
+    "0x7d0beb",
+    "lea     rax, ??_7?$SafeActorPtrAs@VCPXSpace@@@PXEngine@@6B@; const PXEngine::SafeActorPtrAs<CPXSpace>::`vftable'"
+  ],
+  [
+    "0x7d0bf2",
+    "mov     qword ptr [rbp+1F0h+var_250], rax"
+  ],
+  [
+    "0x7d0bf6",
+    "lea     rcx, [rbp+1F0h+var_250]"
+  ],
+  [
+    "0x7d0bfa",
+    "call    sub_1405F1EE0"
+  ],
+  [
+    "0x7d0bff",
+    "mov     rdi, rax"
+  ],
+  [
+    "0x7d0c02",
+    "call    sub_1400AF100"
+  ],
+  [
+    "0x7d0c07",
+    "mov     r8, rax"
+  ],
+  [
+    "0x7d0c0a",
+    "lea     rdx, [rsp+2F0h+var_290]"
+  ],
+  [
+    "0x7d0c0f",
+    "mov     rcx, r14"
+  ],
+  [
+    "0x7d0c12",
+    "call    sub_1400C5F00"
+  ],
+  [
+    "0x7d0c17",
+    "call    sub_1400AF100"
+  ],
+  [
+    "0x7d0c1c",
+    "mov     rdx, rax"
+  ],
+  [
+    "0x7d0c1f",
+    "mov     rcx, r14"
+  ],
+  [
+    "0x7d0c22",
+    "call    sub_1400AEDB0"
+  ],
+  [
+    "0x7d0c27",
+    "mov     rcx, rax"
+  ],
+  [
+    "0x7d0c2a",
+    "lea     r8, [rsp+2F0h+var_290]"
+  ],
+  [
+    "0x7d0c2f",
+    "mov     rdx, rdi"
+  ],
+  [
+    "0x7d0c32",
+    "call    sub_140164770"
+  ],
+  [
+    "0x7d0c37",
+    "test    rax, rax"
+  ],
+  [
+    "0x7d0c3a",
+    "jz      loc_1407D0AB0"
+  ],
+  [
+    "0x7d0c40",
+    "cmp     rax, rdi"
+  ],
+  [
+    "0x7d0c43",
+    "jz      loc_1407D0AB0"
+  ],
+  [
+    "0x7d0c49",
+    "mov     [rsp+2F0h+var_2D0], r12b"
+  ],
+  [
+    "0x7d0c4e",
+    "mov     r9b, 1"
+  ],
+  [
+    "0x7d0c51",
+    "mov     r8d, 0FFFFFFFFh"
+  ],
+  [
+    "0x7d0c57",
+    "mov     rdx, rax"
+  ],
+  [
+    "0x7d0c5a",
+    "mov     rcx, r14"
+  ],
+  [
+    "0x7d0c5d",
+    "call    sub_1400B0580"
+  ],
+  [
+    "0x7d0c62",
+    "jmp     loc_1407D0AB0"
+  ],
+  [
+    "0x7d0c67",
+    "lea     rdx, aFailedToDeseri_3; \"Failed to deserialize PlayerStateData!\""
+  ],
+  [
+    "0x7d0c6e",
+    "lea     rcx, off_141012FC8; \"C:\\\\Jenkins\\\\workspace\\\\Code-Integratio\"..."
+  ],
+  [
+    "0x7d0c75",
+    "call    sub_140059D90"
+  ],
+  [
+    "0x7d0c7a",
+    "test    al, al"
+  ],
+  [
+    "0x7d0c7c",
+    "jz      loc_1407D101D"
+  ],
+  [
+    "0x7d0c82",
+    "int     3; Trap to Debugger"
+  ],
+  [
+    "0x7d0c83",
+    "mov     al, 1"
+  ],
+  [
+    "0x7d0c85",
+    "jmp     loc_1407D188C"
+  ],
+  [
+    "0x7d0c8a",
+    "mov     dword ptr [rsp+2F0h+var_290], 0FFFFFFFFh; jumptable 00000001407D0A84 case 286"
+  ],
+  [
+    "0x7d0c92",
+    "mov     [rsp+2F0h+var_2BC], 0FFFFFFFFh"
+  ],
+  [
+    "0x7d0c9a",
+    "lea     rdx, [rsp+2F0h+var_2BC]"
+  ],
+  [
+    "0x7d0c9f",
+    "lea     rcx, [rsp+2F0h+var_2B0]"
+  ],
+  [
+    "0x7d0ca4",
+    "call    sub_1401D0820"
+  ],
+  [
+    "0x7d0ca9",
+    "test    al, al"
+  ],
+  [
+    "0x7d0cab",
+    "jnz     short loc_1407D0CC0"
+  ],
+  [
+    "0x7d0cad",
+    "lea     rdx, aFailedToDeseri_4; \"Failed to deserialize BroadcastPlayerRe\"..."
+  ],
+  [
+    "0x7d0cb4",
+    "lea     rcx, off_141012FF0; \"C:\\\\Jenkins\\\\workspace\\\\Code-Integratio\"..."
+  ],
+  [
+    "0x7d0cbb",
+    "jmp     loc_1407D1880"
+  ],
+  [
+    "0x7d0cc0",
+    "mov     r8d, [rsp+2F0h+var_2BC]"
+  ],
+  [
+    "0x7d0cc5",
+    "mov     dword ptr [rsp+2F0h+var_290], r8d"
+  ],
+  [
+    "0x7d0cca",
+    "lea     rdx, [rbp+1F0h+var_250]"
+  ],
+  [
+    "0x7d0cce",
+    "mov     rcx, rsi"
+  ],
+  [
+    "0x7d0cd1",
+    "call    sub_1407B9B80"
+  ],
+  [
+    "0x7d0cd6",
+    "mov     rcx, rax"
+  ],
+  [
+    "0x7d0cd9",
+    "call    sub_1405F1EE0"
+  ],
+  [
+    "0x7d0cde",
+    "test    rax, rax"
+  ],
+  [
+    "0x7d0ce1",
+    "jz      loc_1407D101D"
+  ],
+  [
+    "0x7d0ce7",
+    "mov     rdx, rax"
+  ],
+  [
+    "0x7d0cea",
+    "mov     rcx, rsi"
+  ],
+  [
+    "0x7d0ced",
+    "call    sub_1407CF960"
+  ],
+  [
+    "0x7d0cf2",
+    "mov     al, 1"
+  ],
+  [
+    "0x7d0cf4",
+    "jmp     loc_1407D188C"
+  ],
+  [
+    "0x7d0cf9",
+    "mov     r8d, [r11+30h]; jumptable 00000001407D0A84 case 285"
+  ],
+  [
+    "0x7d0cfd",
+    "lea     rdx, [rbp+1F0h+var_250]"
+  ],
+  [
+    "0x7d0d01",
+    "mov     rcx, rsi"
+  ],
+  [
+    "0x7d0d04",
+    "call    sub_1407B9B80"
+  ],
+  [
+    "0x7d0d09",
+    "mov     rcx, rax"
+  ],
+  [
+    "0x7d0d0c",
+    "call    sub_1405F1EE0"
+  ],
+  [
+    "0x7d0d11",
+    "test    rax, rax"
+  ],
+  [
+    "0x7d0d14",
+    "jz      short loc_1407D0D21"
+  ],
+  [
+    "0x7d0d16",
+    "mov     rdx, rax"
+  ],
+  [
+    "0x7d0d19",
+    "mov     rcx, rsi"
+  ],
+  [
+    "0x7d0d1c",
+    "call    sub_1407CF960"
+  ],
+  [
+    "0x7d0d21",
+    "xor     dil, dil"
+  ],
+  [
+    "0x7d0d24",
+    "mov     rcx, [rsp+2F0h+var_2B0]"
+  ],
+  [
+    "0x7d0d29",
+    "mov     rdx, [rcx+8]"
+  ],
+  [
+    "0x7d0d2d",
+    "lea     rax, sub_14001A520"
+  ]
+]

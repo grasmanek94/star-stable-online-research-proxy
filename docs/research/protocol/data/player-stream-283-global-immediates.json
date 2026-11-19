@@ -1,0 +1,62 @@
+[
+  {
+    "instruction_rva": "0x33be6f",
+    "function_rva": "0x339b70",
+    "disassembly": "mov     [rsp+0C0h+var_A0], 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0x4219b7",
+    "function_rva": "0x421110",
+    "disassembly": "mov     [rsp+0D0h+var_B0], 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0x439edf",
+    "function_rva": "0x439eb0",
+    "disassembly": "mov     r8d, 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0x43d0b0",
+    "function_rva": "0x43d0b0",
+    "disassembly": "mov     eax, 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0x43d25c",
+    "function_rva": "0x43d230",
+    "disassembly": "mov     r8d, 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0x6699bf",
+    "function_rva": "0x668e50",
+    "disassembly": "mov     [rsp+0E0h+var_C0], 11Bh",
+    "classification": "RewardManager class/RTTI lookup"
+  },
+  {
+    "instruction_rva": "0xc31694",
+    "function_rva": "0xc30b10",
+    "disassembly": "mov     dword ptr [rcx+18h], 11Bh",
+    "classification": "non-network bundled parser/table code; not a gameplay dispatcher"
+  },
+  {
+    "instruction_rva": "0xcab02d",
+    "function_rva": "0xca1490",
+    "disassembly": "mov     r8d, 11Bh",
+    "classification": "non-network bundled parser/table code; not a gameplay dispatcher"
+  },
+  {
+    "instruction_rva": "0xcbbeef",
+    "function_rva": "0xcb85c0",
+    "disassembly": "mov     dword ptr [rcx+18h], 11Bh",
+    "classification": "non-network bundled parser/table code; not a gameplay dispatcher"
+  },
+  {
+    "instruction_rva": "0xd70f73",
+    "function_rva": "0xd70e70",
+    "disassembly": "cmp     eax, 11Bh",
+    "classification": "non-network bundled parser/table code; not a gameplay dispatcher"
+  }
+]

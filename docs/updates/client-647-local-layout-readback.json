@@ -1,0 +1,11 @@
+{
+  "ClientVersion": "647.349716",
+  "RegistryRecords": 470861,
+  "PlayerVtableRva": "0x1020830",
+  "PlayerOwnBit": 4,
+  "PlayerGenerationMatches": true,
+  "PlayerSelfReferenceMatches": true,
+  "HorseVtableRva": "0xF4AF50",
+  "HorseOwnBit": 4,
+  "HorseGenerationMatches": true
+}

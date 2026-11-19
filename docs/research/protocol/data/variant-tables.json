@@ -1,0 +1,45 @@
+[
+  {
+    "name": "funcs_1407D1C64",
+    "table_rva": "0x1015ec0",
+    "targets": [
+      "0x7aae50",
+      "0x7aae00",
+      "0x7aaeb0"
+    ]
+  },
+  {
+    "name": "funcs_14080C262",
+    "table_rva": "0x101c068",
+    "targets": [
+      "0x80bf20",
+      "0x80be80"
+    ]
+  },
+  {
+    "name": "funcs_14080C294",
+    "table_rva": "0x101c078",
+    "targets": [
+      "0x80bfc0",
+      "0x80bfa0"
+    ]
+  },
+  {
+    "name": "funcs_1408296B0",
+    "table_rva": "0x1025ae0",
+    "targets": [
+      "0x8297a0",
+      "0x829710",
+      "0x829770"
+    ]
+  },
+  {
+    "name": "funcs_1408296F2",
+    "table_rva": "0x1025af8",
+    "targets": [
+      "0x1a520",
+      "0x8297c0",
+      "0x829800"
+    ]
+  }
+]

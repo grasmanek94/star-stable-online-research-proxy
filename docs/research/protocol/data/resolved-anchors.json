@@ -1,0 +1,78 @@
+[
+  {
+    "label": "CPXNetwork::ProcessServerMessage",
+    "functions": [
+      "0x1407d1a00"
+    ]
+  },
+  {
+    "label": "CPXNetwork::ProcessDispatcherMessage",
+    "functions": [
+      "0x1407d08d0"
+    ]
+  },
+  {
+    "label": "CPXNetwork::TrySendPositionUpdate",
+    "functions": [
+      "0x1407d9d70"
+    ]
+  },
+  {
+    "label": "CPXNetwork::LoginServerConnect",
+    "functions": [
+      "0x1407c1800"
+    ]
+  },
+  {
+    "label": "CPXNetwork::ProcessConnect",
+    "functions": [
+      "0x1407c1800",
+      "0x1407d0120"
+    ]
+  },
+  {
+    "label": "CPXNetwork::LoginServerLogin",
+    "functions": [
+      "0x1407c1af0"
+    ]
+  },
+  {
+    "label": "CPXNetwork::SendDispatcherMessage",
+    "functions": [
+      "0x1407d62b0"
+    ]
+  },
+  {
+    "label": "PXEngine::ReceivedPacket::ReceivedPacket",
+    "functions": [
+      "0x1407f2680",
+      "0x140803eb0",
+      "0x1408097f0"
+    ]
+  },
+  {
+    "label": "ClientGameServerConnection: Failed to serialize ConnectionRequest!",
+    "functions": [
+      "0x1407f1530"
+    ]
+  },
+  {
+    "label": "ClientGameServerConnection: Failed to deserialize ConnectionResponse!",
+    "functions": [
+      "0x1407f2310"
+    ]
+  },
+  {
+    "label": "NETWORK ERROR: Could not serialize packet header!",
+    "functions": [
+      "0x140803eb0"
+    ]
+  },
+  {
+    "label": "Could not deserialize Packet Header!",
+    "functions": [
+      "0x14080dc00",
+      "0x14080de00"
+    ]
+  }
+]

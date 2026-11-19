@@ -1,0 +1,189 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "input": "Decrypted, complete, header-free, reassembled application BODY",
+  "schemas": {
+    "LoginOptional": [
+      {
+        "name": "text",
+        "wire": "string",
+        "host_offset": 0
+      },
+      {
+        "name": "f32",
+        "wire": "varu32",
+        "host_offset": 32
+      },
+      {
+        "name": "f36",
+        "wire": "u8",
+        "host_offset": 36
+      }
+    ],
+    "PackMetadata": [
+      {
+        "name": "filename",
+        "wire": "string",
+        "host_offset": 0
+      },
+      {
+        "name": "size_bytes",
+        "wire": "varu32",
+        "host_offset": 32
+      },
+      {
+        "name": "crc32",
+        "wire": "varu32",
+        "host_offset": 36
+      }
+    ],
+    "LoginRequest": [
+      {
+        "name": "optional_record",
+        "wire": {
+          "kind": "optional",
+          "value": "LoginOptional"
+        }
+      },
+      {
+        "name": "username",
+        "wire": "string"
+      },
+      {
+        "name": "game_server_ticket",
+        "wire": "string"
+      },
+      {
+        "name": "machine_identifier",
+        "wire": "string"
+      },
+      {
+        "name": "queue_token",
+        "wire": {
+          "kind": "optional",
+          "value": {
+            "kind": "raw",
+            "size": 16
+          }
+        }
+      },
+      {
+        "name": "user_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "constant_one",
+        "wire": "varu32"
+      },
+      {
+        "name": "pack_metadata",
+        "wire": {
+          "kind": "vector",
+          "value": "PackMetadata",
+          "maximum_count": 16000
+        }
+      }
+    ],
+    "FeatureEntry": [
+      {
+        "name": "name",
+        "wire": "string",
+        "host_offset": 0
+      },
+      {
+        "name": "enabled_byte",
+        "wire": "u8",
+        "host_offset": 32
+      }
+    ],
+    "LoginResponseData": [
+      {
+        "name": "server_string",
+        "wire": "string",
+        "host_offset": 0
+      },
+      {
+        "name": "game_features",
+        "wire": {
+          "kind": "vector",
+          "value": "FeatureEntry",
+          "maximum_count": 16000
+        },
+        "host_offset": 32
+      },
+      {
+        "name": "client_features",
+        "wire": {
+          "kind": "vector",
+          "value": "FeatureEntry",
+          "maximum_count": 16000
+        },
+        "host_offset": 34
+      },
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 36
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 48
+      }
+    ],
+    "LoginResponse": [
+      {
+        "name": "exit_code",
+        "wire": "varu16"
+      },
+      {
+        "name": "data",
+        "wire": {
+          "kind": "optional",
+          "value": "LoginResponseData"
+        }
+      }
+    ]
+  },
+  "messages": {
+    "6": "LoginRequest",
+    "7": "LoginResponse"
+  },
+  "game_feature_names_in_bit_order": [
+    "validate_quest_update",
+    "decouple_activities_from_groups",
+    "kick_player_on_item_release_validation_fail",
+    "new_slave_synchronization",
+    "enable_archive_horse",
+    "enable_event_outbox",
+    "enable_crafting_system",
+    "enable_mystable_grids",
+    "enable_refactored_achievement_system"
+  ],
+  "client_feature_names_in_bit_order": [
+    "compile_script_on_load",
+    "save_metric_on_disc",
+    "use_report_player",
+    "use_actor_refresh_delegates",
+    "enable_quest_cleanup",
+    "enable_actor_streaming",
+    "enable_actors_on_demand",
+    "enable_space_actors_unload",
+    "physics_60_ticks_per_second",
+    "enable_animation_driven_jousting",
+    "enable_nebula",
+    "enable_multiple_horse_locations",
+    "enable_fashion_week",
+    "enable_report_a_message",
+    "enable_allow_jump_in_all_triggers"
+  ],
+  "feature_policy": {
+    "minimum_game_entries": 9,
+    "minimum_client_entries": 15,
+    "maximum_entries": 16000,
+    "unknown_names": "native reject",
+    "duplicate_names": "accepted, last enabled_byte wins",
+    "complete_unique_set_required": false
+  },
+  "limit": "Recovered client byte grammar and response handling; server policy/live acceptance untested"
+}

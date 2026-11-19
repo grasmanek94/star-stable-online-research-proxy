@@ -1,0 +1,171 @@
+{
+  "version": "1.2.0",
+  "recorded_utc": "2026-11-15T15:43:38.584061+00:00",
+  "toolchain": {
+    "os": "Windows x64",
+    "visual_studio": "2026",
+    "msvc": "19.51.36252.0",
+    "windows_sdk": "10.0.26100.0",
+    "cmake": "4.5.0-rc1"
+  },
+  "builds": [
+    {
+      "loader": "PROXY",
+      "preset": "vs2026-x64",
+      "configuration": "Release",
+      "module": "opengl32.dll",
+      "dll_sha256": "e15baec88da15a07f2b019140438a45e027eb2e898b60a8b1ced2a64a52317d4",
+      "config_rva": "0x77560",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 12,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "PROXY",
+      "preset": "vs2026-x64",
+      "configuration": "Debug",
+      "module": "opengl32.dll",
+      "dll_sha256": "3b7c0bceafa4ef1f9d8ab73e09ee7adfe4c50221cfd51fae8ead23ea3216e05e",
+      "config_rva": "0x136da0",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 12,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "PROXY",
+      "preset": "vs2026-x64",
+      "configuration": "RelWithDebInfo",
+      "module": "opengl32.dll",
+      "dll_sha256": "078191e4da639095f9f868f323c13f45ce085bba9df061b9f99654024a273076",
+      "config_rva": "0x77560",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 12,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "RESHADE",
+      "preset": "vs2026-x64-reshade",
+      "configuration": "Release",
+      "module": "SSOVisibility.addon64",
+      "dll_sha256": "146e6c2bb3a725f93107e7175e09300d9736f6efadba3a007c2341e63bc82447",
+      "config_rva": "0x5fe40",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 0,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "RESHADE",
+      "preset": "vs2026-x64-reshade",
+      "configuration": "Debug",
+      "module": "SSOVisibility.addon64",
+      "dll_sha256": "9b99dc6ef6c7285d21607784d3bc53123428942aa65888fc3298fededc6eba3e",
+      "config_rva": "0x11fd80",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 0,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "ASI",
+      "preset": "vs2026-x64-asi",
+      "configuration": "Release",
+      "module": "SSOVisibility.asi",
+      "dll_sha256": "93e08f56f318733479af1d9001e2cdff4c09db75aeee65ac31337fecc4d177e9",
+      "config_rva": "0x5fe40",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 0,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    },
+    {
+      "loader": "PLUGIN",
+      "preset": "vs2026-x64-plugin",
+      "configuration": "Release",
+      "module": "SSOVisibility.dll",
+      "dll_sha256": "23411a8c2b5eb23e9e6447dab310074c7be86b3a338e65f686b58fe995434fcc",
+      "config_rva": "0x5fe40",
+      "config_size": 368,
+      "hooks": 21,
+      "categories": 14,
+      "ctest_suites_observed_passed": 6,
+      "runtime_scenarios_observed": 21,
+      "classifier_cases": 113,
+      "compiled_wrapper_cases": 168,
+      "compiled_forwarder_cases": 0,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ]
+    }
+  ],
+  "portability": {
+    "extracted_source": "CPack source ZIP into a directory containing spaces",
+    "python_discovery_disabled": true,
+    "loaders": [
+      "PROXY",
+      "PLUGIN"
+    ],
+    "configuration": "Release",
+    "ctest_suites_per_loader": 3,
+    "build_test_package_observed_passed": true
+  },
+  "scope": "Isolated helper processes and modeled linked assembly; no 1.2 live game visual/performance integration result. Full CTest outcomes observed in build tool results; classifier/ASM hash-bound reports retained in each build folder.",
+  "not_run": [
+    "separate Visual Studio 2022 installation",
+    "remote GitHub Actions runner",
+    "live 1.2 gameplay/GPU lifetimes/FPS",
+    "actual ReShade or ASI game loader integration"
+  ]
+}

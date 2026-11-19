@@ -1,0 +1,101 @@
+[
+  {
+    "vtable_rva": "0xfb1950",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void PXEngine::PledgeManager::PreCalculate(class PXEngine::ActorContext const &)'::`5'::_lambda_1_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x4e3ca0",
+    "constructors": [
+      "0x4e11f0",
+      "0x4e3c60"
+    ],
+    "id": 360,
+    "registration_function_rva": "0x4e11f0"
+  },
+  {
+    "vtable_rva": "0xfb1988",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void PXEngine::PledgeManager::PreCalculate(class PXEngine::ActorContext const &)'::`5'::_lambda_2_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x4e3ca0",
+    "constructors": [
+      "0x4e11f0",
+      "0x4e3c80"
+    ],
+    "id": 358,
+    "registration_function_rva": "0x4e11f0"
+  },
+  {
+    "vtable_rva": "0x10258c0",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_1_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fbd0"
+    ],
+    "id": 331,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x10258f8",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_2_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fbf0"
+    ],
+    "id": 333,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x1025930",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_3_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fc10"
+    ],
+    "id": 335,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x1025968",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_4_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fc30"
+    ],
+    "id": 337,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x10259a0",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_5_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fc50"
+    ],
+    "id": 339,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x10259d8",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_6_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fc70"
+    ],
+    "id": 341,
+    "registration_function_rva": "0x82be30"
+  },
+  {
+    "vtable_rva": "0x1025a10",
+    "name": "const std::_Func_impl_no_alloc<class `public: virtual void GardenCentre::PreCalculate(class PXEngine::ActorContext const &)'::`26'::_lambda_7_,void,class PXEngine::ByteStreamReader &>::`vftable'",
+    "invoke_rva": "0x82fcb0",
+    "constructors": [
+      "0x82be30",
+      "0x82fc90"
+    ],
+    "id": 343,
+    "registration_function_rva": "0x82be30"
+  }
+]

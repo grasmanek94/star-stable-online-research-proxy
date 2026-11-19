@@ -1,0 +1,178 @@
+{
+  "status": "pass",
+  "mode": "file discovery only; no game execution or patching",
+  "image_size": "0x14C1000",
+  "hooks": [
+    {
+      "index": 0,
+      "patch_rva": "0x7855AF",
+      "target_rva": "0x78A330"
+    },
+    {
+      "index": 1,
+      "patch_rva": "0x1DCAAC",
+      "target_rva": "0x1E0FA0"
+    },
+    {
+      "index": 2,
+      "patch_rva": "0x3B7B3B",
+      "target_rva": "0x78A330"
+    },
+    {
+      "index": 3,
+      "patch_rva": "0x2858F7",
+      "target_rva": "0x6940C0"
+    },
+    {
+      "index": 4,
+      "patch_rva": "0x285B15",
+      "target_rva": "0x6940C0"
+    },
+    {
+      "index": 5,
+      "patch_rva": "0x285BC7",
+      "target_rva": "0x6940C0"
+    },
+    {
+      "index": 6,
+      "patch_rva": "0x286400",
+      "target_rva": "0x6940C0"
+    },
+    {
+      "index": 7,
+      "patch_rva": "0x28F4CE",
+      "target_rva": "0x694740"
+    },
+    {
+      "index": 8,
+      "patch_rva": "0x28F5C1",
+      "target_rva": "0x694740"
+    },
+    {
+      "index": 9,
+      "patch_rva": "0x28F611",
+      "target_rva": "0x694740"
+    },
+    {
+      "index": 10,
+      "patch_rva": "0x367A0C",
+      "target_rva": "0x694740"
+    },
+    {
+      "index": 11,
+      "patch_rva": "0x32A9AD",
+      "target_rva": "0x694740"
+    },
+    {
+      "index": 12,
+      "patch_rva": "0x2864BD",
+      "target_rva": "0xF6E60"
+    },
+    {
+      "index": 13,
+      "patch_rva": "0x286AFC",
+      "target_rva": "0x6978A0"
+    },
+    {
+      "index": 14,
+      "patch_rva": "0x286DAE",
+      "target_rva": "0x6978A0"
+    },
+    {
+      "index": 15,
+      "patch_rva": "0x28FC66",
+      "target_rva": "0x6978A0"
+    },
+    {
+      "index": 16,
+      "patch_rva": "0xE13E9",
+      "target_rva": "0xC8AD0"
+    },
+    {
+      "index": 17,
+      "patch_rva": "0xCD495",
+      "target_rva": "0xC8AD0"
+    },
+    {
+      "index": 18,
+      "patch_rva": "0x104E50",
+      "target_rva": "0xAD050"
+    },
+    {
+      "index": 19,
+      "patch_rva": "0x10C888",
+      "target_rva": "0xC8AD0"
+    },
+    {
+      "index": 20,
+      "patch_rva": "0x23A98E",
+      "target_rva": "0x23A9D0"
+    }
+  ],
+  "registry_rva": "0x138A6F0",
+  "local_player_ref_rva": "0x1313B68",
+  "vtables": [
+    {
+      "class": ".?AVCPXMesh@@",
+      "rva": "0xEEE490"
+    },
+    {
+      "class": ".?AVCPXSkinMesh@@",
+      "rva": "0xEEFF58"
+    },
+    {
+      "class": ".?AVCPXParticleSystemEx@@",
+      "rva": "0xEF07B0"
+    },
+    {
+      "class": ".?AVCPXParticleSystem@@",
+      "rva": "0xEF0B18"
+    },
+    {
+      "class": ".?AVCPXPlayerSSO@@",
+      "rva": "0x1020830"
+    },
+    {
+      "class": ".?AVCPXPlayerTPNet@@",
+      "rva": "0x100CFB8"
+    },
+    {
+      "class": ".?AVCPXHorse@@",
+      "rva": "0xF4AF50"
+    },
+    {
+      "class": ".?AVCPXPet@@",
+      "rva": "0xF855A0"
+    },
+    {
+      "class": ".?AVCPXQuestControl@@",
+      "rva": "0xF5E578"
+    },
+    {
+      "class": ".?AVCPXHorseForSale@@",
+      "rva": "0xF72C68"
+    },
+    {
+      "class": ".?AVCPXCollectItem@@",
+      "rva": "0xF79920"
+    },
+    {
+      "class": ".?AVCPXCheckPoint@@",
+      "rva": "0xF61A40"
+    },
+    {
+      "class": ".?AVCPXQuestItem@@",
+      "rva": "0xF5FF18"
+    },
+    {
+      "class": ".?AVCPXTrigger@@",
+      "rva": "0xF386E0"
+    },
+    {
+      "class": ".?AVCPXVisibilityTrigger@@",
+      "rva": "0xF7D610"
+    }
+  ],
+  "client_version": "647.349716",
+  "client_sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1"
+}

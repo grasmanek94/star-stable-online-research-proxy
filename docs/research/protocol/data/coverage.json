@@ -1,0 +1,13 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "message_ids": 436,
+  "rpc_registrations": 175,
+  "rpc_stub_classes": 154,
+  "procedure_appendix_functions": 490,
+  "document_bytes": 1677973,
+  "scope": "Static recovered reference; explicit schema and semantic gaps remain",
+  "document_sha256": "58ba0285e159fd6f839ed6c544523241eb1f6b9dd7a632b4eb316e55dd885ebc",
+  "raw_callback_registrations": 9,
+  "mermaid_diagrams": 10
+}

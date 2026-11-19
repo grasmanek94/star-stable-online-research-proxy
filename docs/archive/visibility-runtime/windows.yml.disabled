@@ -1,0 +1,38 @@
+# Disabled by user request. Rename to windows.yml only to re-enable Actions.
+name: Windows build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Release, Debug, RelWithDebInfo]
+        loader: [PROXY, RESHADE, ASI, PLUGIN]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install optional assembly-test dependency
+        run: python -m pip install -r tests/requirements.txt
+      - name: Configure
+        run: cmake --preset vs2022-x64 -DSSO_HOST=${{ matrix.loader }} -DSSO_PROXY_ENABLE_ASM_TESTS=ON
+      - name: Build
+        run: cmake --build out/build/vs2022-x64 --config ${{ matrix.configuration }} --parallel
+      - name: Test
+        run: ctest --test-dir out/build/vs2022-x64 -C ${{ matrix.configuration }} --output-on-failure
+      - name: Package
+        run: cpack --config out/build/vs2022-x64/CPackConfig.cmake -C ${{ matrix.configuration }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visibility-${{ matrix.loader }}-${{ matrix.configuration }}
+          path: |
+            out/build/vs2022-x64/packages/*.zip
+            out/build/vs2022-x64/bin/${{ matrix.configuration }}/validation/*.json
+            out/build/vs2022-x64/Testing/Temporary/LastTest.log

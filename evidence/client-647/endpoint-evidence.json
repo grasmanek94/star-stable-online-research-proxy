@@ -1,0 +1,140 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "date": "2026-11-19",
+  "scope": "Static production defaults and native endpoint-selection path; no live session",
+  "launcher": {
+    "file": "app.asar",
+    "package_version": "2.60.0",
+    "sha256": "390abe5340bfc5dc665bd8f5894b3e77af5f3d92cdea105f712d87bfd40f6b20",
+    "configuration_endpoints": {
+      "path": "dist/.env",
+      "sha256": "a0a02f0fbd0c18da12cef22b628fc267cd11db7de2bd1722e63c185e58d69101",
+      "endpoint_allowlist_only": true,
+      "entries": [
+        {
+          "key": "API_ENDPOINT",
+          "value": "https://lb-pub.prod.starstable.com/proxy-launcher",
+          "line": 4
+        },
+        {
+          "key": "API_GATEWAY_ENDPOINT",
+          "value": "https://lb-pub.prod.starstable.com/api-gateway/1.0",
+          "line": 5
+        },
+        {
+          "key": "AUTO_UPDATE_URL",
+          "value": "https://launcher-release-prod.starstable.com",
+          "line": 7
+        },
+        {
+          "key": "PRODUCTION",
+          "value": "true",
+          "line": 11
+        }
+      ]
+    },
+    "config_source": {
+      "path": "dist/utils/config.js",
+      "local_file": "source-17.js",
+      "size": 4043,
+      "sha256": "18c0398799dbc44ee5235c276d0b0ac8a9b81533d9c2b55e15598dcdfcf9882f",
+      "lines": 99,
+      "landmarks": [
+        {
+          "needle": "const getEnvPath",
+          "line": 72
+        },
+        {
+          "needle": "dotenv.config",
+          "line": 79
+        },
+        {
+          "needle": "API_ENDPOINT: env.",
+          "line": 85
+        },
+        {
+          "needle": "API_GATEWAY_ENDPOINT: env.",
+          "line": 86
+        }
+      ]
+    }
+  },
+  "primary_game_https_host": "lb-pub.prod.starstable.com",
+  "game_service_base_url": "https://lb-pub.prod.starstable.com",
+  "game_https_requests": [
+    {
+      "method": "POST",
+      "url": "https://lb-pub.prod.starstable.com/api-gateway/1.0/game-server/data"
+    },
+    {
+      "method": "POST",
+      "url": "https://lb-pub.prod.starstable.com/api-gateway/1.0/game-server/ticket"
+    }
+  ],
+  "gameplay_udp": {
+    "hostname_source": "game_server_address in authenticated data response",
+    "initializer_host_offset": 240,
+    "initializer_port_offset": 272,
+    "fallback_port": 18971,
+    "resolver_rva": "0xA4B7B0",
+    "socket_type": 2,
+    "socket_type_name": "SOCK_DGRAM",
+    "assigned_hostname": null,
+    "limit": "No current process or decoded response; dynamic destination is not proved equal to HTTPS host"
+  },
+  "native_crash_reporting": {
+    "configured_dsn_host": "sentry.io",
+    "string_rvas": [
+      "0xFFF728",
+      "0xFFF768"
+    ],
+    "initializer_rva": "0x720EF0",
+    "dsn_setter_rva": "0x900E50",
+    "dsns_omit_key_component": true,
+    "live_upload_observed": false
+  },
+  "dynamic_destinations": [
+    {
+      "role": "metrics",
+      "source": "remoteConfig.metricsUrl -> MetricsServer argument",
+      "hostname": null
+    },
+    {
+      "role": "player reporting",
+      "source": "optional report_a_player_server response -> initializer+520, or explicit ReportPlayerServer",
+      "hostname": null
+    }
+  ],
+  "launcher_only_update_host": "launcher-release-prod.starstable.com",
+  "observation_limits": {
+    "ssoclient_process_found": false,
+    "matching_local_dns_cache_rows": 0,
+    "live_credentials_read": false,
+    "live_process_memory_read": false,
+    "authenticated_requests_sent": false,
+    "traffic_captured": false
+  },
+  "procedure_rvas": [
+    "0x1d770",
+    "0x380120",
+    "0x3803e0",
+    "0x37f2a0",
+    "0x380770",
+    "0x37fb10",
+    "0x7c1800",
+    "0xa4b7b0",
+    "0x720ef0"
+  ],
+  "procedure_sha256": {
+    "0x1d770": "f4df33799d1f47de777666a11a9e37114f76344c39e987b4f78c4af35d4aca54",
+    "0x380120": "5ed7376a7aa8d0ab14a16bcf3e0cf17089d994fff73061c0ec5a16544637bc8e",
+    "0x3803e0": "a60e2d078e6d49c64ebe6edfe57e2e50e79838a4204d25b5b756206607b8fc8b",
+    "0x37f2a0": "5c06962e1b1477cad82322817049c138ff269fa441b5a95e969f4f13cb80ce98",
+    "0x380770": "54228b98cfe068132d68f2150bbb03b64a10dfa9fbba993ae970bc05b3163fc0",
+    "0x37fb10": "4e0e041dd35dc617e94d2ed1504aee1f6a546a2e73045cb6d3956dbf4b5864d2",
+    "0x7c1800": "657139f308ad975069e4147d630432cfafce85a3af1d07f6f9e7e7e3514b3e7d",
+    "0xa4b7b0": "31bc4458791f4a4c29aa8b442e707a32d58d711b5d7c48665f3d5b15fcf9df3b",
+    "0x720ef0": "7e7178331f4f955bfae4c7af06259c33ed2d371cc2c534f5786090c7316cb750"
+  }
+}

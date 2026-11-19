@@ -1,0 +1,242 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "procedure_rvas": [
+    "0x1d5f20",
+    "0x1dab30",
+    "0x1efc80",
+    "0x209800",
+    "0x209820",
+    "0x2699c0",
+    "0x2ee9f0",
+    "0x351580",
+    "0x3b7770",
+    "0x3bade0",
+    "0x3bc970",
+    "0x3bcc50",
+    "0x3bd260",
+    "0x485d90",
+    "0x488930",
+    "0x4889a0",
+    "0x488ed0",
+    "0x787420",
+    "0x78a000",
+    "0x790dd0",
+    "0x799e40",
+    "0x7aa7a0",
+    "0x7bf940",
+    "0x7cb340",
+    "0x7cb6d0",
+    "0x7cbd40",
+    "0x7ce750",
+    "0x7cf960",
+    "0x7d24e0",
+    "0x7d2930",
+    "0x7d9ad0",
+    "0x7f3630",
+    "0x7f3810",
+    "0x7f3e10",
+    "0x7f3ec0",
+    "0x7f4020",
+    "0x7f4240",
+    "0x7f7770",
+    "0x80b920",
+    "0x80b9f0",
+    "0xa4bf80"
+  ],
+  "findings": [
+    {
+      "finding": "285 horse is appended at host PlayerShared+248 and consumed by spawn",
+      "reader": "0x7d08d0",
+      "consumer": "0x7ce750",
+      "converter": "0x7f3810"
+    },
+    {
+      "finding": "HorseBase is the short wire prefix; RTTI HorseCreateMasterMessage includes the additional32 host bytes",
+      "base_readers": [
+        "0x347560",
+        "0x349af0"
+      ],
+      "master_readers": [
+        "0x3474b0",
+        "0x349dc0"
+      ],
+      "rpc_examples": [
+        "0x351580",
+        "0x7bf940"
+      ]
+    },
+    {
+      "finding": "PlayerShared+0 is player ID; +4 is user ID. Local player ID copied to CPXNetwork+1928",
+      "consumers": [
+        "0x7ce750",
+        "0x7cbd40"
+      ]
+    },
+    {
+      "finding": "Unknown player terminates native282 processing, rather than continuing to remaining records",
+      "reader": "0x7d08d0",
+      "assembly_export": "player-dispatch.asm.txt"
+    },
+    {
+      "finding": "PlayerLook10 is key+u8;11 is key+six bytes; key is player ID",
+      "functions": [
+        "0x78a000",
+        "0x209820",
+        "0x7f3ec0",
+        "0x7f3e10",
+        "0x80b9f0"
+      ],
+      "assembly_export": "player-look-reader.asm.txt",
+      "first_subtype11_transfer_size_proof": "R8D=subtype-10==1 on branch entry; first transfer does not clobber R8D before call"
+    },
+    {
+      "finding": "PetMotion optional updates existing pet only; absence does not delete it",
+      "consumer": "0x790dd0",
+      "pet_reader": "0x80bb90",
+      "pet_consumer": "0x3bade0"
+    },
+    {
+      "finding": "Pet state0 emits PetInSaddleBag; nonzero emits PetOnGround",
+      "functions": [
+        "0x2699c0",
+        "0x3bc970",
+        "0x3bd260"
+      ]
+    },
+    {
+      "finding": "Horse raw13 bytes feed per-slot equipment state",
+      "functions": [
+        "0x7f3810",
+        "0x488ed0",
+        "0x4889a0"
+      ]
+    },
+    {
+      "finding": "Local master body has PlayerShared, extra fields, HorseMaster, byte and varu32-length inner stream",
+      "functions": [
+        "0x7cb340",
+        "0xa4bf80",
+        "0x7aa7a0"
+      ]
+    }
+  ],
+  "unresolved": [
+    "283 payload",
+    "full semantic flattening of contained local initialization stream",
+    "all pet item/script teardown branches",
+    "anonymous scalar and flag meanings"
+  ],
+  "live_validation": false,
+  "assembly_width_proof": [
+    {
+      "rva": "0x80b9f0",
+      "instruction": "mov     [rsp+arg_0], rbx"
+    },
+    {
+      "rva": "0x80b9f5",
+      "instruction": "push    rdi"
+    },
+    {
+      "rva": "0x80b9f6",
+      "instruction": "sub     rsp, 20h"
+    },
+    {
+      "rva": "0x80b9fa",
+      "instruction": "mov     rbx, r8"
+    },
+    {
+      "rva": "0x80b9fd",
+      "instruction": "mov     rdi, rcx"
+    },
+    {
+      "rva": "0x80ba00",
+      "instruction": "movzx   r8d, dl"
+    },
+    {
+      "rva": "0x80ba04",
+      "instruction": "sub     r8d, 0Ah"
+    },
+    {
+      "rva": "0x80ba08",
+      "instruction": "jz      loc_14080BB24"
+    },
+    {
+      "rva": "0x80ba0e",
+      "instruction": "cmp     r8d, 1"
+    },
+    {
+      "rva": "0x80ba12",
+      "instruction": "jnz     loc_14080BB76"
+    },
+    {
+      "rva": "0x80ba18",
+      "instruction": "mov     [rsp+28h+arg_18], 0"
+    },
+    {
+      "rva": "0x80ba20",
+      "instruction": "lea     rdx, [rsp+28h+arg_18]"
+    },
+    {
+      "rva": "0x80ba25",
+      "instruction": "mov     [rsp+28h+arg_1C], 0"
+    },
+    {
+      "rva": "0x80ba2c",
+      "instruction": "mov     rcx, rbx"
+    },
+    {
+      "rva": "0x80ba2f",
+      "instruction": "mov     rax, [rbx]"
+    },
+    {
+      "rva": "0x80ba32",
+      "instruction": "call    qword ptr [rax+10h]"
+    },
+    {
+      "rva": "0x80ba35",
+      "instruction": "test    al, al"
+    },
+    {
+      "rva": "0x80ba37",
+      "instruction": "jz      loc_14080BB02"
+    },
+    {
+      "rva": "0x80ba3d",
+      "instruction": "mov     rax, [rbx]"
+    },
+    {
+      "rva": "0x80ba40",
+      "instruction": "lea     rdx, [rsp+28h+arg_18+1]"
+    },
+    {
+      "rva": "0x80ba45",
+      "instruction": "mov     r8d, 1"
+    },
+    {
+      "rva": "0x80ba4b",
+      "instruction": "mov     rcx, rbx"
+    },
+    {
+      "rva": "0x80ba4e",
+      "instruction": "call    qword ptr [rax+10h]"
+    },
+    {
+      "rva": "0x80ba51",
+      "instruction": "test    al, al"
+    },
+    {
+      "rva": "0x80ba53",
+      "instruction": "jz      loc_14080BB02"
+    },
+    {
+      "rva": "0x80ba59",
+      "instruction": "mov     rax, [rbx]"
+    },
+    {
+      "rva": "0x80ba5c",
+      "instruction": "lea     rdx, [rsp+28h+arg_18+2]"
+    }
+  ],
+  "exact_function_starts_verified": true
+}

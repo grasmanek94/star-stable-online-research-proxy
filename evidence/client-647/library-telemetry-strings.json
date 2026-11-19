@@ -1,0 +1,198 @@
+[
+  {
+    "rva": "0xeecf30",
+    "text": "DisableSentryDebugMessages"
+  },
+  {
+    "rva": "0xfdf2b0",
+    "text": "sentrypad-db"
+  },
+  {
+    "rva": "0xfff728",
+    "text": "https://2db44162a1ce4acb9c69ae99005b7fc0@sentry.io/1474641"
+  },
+  {
+    "rva": "0xfff768",
+    "text": "https://d6899ca5bc3f402ca4ccac66d43e3555@sentry.io/1474641"
+  },
+  {
+    "rva": "0xfff7a8",
+    "text": "sentry_init failed with non-zero error code {}"
+  },
+  {
+    "rva": "0x1034a40",
+    "text": ".sentry-native"
+  },
+  {
+    "rva": "0x1034a50",
+    "text": "SENTRY_DSN"
+  },
+  {
+    "rva": "0x1034a60",
+    "text": "SENTRY_DEBUG"
+  },
+  {
+    "rva": "0x1034c70",
+    "text": "`sentry_init` failed"
+  },
+  {
+    "rva": "0x1034cc8",
+    "text": "sentry_close() called, but options was empty"
+  },
+  {
+    "rva": "0x10350d0",
+    "text": "x-sentry-auth"
+  },
+  {
+    "rva": "0x1035120",
+    "text": "[sentry] "
+  },
+  {
+    "rva": "0x1035398",
+    "text": "flushing scope to msgpack failed"
+  },
+  {
+    "rva": "0x10354c0",
+    "text": "__sentry-event"
+  },
+  {
+    "rva": "0x10354d0",
+    "text": "__sentry-breadcrumb1"
+  },
+  {
+    "rva": "0x10354e8",
+    "text": "__sentry-breadcrumb2"
+  },
+  {
+    "rva": "0x10355b0",
+    "text": "flushing breadcrumb to msgpack failed"
+  },
+  {
+    "rva": "0x10356b8",
+    "text": "`WinHttpOpen` failed"
+  },
+  {
+    "rva": "0x10356d0",
+    "text": "`WinHttpConnect` failed with code `%d`"
+  },
+  {
+    "rva": "0x1035708",
+    "text": "`WinHttpOpenRequest` failed with code `%d`"
+  },
+  {
+    "rva": "0x1035738",
+    "text": "sending request using winhttp to \"%s\":\n%S"
+  },
+  {
+    "rva": "0x10357c8",
+    "text": "`WinHttpSendRequest` failed with code `%d`"
+  },
+  {
+    "rva": "0x1035818",
+    "text": "initializing winhttp transport"
+  },
+  {
+    "rva": "0x1035978",
+    "text": "github:getsentry/sentry-native"
+  },
+  {
+    "rva": "0x1035fc0",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\client\\crash_report_database_win.cc"
+  },
+  {
+    "rva": "0x1036690",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\client\\crashpad_client_win.cc"
+  },
+  {
+    "rva": "0x1037310",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\client\\prune_crash_reports.cc"
+  },
+  {
+    "rva": "0x1037480",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\client\\settings.cc"
+  },
+  {
+    "rva": "0x10bd510",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\win\\scoped_handle.cc"
+  },
+  {
+    "rva": "0x10bd740",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\file_io.cc"
+  },
+  {
+    "rva": "0x10bd970",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\file_io_win.cc"
+  },
+  {
+    "rva": "0x10bdeb0",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\file_writer.cc"
+  },
+  {
+    "rva": "0x10be160",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\third_party\\mini_chromium\\mini_chromium\\base/containers/span.h"
+  },
+  {
+    "rva": "0x10be210",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\directory_reader_win.cc"
+  },
+  {
+    "rva": "0x10be380",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\filesystem_win.cc"
+  },
+  {
+    "rva": "0x10be750",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\win\\critical_section_with_debug_info.cc"
+  },
+  {
+    "rva": "0x10be8d0",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\win\\registration_protocol_win.cc"
+  },
+  {
+    "rva": "0x10bed10",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\file\\file_reader.cc"
+  },
+  {
+    "rva": "0x10bee40",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\util\\win\\scoped_local_alloc.cc"
+  },
+  {
+    "rva": "0x10beef0",
+    "text": "C:\\Perforce\\mntt_sso_main\\depot\\sdk\\sentrypad\\sentry-native\\external\\crashpad\\third_party\\mini_chromium\\mini_chromium\\base\\rand_util.cc"
+  },
+  {
+    "rva": "0x130ddf4",
+    "text": "WinHttpCrackUrl"
+  },
+  {
+    "rva": "0x130de06",
+    "text": "WinHttpOpen"
+  },
+  {
+    "rva": "0x130de14",
+    "text": "WinHttpCloseHandle"
+  },
+  {
+    "rva": "0x130de2a",
+    "text": "WinHttpConnect"
+  },
+  {
+    "rva": "0x130de3c",
+    "text": "WinHttpOpenRequest"
+  },
+  {
+    "rva": "0x130de52",
+    "text": "WinHttpSendRequest"
+  },
+  {
+    "rva": "0x130de68",
+    "text": "WinHttpReceiveResponse"
+  },
+  {
+    "rva": "0x130de82",
+    "text": "WinHttpQueryHeaders"
+  },
+  {
+    "rva": "0x130de96",
+    "text": "WINHTTP.dll"
+  }
+]

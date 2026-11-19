@@ -1,0 +1,1754 @@
+[
+  {
+    "ea": "0x14101c020",
+    "name": "NetSerialize ApplyMakeUpPush!"
+  },
+  {
+    "ea": "0x14101c040",
+    "name": "NetSerialize AppearanceChangePush!"
+  },
+  {
+    "ea": "0x14101c088",
+    "name": "PX_NETWORK_MESSAGE_START"
+  },
+  {
+    "ea": "0x14101c0a8",
+    "name": "PX_NETWORK_MESSAGE_CONNECTION_REQUEST"
+  },
+  {
+    "ea": "0x14101c0d0",
+    "name": "PX_NETWORK_MESSAGE_CONNECTION_RESPONSE"
+  },
+  {
+    "ea": "0x14101c0f8",
+    "name": "PX_NETWORK_MESSAGE_RECEIPT"
+  },
+  {
+    "ea": "0x14101c118",
+    "name": "PX_NETWORK_MESSAGE_DISCONNECT"
+  },
+  {
+    "ea": "0x14101c138",
+    "name": "PX_NETWORK_MESSAGE_DISCONNECTED"
+  },
+  {
+    "ea": "0x14101c158",
+    "name": "PX_NETWORK_MESSAGE_LOGIN"
+  },
+  {
+    "ea": "0x14101c178",
+    "name": "PX_NETWORK_MESSAGE_LOGIN_RESPONSE"
+  },
+  {
+    "ea": "0x14101c1a0",
+    "name": "PX_NETWORK_MESSAGE_CREATE_PLAYER"
+  },
+  {
+    "ea": "0x14101c1c8",
+    "name": "PX_NETWORK_MESSAGE_CREATE_PLAYER_RESPONSE"
+  },
+  {
+    "ea": "0x14101c1f8",
+    "name": "PX_NETWORK_MESSAGE_SERVER_SHUTDOWN_STATE"
+  },
+  {
+    "ea": "0x14101c228",
+    "name": "PX_NETWORK_MESSAGE_SET_HIGH_LATENCY_MODE"
+  },
+  {
+    "ea": "0x14101c258",
+    "name": "PX_NETWORK_MESSAGE_MODERATION_KICK"
+  },
+  {
+    "ea": "0x14101c280",
+    "name": "PX_NETWORK_MESSAGE_MODERATION_MESSAGE"
+  },
+  {
+    "ea": "0x14101c2a8",
+    "name": "PX_NETWORK_MESSAGE_MODERATION_DISABLE_CHAT"
+  },
+  {
+    "ea": "0x14101c2d8",
+    "name": "PX_NETWORK_MESSAGE_MODERATION_RELOCATE_PLAYER"
+  },
+  {
+    "ea": "0x14101c308",
+    "name": "PX_NETWORK_MESSAGE_MODERATION_IGNORE_PLAYER"
+  },
+  {
+    "ea": "0x14101c338",
+    "name": "PX_NETWORK_MESSAGE_PLAYER_DEBUG"
+  },
+  {
+    "ea": "0x14101c358",
+    "name": "PX_NETWORK_MESSAGE_PLAYER_DEBUG_RESPONSE"
+  },
+  {
+    "ea": "0x14101c388",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_INVITE"
+  },
+  {
+    "ea": "0x14101c3b0",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101c3e0",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_ACCEPT"
+  },
+  {
+    "ea": "0x14101c408",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_ACCEPT_RESPONSE"
+  },
+  {
+    "ea": "0x14101c438",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_DELETE"
+  },
+  {
+    "ea": "0x14101c460",
+    "name": "PX_NETWORK_MESSAGE_FRIEND_DELETE_RESPONSE"
+  },
+  {
+    "ea": "0x14101c490",
+    "name": "PX_NETWORK_MESSAGE_IGNORE"
+  },
+  {
+    "ea": "0x14101c4b0",
+    "name": "PX_NETWORK_MESSAGE_IGNORE_BY_ID"
+  },
+  {
+    "ea": "0x14101c4d0",
+    "name": "PX_NETWORK_MESSAGE_IGNORE_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101c500",
+    "name": "PX_NETWORK_MESSAGE_IGNORE_SUCCESS_RESPONSE"
+  },
+  {
+    "ea": "0x14101c530",
+    "name": "PX_NETWORK_MESSAGE_IGNORE_DELETE"
+  },
+  {
+    "ea": "0x14101c558",
+    "name": "PX_NETWORK_MESSAGE_IGNORE_DELETE_RESPONSE"
+  },
+  {
+    "ea": "0x14101c588",
+    "name": "PX_NETWORK_MESSAGE_QUEST_UPDATE"
+  },
+  {
+    "ea": "0x14101c5a8",
+    "name": "PX_NETWORK_MESSAGE_QUEST_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101c5d8",
+    "name": "PX_NETWORK_MESSAGE_QUEST_BUY_UNLOCK_TIME_DEPENDENCY"
+  },
+  {
+    "ea": "0x14101c610",
+    "name": "PX_NETWORK_MESSAGE_QUEST_BUY_UNLOCK_TIME_DEPENDENCY_RESPONSE"
+  },
+  {
+    "ea": "0x14101c650",
+    "name": "PX_NETWORK_MESSAGE_BUY_ITEM_JORVIK_SHILLINGS"
+  },
+  {
+    "ea": "0x14101c680",
+    "name": "PX_NETWORK_MESSAGE_BUY_ITEM_STAR_COINS"
+  },
+  {
+    "ea": "0x14101c6a8",
+    "name": "PX_NETWORK_MESSAGE_BUY_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101c6d0",
+    "name": "PX_NETWORK_MESSAGE_SELL_ITEM"
+  },
+  {
+    "ea": "0x14101c6f0",
+    "name": "PX_NETWORK_MESSAGE_GIVE_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101c718",
+    "name": "PX_NETWORK_MESSAGE_ITEM_ACTION_RESPONSE"
+  },
+  {
+    "ea": "0x14101c740",
+    "name": "PX_NETWORK_MESSAGE_DELETE_ITEM"
+  },
+  {
+    "ea": "0x14101c760",
+    "name": "PX_NETWORK_MESSAGE_ITEM_DELETED_NOTIFY"
+  },
+  {
+    "ea": "0x14101c788",
+    "name": "PX_NETWORK_MESSAGE_DEBUG_DELETE_BACKPACK_ITEMS"
+  },
+  {
+    "ea": "0x14101c7b8",
+    "name": "PX_NETWORK_MESSAGE_MOVE_ITEM"
+  },
+  {
+    "ea": "0x14101c7d8",
+    "name": "PX_NETWORK_MESSAGE_SWAP_ITEM"
+  },
+  {
+    "ea": "0x14101c7f8",
+    "name": "PX_NETWORK_MESSAGE_EQUIP_ITEM"
+  },
+  {
+    "ea": "0x14101c818",
+    "name": "PX_NETWORK_MESSAGE_GIVE_ITEM"
+  },
+  {
+    "ea": "0x14101c838",
+    "name": "PX_NETWORK_MESSAGE_TRANSFORM_ITEM"
+  },
+  {
+    "ea": "0x14101c860",
+    "name": "PX_NETWORK_MESSAGE_UPDATE_COUNT_ITEM"
+  },
+  {
+    "ea": "0x14101c888",
+    "name": "PX_NETWORK_MESSAGE_UNSTACK_ITEM"
+  },
+  {
+    "ea": "0x14101c8a8",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_ITEM"
+  },
+  {
+    "ea": "0x14101c8c8",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101c8f8",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_ITEM_IS_ALREADY_ACTIVE"
+  },
+  {
+    "ea": "0x14101c930",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_ITEM_REACTIVATE_BUFF_UI_RESPONSE"
+  },
+  {
+    "ea": "0x14101c970",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_ITEM_TIMER_END"
+  },
+  {
+    "ea": "0x14101c9a0",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_FREE_APPEARANCE_CHANGE_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101c9e0",
+    "name": "PX_NETWORK_MESSAGE_MAIL_CLAIM_ATTACHED_ITEM"
+  },
+  {
+    "ea": "0x14101ca10",
+    "name": "PX_NETWORK_MESSAGE_MAIL_CLAIM_ATTACHED_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101ca48",
+    "name": "PX_NETWORK_MESSAGE_BUY_STYLE_ITEM_STAR_COINS"
+  },
+  {
+    "ea": "0x14101ca78",
+    "name": "PX_NETWORK_MESSAGE_BUY_STYLE_ITEM_JORVIK_SHILLINGS"
+  },
+  {
+    "ea": "0x14101cab0",
+    "name": "PX_NETWORK_MESSAGE_BUY_ITEM_WELLBEING"
+  },
+  {
+    "ea": "0x14101cad8",
+    "name": "PX_NETWORK_MESSAGE_BUY_ITEM_WELLBEING_RESPONSE"
+  },
+  {
+    "ea": "0x14101cb08",
+    "name": "PX_NETWORK_MESSAGE_SET_FAVORITE_ITEMS"
+  },
+  {
+    "ea": "0x14101cb30",
+    "name": "PX_NETWORK_MESSAGE_SET_FAVORITE_ITEMS_RESPONSE"
+  },
+  {
+    "ea": "0x14101cb60",
+    "name": "PX_NETWORK_MESSAGE_GET_FAVORITE_ITEMS"
+  },
+  {
+    "ea": "0x14101cb88",
+    "name": "PX_NETWORK_MESSAGE_GET_FAVORITE_ITEMS_RESPONSE"
+  },
+  {
+    "ea": "0x14101cbb8",
+    "name": "PX_NETWORK_MESSAGE_HORSE_UPDATE_INSPIRATION_OPTIONS"
+  },
+  {
+    "ea": "0x14101cbf0",
+    "name": "PX_NETWORK_MESSAGE_HORSE_UPDATE_INSPIRATION_OPTIONS_RESPONSE"
+  },
+  {
+    "ea": "0x14101cc30",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BUY_NAME"
+  },
+  {
+    "ea": "0x14101cc58",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BUY_NAME_RESPONSE"
+  },
+  {
+    "ea": "0x14101cc88",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BUY_LEVEL"
+  },
+  {
+    "ea": "0x14101ccb0",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BUY_LEVEL_RESPONSE"
+  },
+  {
+    "ea": "0x14101cce0",
+    "name": "PX_NETWORK_MESSAGE_HORSE_LEVELUP"
+  },
+  {
+    "ea": "0x14101cd08",
+    "name": "PX_NETWORK_MESSAGE_HORSE_LEVELUP_RESPONSE"
+  },
+  {
+    "ea": "0x14101cd38",
+    "name": "PX_NETWORK_MESSAGE_HORSE_UPDATE_WELLBEING"
+  },
+  {
+    "ea": "0x14101cd68",
+    "name": "PX_NETWORK_MESSAGE_HORSE_UPDATE_WELLBEING_RESPONSE"
+  },
+  {
+    "ea": "0x14101cda0",
+    "name": "PX_NETWORK_MESSAGE_ACHIEVEMENTS_INIT"
+  },
+  {
+    "ea": "0x14101cdc8",
+    "name": "PX_NETWORK_MESSAGE_ACHIEVEMENTS_INIT_RESPONSE"
+  },
+  {
+    "ea": "0x14101cdf8",
+    "name": "PX_NETWORK_MESSAGE_ACHIEVEMENT_UPDATE"
+  },
+  {
+    "ea": "0x14101ce20",
+    "name": "PX_NETWORK_MESSAGE_ACHIEVEMENT_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101ce50",
+    "name": "PX_NETWORK_MESSAGE_FACTION_UPDATE"
+  },
+  {
+    "ea": "0x14101ce78",
+    "name": "PX_NETWORK_MESSAGE_FACTION_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101cea8",
+    "name": "PX_NETWORK_MESSAGE_LOCATION_VISITED"
+  },
+  {
+    "ea": "0x14101ced0",
+    "name": "PX_NETWORK_MESSAGE_LOCATION_VISITED_RESPONSE"
+  },
+  {
+    "ea": "0x14101cf00",
+    "name": "PX_NETWORK_MESSAGE_LOCATION_TRANSPORT"
+  },
+  {
+    "ea": "0x14101cf28",
+    "name": "PX_NETWORK_MESSAGE_LOCATION_TRANSPORT_RESPONSE"
+  },
+  {
+    "ea": "0x14101cf58",
+    "name": "PX_NETWORK_MESSAGE_COLLECTIONS_INIT"
+  },
+  {
+    "ea": "0x14101cf80",
+    "name": "PX_NETWORK_MESSAGE_COLLECTIONS_INIT_RESPONSE"
+  },
+  {
+    "ea": "0x14101cfb0",
+    "name": "PX_NETWORK_MESSAGE_COLLECT_ITEM"
+  },
+  {
+    "ea": "0x14101cfd0",
+    "name": "PX_NETWORK_MESSAGE_COLLECT_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101d000",
+    "name": "PX_NETWORK_MESSAGE_BUY_STARTER_HORSE_APPEARANCE"
+  },
+  {
+    "ea": "0x14101d030",
+    "name": "PX_NETWORK_MESSAGE_BUY_STARTER_HORSE_APPEARANCE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d070",
+    "name": "PX_NETWORK_MESSAGE_COMPETITION_UPDATE"
+  },
+  {
+    "ea": "0x14101d098",
+    "name": "PX_NETWORK_MESSAGE_COMPETITION_LIST"
+  },
+  {
+    "ea": "0x14101d0c0",
+    "name": "PX_NETWORK_MESSAGE_SERVER_ERROR"
+  },
+  {
+    "ea": "0x14101d0e0",
+    "name": "PX_NETWORK_MESSAGE_GROUP_INVITE_BY_ID"
+  },
+  {
+    "ea": "0x14101d108",
+    "name": "PX_NETWORK_MESSAGE_GROUP_INVITE_BY_NAME"
+  },
+  {
+    "ea": "0x14101d130",
+    "name": "PX_NETWORK_MESSAGE_GROUP_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d160",
+    "name": "PX_NETWORK_MESSAGE_GROUP_INVITE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d188",
+    "name": "PX_NETWORK_MESSAGE_GROUP_JOIN"
+  },
+  {
+    "ea": "0x14101d1a8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_JOIN_NOTIFY"
+  },
+  {
+    "ea": "0x14101d1d0",
+    "name": "PX_NETWORK_MESSAGE_GROUP_JOIN_RESPONSE"
+  },
+  {
+    "ea": "0x14101d1f8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_LEAVE"
+  },
+  {
+    "ea": "0x14101d218",
+    "name": "PX_NETWORK_MESSAGE_GROUP_LEAVE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d240",
+    "name": "PX_NETWORK_MESSAGE_GROUP_LEAVE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d268",
+    "name": "PX_NETWORK_MESSAGE_GROUP_FORCE_LEAVE_GROUP"
+  },
+  {
+    "ea": "0x14101d298",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_INVITE"
+  },
+  {
+    "ea": "0x14101d2c8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_INVITE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d300",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d338",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_JOIN"
+  },
+  {
+    "ea": "0x14101d360",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_JOIN_NOTIFY"
+  },
+  {
+    "ea": "0x14101d390",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_JOIN_RESPONSE"
+  },
+  {
+    "ea": "0x14101d3c8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_START"
+  },
+  {
+    "ea": "0x14101d3f8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_START_NOTIFY"
+  },
+  {
+    "ea": "0x14101d428",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_START_RESPONSE"
+  },
+  {
+    "ea": "0x14101d460",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_UPDATE"
+  },
+  {
+    "ea": "0x14101d490",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_UPDATE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d4c8",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d500",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_UPDATE_END_SCORE"
+  },
+  {
+    "ea": "0x14101d538",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_FINISHED"
+  },
+  {
+    "ea": "0x14101d568",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_FINISHED_NOTIFY"
+  },
+  {
+    "ea": "0x14101d5a0",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_FAILED"
+  },
+  {
+    "ea": "0x14101d5d0",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_FAILED_NOTIFY"
+  },
+  {
+    "ea": "0x14101d608",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_END"
+  },
+  {
+    "ea": "0x14101d630",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_END_NOTIFY"
+  },
+  {
+    "ea": "0x14101d660",
+    "name": "PX_NETWORK_MESSAGE_GROUP_CHALLENGE_END_RESPONSE"
+  },
+  {
+    "ea": "0x14101d690",
+    "name": "PX_NETWORK_MESSAGE_CLUB_VALIDATE_NAME"
+  },
+  {
+    "ea": "0x14101d6b8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_VALIDATE_NAME_RESPONSE"
+  },
+  {
+    "ea": "0x14101d6e8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_CREATE"
+  },
+  {
+    "ea": "0x14101d708",
+    "name": "PX_NETWORK_MESSAGE_CLUB_CREATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d730",
+    "name": "PX_NETWORK_MESSAGE_CLUB_UPDATE"
+  },
+  {
+    "ea": "0x14101d750",
+    "name": "PX_NETWORK_MESSAGE_CLUB_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d778",
+    "name": "PX_NETWORK_MESSAGE_CLUB_UPDATE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d7a0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_DELETE"
+  },
+  {
+    "ea": "0x14101d7c0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_DELETE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d7e8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_DELETE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d810",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_INVITE_BY_ID"
+  },
+  {
+    "ea": "0x14101d840",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_INVITE_BY_NAME"
+  },
+  {
+    "ea": "0x14101d870",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d8a0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_INVITE_NOTIFY"
+  },
+  {
+    "ea": "0x14101d8d0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_JOIN"
+  },
+  {
+    "ea": "0x14101d8f8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_JOIN_NOTIFY"
+  },
+  {
+    "ea": "0x14101d928",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_JOIN_RESPONSE"
+  },
+  {
+    "ea": "0x14101d958",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_UPDATE"
+  },
+  {
+    "ea": "0x14101d980",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101d9b0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_LEAVE"
+  },
+  {
+    "ea": "0x14101d9d8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_LEAVE_NOTIFY"
+  },
+  {
+    "ea": "0x14101da08",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_LEAVE_RESPONSE"
+  },
+  {
+    "ea": "0x14101da38",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_DELETE"
+  },
+  {
+    "ea": "0x14101da60",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_DELETE_NOTIFY"
+  },
+  {
+    "ea": "0x14101da90",
+    "name": "PX_NETWORK_MESSAGE_CLUB_MEMBER_DELETE_RESPONSE"
+  },
+  {
+    "ea": "0x14101dac0",
+    "name": "PX_NETWORK_MESSAGE_CLUB_ROLES_UPDATE"
+  },
+  {
+    "ea": "0x14101dae8",
+    "name": "PX_NETWORK_MESSAGE_CLUB_ROLES_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101db18",
+    "name": "PX_NETWORK_MESSAGE_ONLINE_STATUS"
+  },
+  {
+    "ea": "0x14101db40",
+    "name": "PX_NETWORK_MESSAGE_MAIL_SYNC"
+  },
+  {
+    "ea": "0x14101db60",
+    "name": "PX_NETWORK_MESSAGE_MAIL_SYNC_RESPONSE"
+  },
+  {
+    "ea": "0x14101db88",
+    "name": "PX_NETWORK_MESSAGE_MAIL_SEND"
+  },
+  {
+    "ea": "0x14101dba8",
+    "name": "PX_NETWORK_MESSAGE_MAIL_SEND_RESPONSE"
+  },
+  {
+    "ea": "0x14101dbd0",
+    "name": "PX_NETWORK_MESSAGE_MAIL_NOTIFY"
+  },
+  {
+    "ea": "0x14101dbf0",
+    "name": "PX_NETWORK_MESSAGE_MAIL_UPDATE_READ_DATE"
+  },
+  {
+    "ea": "0x14101dc20",
+    "name": "PX_NETWORK_MESSAGE_MAIL_CLAIM_ATTACHED_JS"
+  },
+  {
+    "ea": "0x14101dc50",
+    "name": "PX_NETWORK_MESSAGE_MAIL_CLAIM_ATTACHED_JS_RESPONSE"
+  },
+  {
+    "ea": "0x14101dc88",
+    "name": "PX_NETWORK_MESSAGE_MAIL_DELETE"
+  },
+  {
+    "ea": "0x14101dca8",
+    "name": "PX_NETWORK_MESSAGE_CHARACTER_SET_HOME_LOCATION"
+  },
+  {
+    "ea": "0x14101dcd8",
+    "name": "PX_NETWORK_MESSAGE_CHARACTER_SET_HOME_LOCATION_RESPONSE"
+  },
+  {
+    "ea": "0x14101dd10",
+    "name": "PX_NETWORK_MESSAGE_CHARACTER_NAME_CHANGED_NOTIFY"
+  },
+  {
+    "ea": "0x14101dd48",
+    "name": "PX_NETWORK_MESSAGE_REMOTE_START_ACTOR"
+  },
+  {
+    "ea": "0x14101dd70",
+    "name": "PX_NETWORK_MESSAGE_UPDATE_STARCOINS_FROM_SERVER"
+  },
+  {
+    "ea": "0x14101dda0",
+    "name": "PX_NETWORK_MESSAGE_CREATE_SNAPSHOT"
+  },
+  {
+    "ea": "0x14101ddc8",
+    "name": "PX_NETWORK_MESSAGE_CREATE_SNAPSHOT_RESPONSE"
+  },
+  {
+    "ea": "0x14101ddf8",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_NOTIFY"
+  },
+  {
+    "ea": "0x14101de20",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_JOIN"
+  },
+  {
+    "ea": "0x14101de48",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_JOIN_RESPONSE"
+  },
+  {
+    "ea": "0x14101de78",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_LEAVE"
+  },
+  {
+    "ea": "0x14101dea0",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_LEAVE_RESPONSE"
+  },
+  {
+    "ea": "0x14101ded0",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_WAITING_FOR_START"
+  },
+  {
+    "ea": "0x14101df08",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_START"
+  },
+  {
+    "ea": "0x14101df30",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_TIME_LEFT_SYNC"
+  },
+  {
+    "ea": "0x14101df60",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_RANK_UPDATE"
+  },
+  {
+    "ea": "0x14101df90",
+    "name": "PX_NETWORK_MESSAGE_CHAMPIONSHIP_RANK_REQUEST"
+  },
+  {
+    "ea": "0x14101dfc0",
+    "name": "PX_NETWORK_MESSAGE_BUY_HORSE"
+  },
+  {
+    "ea": "0x14101dfe0",
+    "name": "PX_NETWORK_MESSAGE_BUY_HORSE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e008",
+    "name": "PX_NETWORK_MESSAGE_SET_ARCHIVE_HORSE"
+  },
+  {
+    "ea": "0x14101e030",
+    "name": "PX_NETWORK_MESSAGE_GET_ARCHIVED_HORSES"
+  },
+  {
+    "ea": "0x14101e058",
+    "name": "PX_NETWORK_MESSAGE_SET_ARCHIVE_HORSE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e088",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_ARCHIVE_HORSE_UPDATE"
+  },
+  {
+    "ea": "0x14101e0c0",
+    "name": "PX_NETWORK_MESSAGE_GET_ARCHIVED_HORSES_RESPONSE"
+  },
+  {
+    "ea": "0x14101e0f0",
+    "name": "PX_NETWORK_MESSAGE_FETCH_HORSES"
+  },
+  {
+    "ea": "0x14101e110",
+    "name": "PX_NETWORK_MESSAGE_FETCH_HORSES_RESPONSE"
+  },
+  {
+    "ea": "0x14101e140",
+    "name": "PX_NETWORK_MESSAGE_HORSE_CREATED_NOTIFY"
+  },
+  {
+    "ea": "0x14101e168",
+    "name": "PX_NETWORK_MESSAGE_SWAP_STABLE_HORSE"
+  },
+  {
+    "ea": "0x14101e190",
+    "name": "PX_NETWORK_MESSAGE_SWAP_HORSE"
+  },
+  {
+    "ea": "0x14101e1b0",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_ORDER_HORSES"
+  },
+  {
+    "ea": "0x14101e1e0",
+    "name": "PX_NETWORK_MESSAGE_GAME_MASTER_REQUEST"
+  },
+  {
+    "ea": "0x14101e208",
+    "name": "PX_NETWORK_MESSAGE_GAME_MASTER_RESPONSE"
+  },
+  {
+    "ea": "0x14101e230",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_BUY_STABLE_CARE"
+  },
+  {
+    "ea": "0x14101e260",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_BUY_STABLE_CARE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e298",
+    "name": "PX_NETWORK_MESSAGE_INSPECT_PLAYER"
+  },
+  {
+    "ea": "0x14101e2c0",
+    "name": "PX_NETWORK_MESSAGE_CHANGE_APPEARANCE_BATCHED"
+  },
+  {
+    "ea": "0x14101e2f0",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_UPGRADE"
+  },
+  {
+    "ea": "0x14101e318",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_UPGRADE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e348",
+    "name": "PX_NETWORK_MESSAGE_SWAP_STABLE_POSITION"
+  },
+  {
+    "ea": "0x14101e370",
+    "name": "PX_NETWORK_MESSAGE_PET_CHANGE_STATE"
+  },
+  {
+    "ea": "0x14101e398",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_ACTIVATION"
+  },
+  {
+    "ea": "0x14101e3c8",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_DEACTIVATION"
+  },
+  {
+    "ea": "0x14101e3f8",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_DEACTIVATION_BATCHED"
+  },
+  {
+    "ea": "0x14101e430",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_DURATION_UPDATE"
+  },
+  {
+    "ea": "0x14101e460",
+    "name": "PX_NETWORK_MESSAGE_GET_ACTIVE_CONSUMABLE"
+  },
+  {
+    "ea": "0x14101e490",
+    "name": "PX_NETWORK_MESSAGE_GET_ACTIVE_CONSUMABLE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e4c8",
+    "name": "PX_NETWORK_MESSAGE_UPDATE_COLLECTED_COUNT_BY_TAG"
+  },
+  {
+    "ea": "0x14101e500",
+    "name": "PX_NETWORK_MESSAGE_ADD_UNLOCKED_COLLECTION"
+  },
+  {
+    "ea": "0x14101e530",
+    "name": "PX_NETWORK_MESSAGE_ADD_UNLOCKED_COLLECTION_RESPONSE"
+  },
+  {
+    "ea": "0x14101e568",
+    "name": "PX_NETWORK_MESSAGE_FACTION_SET_REPUTATION"
+  },
+  {
+    "ea": "0x14101e598",
+    "name": "PX_NETWORK_MESSAGE_INITIALIZE_PLAYLIST"
+  },
+  {
+    "ea": "0x14101e5c0",
+    "name": "PX_NETWORK_MESSAGE_INITIALIZE_PLAYLIST_RESPONSE"
+  },
+  {
+    "ea": "0x14101e5f0",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_ENTER"
+  },
+  {
+    "ea": "0x14101e618",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_LEAVE"
+  },
+  {
+    "ea": "0x14101e640",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE"
+  },
+  {
+    "ea": "0x14101e668",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101e698",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_ACCEPT"
+  },
+  {
+    "ea": "0x14101e6c8",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_ORDER_HORSES"
+  },
+  {
+    "ea": "0x14101e700",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_GUEST_ACCEPTED"
+  },
+  {
+    "ea": "0x14101e740",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_ADD_GUEST_FAILED"
+  },
+  {
+    "ea": "0x14101e780",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_KICK_GUEST"
+  },
+  {
+    "ea": "0x14101e7b8",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_HORSE_MODIFIED"
+  },
+  {
+    "ea": "0x14101e800",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_UPDATE_HORSE_EQUIPMENT_MODIFIED"
+  },
+  {
+    "ea": "0x14101e848",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_KICK"
+  },
+  {
+    "ea": "0x14101e870",
+    "name": "PX_NETWORK_MESSAGE_MYSTABLE_INVITE_HOST_SWAPPED_HORSE"
+  },
+  {
+    "ea": "0x14101e8a8",
+    "name": "PX_NETWORK_MESSAGE_MEASURE_LATENCY_REQUEST"
+  },
+  {
+    "ea": "0x14101e8d8",
+    "name": "PX_NETWORK_MESSAGE_MEASURE_LATENCY_RESPONSE"
+  },
+  {
+    "ea": "0x14101e908",
+    "name": "PX_NETWORK_MESSAGE_SOCIALLY_BLOCKED"
+  },
+  {
+    "ea": "0x14101e930",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_CURRENCY_ITEM_TO_BUY_ITEM"
+  },
+  {
+    "ea": "0x14101e968",
+    "name": "PX_NETWORK_MESSAGE_CONSUME_CURRENCY_ITEM_TO_BUY_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101e9a8",
+    "name": "PX_NETWORK_MESSAGE_LOOK_APPLY_FULL_MAKEUP"
+  },
+  {
+    "ea": "0x14101e9d8",
+    "name": "PX_NETWORK_MESSAGE_LOOK_BUY_FULL_MAKEUP"
+  },
+  {
+    "ea": "0x14101ea00",
+    "name": "PX_NETWORK_MESSAGE_LOOK_BUY_APPEARANCE_CHANGE"
+  },
+  {
+    "ea": "0x14101ea30",
+    "name": "PX_NETWORK_MESSAGE_PLAYER_UPDATE_NW_FLAGS"
+  },
+  {
+    "ea": "0x14101ea60",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BONDING_SERVER_INITIATE"
+  },
+  {
+    "ea": "0x14101ea98",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BONDING_CLIENT_PERFORMED"
+  },
+  {
+    "ea": "0x14101ead0",
+    "name": "PX_NETWORK_MESSAGE_HORSE_BONDING_SERVER_ACKNOWLEDGE"
+  },
+  {
+    "ea": "0x14101eb08",
+    "name": "PX_NETWORK_MESSAGE_DEV_COMMAND_CHANGE"
+  },
+  {
+    "ea": "0x14101eb30",
+    "name": "PX_NETWORK_MESSAGE_USE_HORSE_WELLBEING_BOOST_ITEM"
+  },
+  {
+    "ea": "0x14101eb68",
+    "name": "PX_NETWORK_MESSAGE_USE_HORSE_WELLBEING_BOOST_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101eba8",
+    "name": "PX_NETWORK_MESSAGE_CHARACTER_ACTIVITY_MODIFIED"
+  },
+  {
+    "ea": "0x14101ebd8",
+    "name": "PX_NETWORK_MESSAGE_ACTIVATE_SCHEDULED_EVENT"
+  },
+  {
+    "ea": "0x14101ec08",
+    "name": "PX_NETWORK_MESSAGE_DEACTIVATE_SCHEDULED_EVENT"
+  },
+  {
+    "ea": "0x14101ec38",
+    "name": "PX_NETWORK_MESSAGE_INITIALIZE_SCHEDULED_EVENTS"
+  },
+  {
+    "ea": "0x14101ec68",
+    "name": "PX_NETWORK_MESSAGE_CONSUMABLE_HORSE_XP_NOTIFICATION"
+  },
+  {
+    "ea": "0x14101eca0",
+    "name": "PX_NETWORK_MESSAGE_SAVE_EQUIPMENT_SET_DATA"
+  },
+  {
+    "ea": "0x14101ecd0",
+    "name": "PX_NETWORK_MESSAGE_SAVE_EQUIPMENT_SET_DATA_RESPONSE"
+  },
+  {
+    "ea": "0x14101ed08",
+    "name": "PX_NETWORK_MESSAGE_LOAD_EQUIPMENT_SET_DATA"
+  },
+  {
+    "ea": "0x14101ed38",
+    "name": "PX_NETWORK_MESSAGE_LOAD_EQUIPMENT_SET_DATA_RESPONSE"
+  },
+  {
+    "ea": "0x14101ed70",
+    "name": "PX_NETWORK_MESSAGE_EQUIP_EQUIPMENT_SET_DATA_RESPONSE"
+  },
+  {
+    "ea": "0x14101eda8",
+    "name": "PX_NETWORK_MESSAGE_EQUIP_EQUIPMENT_SET_DATA"
+  },
+  {
+    "ea": "0x14101edd8",
+    "name": "PX_NETWORK_MESSAGE_INIT_CRAFTING"
+  },
+  {
+    "ea": "0x14101ee00",
+    "name": "PX_NETWORK_MESSAGE_INIT_CRAFTING_RESPONSE"
+  },
+  {
+    "ea": "0x14101ee30",
+    "name": "PX_NETWORK_MESSAGE_PERFORM_CRAFTING"
+  },
+  {
+    "ea": "0x14101ee58",
+    "name": "PX_NETWORK_MESSAGE_PERFORM_CRAFTING_RESPONSE"
+  },
+  {
+    "ea": "0x14101ee88",
+    "name": "PX_NETWORK_MESSAGE_FAILED_CRAFTING_ACTION_RESPONSE"
+  },
+  {
+    "ea": "0x14101eec0",
+    "name": "PX_NETWORK_MESSAGE_UNLOCK_CRAFTING_RECIPE"
+  },
+  {
+    "ea": "0x14101eef0",
+    "name": "PX_NETWORK_MESSAGE_UNLOCK_CRAFTING_RECIPE_RESPONSE"
+  },
+  {
+    "ea": "0x14101ef28",
+    "name": "PX_NETWORK_MESSAGE_SHOW_JUMPING_LEADERBOARD_REQUEST"
+  },
+  {
+    "ea": "0x14101ef60",
+    "name": "PX_NETWORK_MESSAGE_SHOW_JUMPING_PERSONAL_BEST_REQUEST"
+  },
+  {
+    "ea": "0x14101ef98",
+    "name": "PX_NETWORK_MESSAGE_SHOW_JUMPING_UPDATE"
+  },
+  {
+    "ea": "0x14101efc0",
+    "name": "REQUEST_ACTION_TOKEN"
+  },
+  {
+    "ea": "0x14101efd8",
+    "name": "REQUEST_ACTION_TOKEN_RESPONSE"
+  },
+  {
+    "ea": "0x14101eff8",
+    "name": "GAMESERVER_INTERNAL_MESSAGES_START"
+  },
+  {
+    "ea": "0x14101f020",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_SUBTRACT_MONEY"
+  },
+  {
+    "ea": "0x14101f050",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_GIVE_ITEM"
+  },
+  {
+    "ea": "0x14101f078",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_FORCE_DISCONNECT"
+  },
+  {
+    "ea": "0x14101f0a8",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_SOCIAL_LOCK_UPDATE"
+  },
+  {
+    "ea": "0x14101f0d8",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_CONSUMABLE_ADD_HORSE_XP"
+  },
+  {
+    "ea": "0x14101f110",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_HORSE_CREATED"
+  },
+  {
+    "ea": "0x14101f140",
+    "name": "PX_NETWORK_MESSAGE_INTERNAL_DELETE_ITEM_FROM_BACKEND"
+  },
+  {
+    "ea": "0x14101f178",
+    "name": "GAMESERVER_INTERNAL_MESSAGES_END"
+  },
+  {
+    "ea": "0x14101f1a0",
+    "name": "ROUTER_MESSAGES_START"
+  },
+  {
+    "ea": "0x14101f1b8",
+    "name": "MEASURE_SERVER_LATENCY_RESPONSE"
+  },
+  {
+    "ea": "0x14101f1d8",
+    "name": "MEASURE_SERVER_LATENCY_EVENT_DRIVEN"
+  },
+  {
+    "ea": "0x14101f200",
+    "name": "MEASURE_SERVER_LATENCY_IN_ORDER"
+  },
+  {
+    "ea": "0x14101f220",
+    "name": "BROADCAST_POSITION_REQUEST"
+  },
+  {
+    "ea": "0x14101f240",
+    "name": "BROADCAST_VALID_POSITION_REQUEST"
+  },
+  {
+    "ea": "0x14101f268",
+    "name": "BROADCAST_UPDATE_PLAYERS_POSITION"
+  },
+  {
+    "ea": "0x14101f290",
+    "name": "BROADCAST_UPDATE_PLAYER_STREAM"
+  },
+  {
+    "ea": "0x14101f2b0",
+    "name": "BROADCAST_PLAYER_PUSH_UPDATE"
+  },
+  {
+    "ea": "0x14101f2d0",
+    "name": "BROADCAST_PLAYER_PUSH_COMPLETE"
+  },
+  {
+    "ea": "0x14101f2f0",
+    "name": "BROADCAST_PLAYER_REMOVE"
+  },
+  {
+    "ea": "0x14101f308",
+    "name": "BROADCAST_HORSE_LEVEL_UP_RESPONSE"
+  },
+  {
+    "ea": "0x14101f330",
+    "name": "BROADCAST_EMOTE_REQUEST"
+  },
+  {
+    "ea": "0x14101f348",
+    "name": "BROADCAST_EMOTE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f368",
+    "name": "CHAT_REQUEST"
+  },
+  {
+    "ea": "0x14101f378",
+    "name": "CHAT_RESPONSE"
+  },
+  {
+    "ea": "0x14101f390",
+    "name": "CHAT_SOCIALLY_BLOCKED_ERROR"
+  },
+  {
+    "ea": "0x14101f3b0",
+    "name": "CHAT_REPORT_MESSAGE"
+  },
+  {
+    "ea": "0x14101f3c8",
+    "name": "CHAT_REPORT_MESSAGE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f3e8",
+    "name": "RACE_COMPETITION_UPDATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f410",
+    "name": "RACE_COMPETITION_UPDATE_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101f438",
+    "name": "RACE_COMPETITION_LIST_RESPONSE"
+  },
+  {
+    "ea": "0x14101f458",
+    "name": "RACE_COMPETITION_LIST_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101f480",
+    "name": "RACE_COMPETITION_BEST_SCORE"
+  },
+  {
+    "ea": "0x14101f4a0",
+    "name": "RACE_COMPETITION_BEST_SCORE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f4c8",
+    "name": "RACE_COMPETITION_BEST_SCORE_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101f4f8",
+    "name": "ACTIVITY_START_REQUEST"
+  },
+  {
+    "ea": "0x14101f510",
+    "name": "ACTIVITY_START"
+  },
+  {
+    "ea": "0x14101f520",
+    "name": "ACTIVITY_FINISH_REQUEST"
+  },
+  {
+    "ea": "0x14101f538",
+    "name": "ACTIVITY_FINISH"
+  },
+  {
+    "ea": "0x14101f548",
+    "name": "ACTIVITY_STATE_INIT"
+  },
+  {
+    "ea": "0x14101f560",
+    "name": "ACTIVITY_MEMBER_JOINED"
+  },
+  {
+    "ea": "0x14101f578",
+    "name": "ACTIVITY_PARAMETER_CHANGE_REQUEST"
+  },
+  {
+    "ea": "0x14101f5a0",
+    "name": "ACTIVITY_PARAMETER_CHANGE_ANSWER"
+  },
+  {
+    "ea": "0x14101f5c8",
+    "name": "ACTIVITY_PARAMETER_CHANGED"
+  },
+  {
+    "ea": "0x14101f5e8",
+    "name": "ACTIVITY_SEND_EVENT"
+  },
+  {
+    "ea": "0x14101f600",
+    "name": "ACTIVITY_RECEIVE_EVENT"
+  },
+  {
+    "ea": "0x14101f618",
+    "name": "ACTIVITY_MEMBER_LEFT"
+  },
+  {
+    "ea": "0x14101f630",
+    "name": "ACTIVITY_ABORTED"
+  },
+  {
+    "ea": "0x14101f648",
+    "name": "ACTIVITY_START_RESPONSE"
+  },
+  {
+    "ea": "0x14101f660",
+    "name": "ACTIVITY_TRANSFER_OWNER"
+  },
+  {
+    "ea": "0x14101f678",
+    "name": "ACTIVITY_CREATE_LOBBY"
+  },
+  {
+    "ea": "0x14101f690",
+    "name": "ACTIVITY_CREATE_LOBBY_RESPONSE"
+  },
+  {
+    "ea": "0x14101f6b0",
+    "name": "ACTIVITY_INVITE_REQUEST"
+  },
+  {
+    "ea": "0x14101f6c8",
+    "name": "ACTIVITY_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f6e8",
+    "name": "ACTIVITY_INVITE"
+  },
+  {
+    "ea": "0x14101f6f8",
+    "name": "ACTIVITY_ACCEPT_INVITE"
+  },
+  {
+    "ea": "0x14101f710",
+    "name": "ACTIVITY_MEMBER_LOBBY_LEAVE"
+  },
+  {
+    "ea": "0x14101f730",
+    "name": "ACTIVITY_ACCEPT_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f750",
+    "name": "ACTIVITY_DECLINE_INVITE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f778",
+    "name": "ACTIVITY_LEAVE"
+  },
+  {
+    "ea": "0x14101f788",
+    "name": "ACTIVITY_LOBBY_CLOSED"
+  },
+  {
+    "ea": "0x14101f7a0",
+    "name": "GARDENING_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101f7c0",
+    "name": "GARDENING_FETCH_GARDEN_REQUEST"
+  },
+  {
+    "ea": "0x14101f7e0",
+    "name": "GARDENING_FETCH_GARDEN_RESPONSE"
+  },
+  {
+    "ea": "0x14101f800",
+    "name": "GARDENING_PLANT_ITEM_REQUEST"
+  },
+  {
+    "ea": "0x14101f820",
+    "name": "GARDENING_PLANT_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101f840",
+    "name": "GARDENING_PICK_ITEM_REQUEST"
+  },
+  {
+    "ea": "0x14101f860",
+    "name": "GARDENING_PICK_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101f880",
+    "name": "GARDENING_DESTROY_ITEM_REQUEST"
+  },
+  {
+    "ea": "0x14101f8a0",
+    "name": "GARDENING_DESTROY_ITEM_RESPONSE"
+  },
+  {
+    "ea": "0x14101f8c0",
+    "name": "GARDENING_CREATE_HYBRID_REQUEST"
+  },
+  {
+    "ea": "0x14101f8e0",
+    "name": "GARDENING_CREATE_HYBRID_RESPONSE"
+  },
+  {
+    "ea": "0x14101f908",
+    "name": "GARDENING_FERTILIZE_REQUEST"
+  },
+  {
+    "ea": "0x14101f928",
+    "name": "GARDENING_FERTILIZE_RESPONSE"
+  },
+  {
+    "ea": "0x14101f948",
+    "name": "GARDENING_MODIFY_PARAMETER_REQUEST"
+  },
+  {
+    "ea": "0x14101f970",
+    "name": "GARDENING_MODIFY_PARAMETER_RESPONSE"
+  },
+  {
+    "ea": "0x14101f998",
+    "name": "MY_STABLE_APPLY_CUSTOMIZATION_REQUEST"
+  },
+  {
+    "ea": "0x14101f9c0",
+    "name": "MY_STABLE_APPLY_CUSTOMIZATION_RESPONSE"
+  },
+  {
+    "ea": "0x14101f9e8",
+    "name": "MY_STABLE_JOIN_REQUEST"
+  },
+  {
+    "ea": "0x14101fa00",
+    "name": "MY_STABLE_LEAVE_REQUEST"
+  },
+  {
+    "ea": "0x14101fa18",
+    "name": "MY_STABLE_GET_APPLIED_CUSTOMIZATION_REQUEST"
+  },
+  {
+    "ea": "0x14101fa48",
+    "name": "MY_STABLE_GET_APPLIED_CUSTOMIZATION_RESPONSE"
+  },
+  {
+    "ea": "0x14101fa78",
+    "name": "MY_STABLE_GET_OWNED_CUSTOMIZATION_REQUEST"
+  },
+  {
+    "ea": "0x14101faa8",
+    "name": "MY_STABLE_GET_OWNED_CUSTOMIZATION_RESPONSE"
+  },
+  {
+    "ea": "0x14101fad8",
+    "name": "MY_STABLE_PURCHASE_CUSTOMIZATION_REQUEST"
+  },
+  {
+    "ea": "0x14101fb08",
+    "name": "MY_STABLE_PURCHASE_CUSTOMIZATION_RESPONSE"
+  },
+  {
+    "ea": "0x14101fb38",
+    "name": "PLEDGING_AWARD_POINTS_REQUEST"
+  },
+  {
+    "ea": "0x14101fb58",
+    "name": "PLEDGING_CHOOSE_PLEDGE_REQUEST"
+  },
+  {
+    "ea": "0x14101fb78",
+    "name": "PLEDGING_COMPLETE_HOUSE_REQUEST"
+  },
+  {
+    "ea": "0x14101fb98",
+    "name": "PLEDGING_RESET_HOUSE_REQUEST"
+  },
+  {
+    "ea": "0x14101fbb8",
+    "name": "PLEDGING_UPDATE_PLEDGE_RESPONSE"
+  },
+  {
+    "ea": "0x14101fbd8",
+    "name": "PLEDGING_FETCH_PLEDGE_REQUEST"
+  },
+  {
+    "ea": "0x14101fbf8",
+    "name": "PLEDGING_FETCH_PLEDGE_RESPONSE"
+  },
+  {
+    "ea": "0x14101fc18",
+    "name": "CLIENT_INTEGRITY_CHECK_PING"
+  },
+  {
+    "ea": "0x14101fc38",
+    "name": "CLIENT_INTEGRITY_CHECK_PONG"
+  },
+  {
+    "ea": "0x14101fc58",
+    "name": "FASHION_WEEK_GET_STATE"
+  },
+  {
+    "ea": "0x14101fc70",
+    "name": "FASHION_WEEK_GET_STATE_RESPONSE"
+  },
+  {
+    "ea": "0x14101fc90",
+    "name": "FASHION_WEEK_DAY_TRANSITION_NOTIFICATION"
+  },
+  {
+    "ea": "0x14101fcc0",
+    "name": "FASHION_WEEK_SUBMISSION"
+  },
+  {
+    "ea": "0x14101fcd8",
+    "name": "FASHION_WEEK_SUBMISSION_RESPONSE"
+  },
+  {
+    "ea": "0x14101fd00",
+    "name": "FASHION_WEEK_FETCH_SUBMISSIONS"
+  },
+  {
+    "ea": "0x14101fd20",
+    "name": "FASHION_WEEK_FETCH_SUBMISSIONS_RESPONSE"
+  },
+  {
+    "ea": "0x14101fd48",
+    "name": "FASHION_WEEK_VOTE"
+  },
+  {
+    "ea": "0x14101fd60",
+    "name": "FASHION_WEEK_VOTE_RESPONSE"
+  },
+  {
+    "ea": "0x14101fd80",
+    "name": "FASHION_WEEK_GET_LEADERBOARDS"
+  },
+  {
+    "ea": "0x14101fda0",
+    "name": "FASHION_WEEK_GET_LEADERBOARDS_RESPONSE"
+  },
+  {
+    "ea": "0x14101fdc8",
+    "name": "SHOW_JUMPING_LEADERBOARD_RESPONSE"
+  },
+  {
+    "ea": "0x14101fdf0",
+    "name": "SHOW_JUMPING_LEADERBOARD_ERROR_RESPONSE"
+  },
+  {
+    "ea": "0x14101fe18",
+    "name": "SHOW_JUMPING_PERSONAL_BEST_RESPONSE"
+  },
+  {
+    "ea": "0x14101fe40",
+    "name": "ROUTER_INTERNAL_MESSAGES_START"
+  },
+  {
+    "ea": "0x14101fe60",
+    "name": "ESTABLISH_SECURITY"
+  },
+  {
+    "ea": "0x14101fe78",
+    "name": "CONNECTION_CONNECT"
+  },
+  {
+    "ea": "0x14101fe90",
+    "name": "CONNECTION_CONNECTED"
+  },
+  {
+    "ea": "0x14101fea8",
+    "name": "CONNECTION_DISCONNECT"
+  },
+  {
+    "ea": "0x14101fec0",
+    "name": "NESTED_RECEIVER_MESSAGE"
+  },
+  {
+    "ea": "0x14101fed8",
+    "name": "SESSION_CONNECT"
+  },
+  {
+    "ea": "0x14101fee8",
+    "name": "SESSION_DISCONNECT"
+  },
+  {
+    "ea": "0x14101ff00",
+    "name": "CLIENT_MODULE_CONNECT"
+  },
+  {
+    "ea": "0x14101ff18",
+    "name": "CLIENT_MODULE_DISCONNECT"
+  },
+  {
+    "ea": "0x14101ff38",
+    "name": "CLIENT_HIGH_LATENCY_MODE_ON"
+  },
+  {
+    "ea": "0x14101ff58",
+    "name": "CLIENT_HIGH_LATENCY_MODE_OFF"
+  },
+  {
+    "ea": "0x14101ff78",
+    "name": "CLIENT_LOGIN"
+  },
+  {
+    "ea": "0x14101ff88",
+    "name": "CLIENT_DISCONNECT"
+  },
+  {
+    "ea": "0x14101ffa0",
+    "name": "BROADCAST_LOGIN"
+  },
+  {
+    "ea": "0x14101ffb0",
+    "name": "BROADCAST_PLAYER_PUSH"
+  },
+  {
+    "ea": "0x14101ffc8",
+    "name": "BROADCAST_PLAYER_LOGIN"
+  },
+  {
+    "ea": "0x14101ffe0",
+    "name": "BROADCAST_HORSE_LEVEL_UP"
+  },
+  {
+    "ea": "0x141020000",
+    "name": "BROADCAST_RANGE_CHAT_REQUEST"
+  },
+  {
+    "ea": "0x141020020",
+    "name": "BROADCAST_ADD_RELATION"
+  },
+  {
+    "ea": "0x141020038",
+    "name": "BROADCAST_REMOVE_RELATION"
+  },
+  {
+    "ea": "0x141020058",
+    "name": "BROADCAST_GAME_MASTER_LOGIN"
+  },
+  {
+    "ea": "0x141020078",
+    "name": "BROADCAST_GAME_MASTER_LOGOUT"
+  },
+  {
+    "ea": "0x141020098",
+    "name": "BROADCAST_CHANGE_GRID"
+  },
+  {
+    "ea": "0x1410200b0",
+    "name": "CHAT_PLAYER_LOGIN"
+  },
+  {
+    "ea": "0x1410200c8",
+    "name": "CHAT_PLAYER_LOGOUT"
+  },
+  {
+    "ea": "0x1410200e0",
+    "name": "CHAT_PLAYER_IGNORE"
+  },
+  {
+    "ea": "0x1410200f8",
+    "name": "CHAT_PLAYER_UPDATE_FLAGS"
+  },
+  {
+    "ea": "0x141020118",
+    "name": "CHAT_GROUP_ADD"
+  },
+  {
+    "ea": "0x141020128",
+    "name": "CHAT_GROUP_REMOVE"
+  },
+  {
+    "ea": "0x141020140",
+    "name": "CHAT_GROUP_MEMBER_ADD"
+  },
+  {
+    "ea": "0x141020158",
+    "name": "CHAT_GROUP_MEMBER_REMOVE"
+  },
+  {
+    "ea": "0x141020178",
+    "name": "CHAT_CLUB_ADD"
+  },
+  {
+    "ea": "0x141020188",
+    "name": "CHAT_CLUB_REMOVE"
+  },
+  {
+    "ea": "0x1410201a0",
+    "name": "CHAT_CLUB_MEMBER_ADD"
+  },
+  {
+    "ea": "0x1410201b8",
+    "name": "CHAT_CLUB_MEMBER_REMOVE"
+  },
+  {
+    "ea": "0x1410201d0",
+    "name": "RACE_COMPETITION_UPDATE"
+  },
+  {
+    "ea": "0x1410201e8",
+    "name": "RACE_COMPETITION_LIST"
+  },
+  {
+    "ea": "0x141020200",
+    "name": "RACE_LOGIN"
+  },
+  {
+    "ea": "0x141020210",
+    "name": "RACE_LOGOUT"
+  },
+  {
+    "ea": "0x141020220",
+    "name": "SQS_MESSAGE_PROCESSED"
+  },
+  {
+    "ea": "0x141020238",
+    "name": "SQS_HEARTBEAT_HOURLY"
+  },
+  {
+    "ea": "0x141020250",
+    "name": "SQS_PENDING_STARCOIN_TRANSACTION"
+  },
+  {
+    "ea": "0x141020278",
+    "name": "SQS_S3_EVENT"
+  },
+  {
+    "ea": "0x141020288",
+    "name": "SQS_COMMITTED_STARCOIN_TRANSACTION"
+  },
+  {
+    "ea": "0x1410202b0",
+    "name": "MODULE_TO_PLAYER_IN_SERVER"
+  },
+  {
+    "ea": "0x1410202d0",
+    "name": "MODULE_UPDATE_STAR_COIN_BALANCE"
+  },
+  {
+    "ea": "0x1410202f0",
+    "name": "INTERNAL_DISCONNECT_NETWORK_USER"
+  },
+  {
+    "ea": "0x141020318",
+    "name": "CHARACTER_NAME_CHANGED"
+  },
+  {
+    "ea": "0x141020330",
+    "name": "PLAYER_SOCIAL_LOCK_UPDATE"
+  },
+  {
+    "ea": "0x141020350",
+    "name": "CHARACTER_NAME_CHANGED_EVENT"
+  },
+  {
+    "ea": "0x141020370",
+    "name": "CHARACTER_DELETED_EVENT"
+  },
+  {
+    "ea": "0x141020388",
+    "name": "HORSE_CREATED_EVENT"
+  },
+  {
+    "ea": "0x1410203a0",
+    "name": "CHARACTER_ITEM_DELETED_EVENT"
+  },
+  {
+    "ea": "0x1410203c0",
+    "name": "CLIENT_MODERATION_LOGIN"
+  },
+  {
+    "ea": "0x1410203d8",
+    "name": "SHOW_JUMPING_UPDATE_INTERNAL"
+  },
+  {
+    "ea": "0x1410203f8",
+    "name": "SHOW_JUMPING_LEADERBOARD_REQUEST_INTERNAL"
+  },
+  {
+    "ea": "0x141020428",
+    "name": "SHOW_JUMPING_PERSONAL_BEST_REQUEST_INTERNAL"
+  },
+  {
+    "ea": "0x141020458",
+    "name": "ROUTER_INTERNAL_MESSAGES_END"
+  },
+  {
+    "ea": "0x141020520",
+    "name": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\PXGameServerEncryptedNetworkLayer.cpp"
+  }
+]

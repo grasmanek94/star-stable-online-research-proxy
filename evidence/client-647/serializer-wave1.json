@@ -1,0 +1,294 @@
+[
+  {
+    "rva": "0x1d0a70",
+    "chars": 520
+  },
+  {
+    "rva": "0x218070",
+    "chars": 532
+  },
+  {
+    "rva": "0x2b4880",
+    "chars": 2512
+  },
+  {
+    "rva": "0x2b7cd0",
+    "chars": 277
+  },
+  {
+    "rva": "0x2b82c0",
+    "chars": 1119
+  },
+  {
+    "rva": "0x2b8400",
+    "chars": 3935
+  },
+  {
+    "rva": "0x2b8720",
+    "chars": 1242
+  },
+  {
+    "rva": "0x2b8840",
+    "chars": 559
+  },
+  {
+    "rva": "0x2d2db0",
+    "chars": 391
+  },
+  {
+    "rva": "0x2e7d10",
+    "chars": 1291
+  },
+  {
+    "rva": "0x2ea380",
+    "chars": 1028
+  },
+  {
+    "rva": "0x2ea470",
+    "chars": 803
+  },
+  {
+    "rva": "0x2ea550",
+    "chars": 927
+  },
+  {
+    "rva": "0x2ea660",
+    "chars": 548
+  },
+  {
+    "rva": "0x2ea720",
+    "chars": 1802
+  },
+  {
+    "rva": "0x346840",
+    "chars": 4391
+  },
+  {
+    "rva": "0x346b80",
+    "chars": 1191
+  },
+  {
+    "rva": "0x346d30",
+    "chars": 2293
+  },
+  {
+    "rva": "0x3474b0",
+    "chars": 444
+  },
+  {
+    "rva": "0x347560",
+    "chars": 710
+  },
+  {
+    "rva": "0x3498d0",
+    "chars": 2886
+  },
+  {
+    "rva": "0x349dc0",
+    "chars": 2352
+  },
+  {
+    "rva": "0x3c0940",
+    "chars": 2105
+  },
+  {
+    "rva": "0x3ce360",
+    "chars": 2498
+  },
+  {
+    "rva": "0x44c980",
+    "chars": 561
+  },
+  {
+    "rva": "0x44ced0",
+    "chars": 406
+  },
+  {
+    "rva": "0x44f080",
+    "chars": 2277
+  },
+  {
+    "rva": "0x46d370",
+    "chars": 2659
+  },
+  {
+    "rva": "0x46d530",
+    "chars": 1292
+  },
+  {
+    "rva": "0x46dad0",
+    "chars": 1639
+  },
+  {
+    "rva": "0x46dc30",
+    "chars": 1515
+  },
+  {
+    "rva": "0x46dd60",
+    "chars": 1137
+  },
+  {
+    "rva": "0x47d760",
+    "chars": 3456
+  },
+  {
+    "rva": "0x481b60",
+    "chars": 1501
+  },
+  {
+    "rva": "0x4b0b10",
+    "chars": 2102
+  },
+  {
+    "rva": "0x4fdbb0",
+    "chars": 7841
+  },
+  {
+    "rva": "0x4fe4f0",
+    "chars": 4351
+  },
+  {
+    "rva": "0x4feae0",
+    "chars": 1842
+  },
+  {
+    "rva": "0x51a380",
+    "chars": 2963
+  },
+  {
+    "rva": "0x51aaa0",
+    "chars": 1529
+  },
+  {
+    "rva": "0x51ac20",
+    "chars": 3040
+  },
+  {
+    "rva": "0x51b300",
+    "chars": 2120
+  },
+  {
+    "rva": "0x51f200",
+    "chars": 2594
+  },
+  {
+    "rva": "0x5f1d40",
+    "chars": 219
+  },
+  {
+    "rva": "0x5fd2e0",
+    "chars": 3255
+  },
+  {
+    "rva": "0x736dc0",
+    "chars": 131
+  },
+  {
+    "rva": "0x7a71f0",
+    "chars": 5423
+  },
+  {
+    "rva": "0x7a7da0",
+    "chars": 2025
+  },
+  {
+    "rva": "0x7a8190",
+    "chars": 1209
+  },
+  {
+    "rva": "0x7a87b0",
+    "chars": 2101
+  },
+  {
+    "rva": "0x7a8ea0",
+    "chars": 3137
+  },
+  {
+    "rva": "0x7a9120",
+    "chars": 2083
+  },
+  {
+    "rva": "0x7a92e0",
+    "chars": 1953
+  },
+  {
+    "rva": "0x7aa8f0",
+    "chars": 679
+  },
+  {
+    "rva": "0x7aab40",
+    "chars": 437
+  },
+  {
+    "rva": "0x7aabe0",
+    "chars": 1142
+  },
+  {
+    "rva": "0x7ab190",
+    "chars": 389
+  },
+  {
+    "rva": "0x7ab2a0",
+    "chars": 414
+  },
+  {
+    "rva": "0x7af080",
+    "chars": 2535
+  },
+  {
+    "rva": "0x7af640",
+    "chars": 3513
+  },
+  {
+    "rva": "0x7af880",
+    "chars": 1945
+  },
+  {
+    "rva": "0x7af9f0",
+    "chars": 2736
+  },
+  {
+    "rva": "0x7b9b80",
+    "chars": 734
+  },
+  {
+    "rva": "0x7d5600",
+    "chars": 651
+  },
+  {
+    "rva": "0x7f7890",
+    "chars": 2077
+  },
+  {
+    "rva": "0x7f94c0",
+    "chars": 2068
+  },
+  {
+    "rva": "0x80d7d0",
+    "chars": 2174
+  },
+  {
+    "rva": "0x80d980",
+    "chars": 1328
+  },
+  {
+    "rva": "0xa255b0",
+    "chars": 565
+  },
+  {
+    "rva": "0xa25690",
+    "chars": 158
+  },
+  {
+    "rva": "0xa25890",
+    "chars": 1194
+  },
+  {
+    "rva": "0xa25a20",
+    "chars": 1030
+  },
+  {
+    "rva": "0xa4be90",
+    "chars": 415
+  }
+]

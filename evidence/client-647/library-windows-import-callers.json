@@ -1,0 +1,67 @@
+[
+  {
+    "name": "WinHttpOpenRequest",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "WinHttpQueryHeaders",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "WinHttpOpen",
+    "module": "WINHTTP",
+    "callers": [
+      "0x90a390"
+    ]
+  },
+  {
+    "name": "WinHttpCrackUrl",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "WinHttpCloseHandle",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909b90",
+      "0x909c30",
+      "0x90a310"
+    ]
+  },
+  {
+    "name": "WinHttpReceiveResponse",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "WinHttpSendRequest",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "WinHttpConnect",
+    "module": "WINHTTP",
+    "callers": [
+      "0x909c30"
+    ]
+  },
+  {
+    "name": "InitSecurityInterfaceW",
+    "module": "Secur32",
+    "callers": [
+      "0x965fd0"
+    ]
+  }
+]

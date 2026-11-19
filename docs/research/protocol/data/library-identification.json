@@ -1,0 +1,243 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "research_date": "2026-11-19",
+  "components": [
+    {
+      "name": "libcurl",
+      "role": "HTTP transfers, C API",
+      "status": "confirmed",
+      "compiled_version_fingerprint": "8.23.0 from three DICT templates; not a source-revision guarantee"
+    },
+    {
+      "name": "Schannel / SSPI",
+      "role": "TLS backend on examined curl HTTPS path",
+      "status": "confirmed",
+      "function_rvas": [
+        "0x965fd0",
+        "0x9992a0"
+      ]
+    },
+    {
+      "name": "Sentry Native + WinHTTP",
+      "role": "Separate HTTP telemetry/upload path",
+      "status": "confirmed",
+      "function_rvas": [
+        "0x909aa0",
+        "0x90a390",
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "PXEngine NetSerialize / RpcExecutor / NetworkShared",
+      "role": "Gameplay serialization, RPC, framing, ordering and splitting over Winsock UDP",
+      "status": "engine-specific architecture confirmed; exact provenance of every helper unknown"
+    },
+    {
+      "name": "LZ4 block algorithm",
+      "role": "CompressedBlob inner codec",
+      "status": "format/algorithm identified; exact release and source provenance unconfirmed",
+      "function_rvas": [
+        "0x80d7d0",
+        "0xe6c020"
+      ]
+    },
+    {
+      "name": "RapidJSON",
+      "role": "C++ JSON/schema implementation present; not a general gameplay payload format",
+      "status": "RTTI confirmed; version unknown"
+    },
+    {
+      "name": "MessagePack in Sentry Native / Crashpad",
+      "role": "Crash scope/breadcrumb storage",
+      "status": "confirmed context; exact standalone MessagePack library unconfirmed",
+      "function_rvas": [
+        "0x908120",
+        "0x907fd0",
+        "0x900590"
+      ]
+    }
+  ],
+  "selected_string_evidence": [
+    {
+      "rva": "0xf30408",
+      "text": "Time spent in curl_multi_perform"
+    },
+    {
+      "rva": "0xf30448",
+      "text": "Time spent in curl_multi_poll"
+    },
+    {
+      "rva": "0xf4f150",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\include\\Base/Serialize/NetSerialize/PXNetIntegral.h"
+    },
+    {
+      "rva": "0xf50c80",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\include\\NetworkShared/RPC/PXRpcExecutor.h"
+    },
+    {
+      "rva": "0xf50d10",
+      "text": "PXEngine::RpcExecutor::Bind"
+    },
+    {
+      "rva": "0xf64730",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\include\\Base/Serialize/NetSerialize/PXNetSerializeStd.h"
+    },
+    {
+      "rva": "0x101adc0",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXConnectionManager.cpp"
+    },
+    {
+      "rva": "0x101b480",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXUdpMessageLayer.cpp"
+    },
+    {
+      "rva": "0x101ba90",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXUdpNetworkLayer.cpp"
+    },
+    {
+      "rva": "0x1020520",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\PXGameServerEncryptedNetworkLayer.cpp"
+    },
+    {
+      "rva": "0x1035398",
+      "text": "flushing scope to msgpack failed"
+    },
+    {
+      "rva": "0x10355b0",
+      "text": "flushing breadcrumb to msgpack failed"
+    },
+    {
+      "rva": "0x1054f50",
+      "text": "A requested feature, protocol or option was not found built-in in this libcurl due to a build-time decision."
+    },
+    {
+      "rva": "0x1055468",
+      "text": "A libcurl function was given a bad argument"
+    },
+    {
+      "rva": "0x10554e8",
+      "text": "An unknown option was passed in to libcurl"
+    },
+    {
+      "rva": "0x105c1b8",
+      "text": "schannel: InitializeSecurityContext failed: %s"
+    },
+    {
+      "rva": "0x105eaf0",
+      "text": "schannel"
+    },
+    {
+      "rva": "0x10633b8",
+      "text": "CLIENT libcurl 8.23.0\r\nMATCH %s %s %s\r\nQUIT\r\n"
+    },
+    {
+      "rva": "0x1063428",
+      "text": "CLIENT libcurl 8.23.0\r\nDEFINE %s %s\r\nQUIT\r\n"
+    },
+    {
+      "rva": "0x1063458",
+      "text": "CLIENT libcurl 8.23.0\r\n%s\r\nQUIT\r\n"
+    },
+    {
+      "rva": "0x109ed00",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\src\\Serialize\\NetSerialize\\PXByteStreamWriter.cpp"
+    },
+    {
+      "rva": "0x10a04d0",
+      "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\src\\Serialize\\NetSerialize\\PXByteStreamReader.cpp"
+    },
+    {
+      "rva": "0x1363dc0",
+      "text": ".?AV?$GenericSchemaValidator@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@U?$BaseReaderHandler@U?$UTF8@D@rapidjson@@X@2@VCrtAllocator@2@@rapidjson@@"
+    },
+    {
+      "rva": "0x1363ee0",
+      "text": ".?AV?$ISchemaStateFactory@V?$Schema@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@@internal@rapidjson@@@internal@rapidjson@@"
+    },
+    {
+      "rva": "0x1363fd8",
+      "text": ".?AVISchemaValidator@internal@rapidjson@@"
+    },
+    {
+      "rva": "0x1364020",
+      "text": ".?AV?$IValidationErrorHandler@V?$Schema@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@@internal@rapidjson@@@internal@rapidjson@@"
+    }
+  ],
+  "windows_import_callers": [
+    {
+      "name": "WinHttpOpenRequest",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "WinHttpQueryHeaders",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "WinHttpOpen",
+      "module": "WINHTTP",
+      "callers": [
+        "0x90a390"
+      ]
+    },
+    {
+      "name": "WinHttpCrackUrl",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "WinHttpCloseHandle",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909b90",
+        "0x909c30",
+        "0x90a310"
+      ]
+    },
+    {
+      "name": "WinHttpReceiveResponse",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "WinHttpSendRequest",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "WinHttpConnect",
+      "module": "WINHTTP",
+      "callers": [
+        "0x909c30"
+      ]
+    },
+    {
+      "name": "InitSecurityInterfaceW",
+      "module": "Secur32",
+      "callers": [
+        "0x965fd0"
+      ]
+    }
+  ],
+  "negative_search_note": "No recognizable named-symbol or bounded-string evidence for ENet, RakNet/SLikeNet, Boost.Asio, Protobuf, FlatBuffers, cereal, bitsery, gRPC or GameNetworkingSockets in support of traced gameplay; absence of fingerprints is not whole-binary proof of absence. Boost regex/exception false positives are present.",
+  "evidence_methods": [
+    "bounded whole-database string scan",
+    "IDA named-symbol probe",
+    "import call references",
+    "concrete decompilation",
+    "comparison with primary upstream documentation/source"
+  ],
+  "examples_note": "Synthetic examples and generic APIs; not packet captures, native-source recovery or server-acceptance tests"
+}

@@ -1,0 +1,349 @@
+{
+  "host_offsets_are_not_wire_offsets": true,
+  "PlayerCreateSharedMessage": [
+    {
+      "host_offset": 0,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 4,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 8,
+      "wire": "byte string"
+    },
+    {
+      "host_offset": 40,
+      "wire": "byte string"
+    },
+    {
+      "host_offset": 72,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 76,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 77,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 78,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 79,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 80,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 81,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 82,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 83,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 84,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 88,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 92,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 96,
+      "wire": "map: varu16 count, then repeated [u8 key, varu32 value]"
+    },
+    {
+      "host_offset": 160,
+      "wire": "Vec3"
+    },
+    {
+      "host_offset": 172,
+      "wire": "Normalized4"
+    },
+    {
+      "host_offset": 188,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 192,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 200,
+      "wire": "byte string"
+    },
+    {
+      "host_offset": 232,
+      "wire": "8 raw bytes"
+    },
+    {
+      "host_offset": 240,
+      "wire": "record: varu32, u8, u8"
+    }
+  ],
+  "HorseBase": [
+    {
+      "host_offset": 0,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 8,
+      "wire": "byte string"
+    },
+    {
+      "host_offset": 40,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 44,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 48,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 52,
+      "wire": "Vec3"
+    },
+    {
+      "host_offset": 64,
+      "wire": "Normalized4"
+    },
+    {
+      "host_offset": 80,
+      "wire": "13 raw bytes"
+    },
+    {
+      "host_offset": 96,
+      "wire": "map: varu16 count, then [u8 key, varu32 value]"
+    },
+    {
+      "host_offset": 160,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 164,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 168,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 172,
+      "wire": "zigzag32 through 0x344090"
+    },
+    {
+      "host_offset": 176,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 180,
+      "wire": "zigzag32 through 0x344090"
+    },
+    {
+      "host_offset": 184,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 185,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 186,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 187,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 188,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 189,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 190,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 191,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 192,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 193,
+      "wire": "u8"
+    }
+  ],
+  "HorseCreateMasterMessage": [
+    {
+      "host_offset": 0,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 8,
+      "wire": "byte string"
+    },
+    {
+      "host_offset": 40,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 44,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 48,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 52,
+      "wire": "Vec3"
+    },
+    {
+      "host_offset": 64,
+      "wire": "Normalized4"
+    },
+    {
+      "host_offset": 80,
+      "wire": "13 raw bytes"
+    },
+    {
+      "host_offset": 96,
+      "wire": "map: varu16 count, then [u8 key, varu32 value]"
+    },
+    {
+      "host_offset": 160,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 164,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 168,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 172,
+      "wire": "zigzag32 through 0x344090"
+    },
+    {
+      "host_offset": 176,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 180,
+      "wire": "zigzag32 through 0x344090"
+    },
+    {
+      "host_offset": 184,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 185,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 186,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 187,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 188,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 189,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 190,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 191,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 192,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 193,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 200,
+      "wire": "16 raw bytes"
+    },
+    {
+      "host_offset": 216,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 220,
+      "wire": "varu32"
+    },
+    {
+      "host_offset": 224,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 225,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 226,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 227,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 228,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 229,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 230,
+      "wire": "u8"
+    },
+    {
+      "host_offset": 231,
+      "wire": "u8"
+    }
+  ]
+}

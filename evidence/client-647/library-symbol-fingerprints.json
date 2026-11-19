@@ -1,0 +1,406 @@
+[
+  {
+    "rva": "0x10a89c8",
+    "name": "??_7exception@boost@@6B@"
+  },
+  {
+    "rva": "0x10a89d8",
+    "name": "??_7clone_base@exception_detail@boost@@6B@"
+  },
+  {
+    "rva": "0x10a9230",
+    "name": "??_7regex_error@boost@@6B@"
+  },
+  {
+    "rva": "0x10a95e8",
+    "name": "??_7?$wrapexcept@Vregex_error@boost@@@boost@@6B@"
+  },
+  {
+    "rva": "0x10a9608",
+    "name": "??_7?$wrapexcept@Vregex_error@boost@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x10a9620",
+    "name": "??_7?$wrapexcept@Vregex_error@boost@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x10a97d8",
+    "name": "??_7?$wrapexcept@Vlogic_error@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x10a97f8",
+    "name": "??_7?$wrapexcept@Vlogic_error@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x10a9810",
+    "name": "??_7?$wrapexcept@Vlogic_error@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x10a9820",
+    "name": "??_7?$wrapexcept@Vruntime_error@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x10a9840",
+    "name": "??_7?$wrapexcept@Vruntime_error@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x10a9858",
+    "name": "??_7?$wrapexcept@Vruntime_error@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x10a9940",
+    "name": "??_7?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x10a9968",
+    "name": "??_7?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x10a9988",
+    "name": "??_7?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x10a99a0",
+    "name": "??_7?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x10a9c28",
+    "name": "??_7?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x10aa750",
+    "name": "??_7?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x119cf68",
+    "name": "??_7?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x11d5980",
+    "name": "??_R4exception@boost@@6B@"
+  },
+  {
+    "rva": "0x11d59a8",
+    "name": "??_R3exception@boost@@8"
+  },
+  {
+    "rva": "0x11d59c0",
+    "name": "??_R2exception@boost@@8"
+  },
+  {
+    "rva": "0x11d59d0",
+    "name": "??_R1A@?0A@EA@exception@boost@@8"
+  },
+  {
+    "rva": "0x11d59f8",
+    "name": "??_R4clone_base@exception_detail@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5a20",
+    "name": "??_R3clone_base@exception_detail@boost@@8"
+  },
+  {
+    "rva": "0x11d5a38",
+    "name": "??_R2clone_base@exception_detail@boost@@8"
+  },
+  {
+    "rva": "0x11d5a48",
+    "name": "??_R1A@?0A@EA@clone_base@exception_detail@boost@@8"
+  },
+  {
+    "rva": "0x11d5a70",
+    "name": "??_R4regex_error@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5a98",
+    "name": "??_R3regex_error@boost@@8"
+  },
+  {
+    "rva": "0x11d5ab0",
+    "name": "??_R2regex_error@boost@@8"
+  },
+  {
+    "rva": "0x11d5ad0",
+    "name": "??_R1A@?0A@EA@regex_error@boost@@8"
+  },
+  {
+    "rva": "0x11d5b48",
+    "name": "??_R1CA@?0A@EA@exception@boost@@8"
+  },
+  {
+    "rva": "0x11d5b70",
+    "name": "??_R4?$wrapexcept@Vregex_error@boost@@@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5b98",
+    "name": "??_R3?$wrapexcept@Vregex_error@boost@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5bb0",
+    "name": "??_R2?$wrapexcept@Vregex_error@boost@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5be8",
+    "name": "??_R1A@?0A@EA@?$wrapexcept@Vregex_error@boost@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5c10",
+    "name": "??_R17?0A@EA@regex_error@boost@@8"
+  },
+  {
+    "rva": "0x11d5c38",
+    "name": "??_R1DA@?0A@EA@exception@boost@@8"
+  },
+  {
+    "rva": "0x11d5c60",
+    "name": "??_R4?$wrapexcept@Vregex_error@boost@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x11d5c88",
+    "name": "??_R4?$wrapexcept@Vregex_error@boost@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x11d5cb0",
+    "name": "??_R4?$wrapexcept@Vlogic_error@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5cd8",
+    "name": "??_R3?$wrapexcept@Vlogic_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5cf0",
+    "name": "??_R2?$wrapexcept@Vlogic_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5d20",
+    "name": "??_R1A@?0A@EA@?$wrapexcept@Vlogic_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5d70",
+    "name": "??_R4?$wrapexcept@Vlogic_error@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x11d5d98",
+    "name": "??_R4?$wrapexcept@Vlogic_error@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x11d5dc0",
+    "name": "??_R4?$wrapexcept@Vruntime_error@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5de8",
+    "name": "??_R3?$wrapexcept@Vruntime_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5e00",
+    "name": "??_R2?$wrapexcept@Vruntime_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5e30",
+    "name": "??_R1A@?0A@EA@?$wrapexcept@Vruntime_error@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5e58",
+    "name": "??_R4?$wrapexcept@Vruntime_error@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x11d5e80",
+    "name": "??_R4?$wrapexcept@Vruntime_error@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x11d5f28",
+    "name": "??_R4?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x11d5f50",
+    "name": "??_R3?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d5f68",
+    "name": "??_R2?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d5f80",
+    "name": "??_R1A@?0A@EA@?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d5fa8",
+    "name": "??_R4?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@"
+  },
+  {
+    "rva": "0x11d5fd0",
+    "name": "??_R3?$wrapexcept@Vinvalid_argument@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d5fe8",
+    "name": "??_R2?$wrapexcept@Vinvalid_argument@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d6020",
+    "name": "??_R1A@?0A@EA@?$wrapexcept@Vinvalid_argument@std@@@boost@@8"
+  },
+  {
+    "rva": "0x11d6070",
+    "name": "??_R4?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@_0"
+  },
+  {
+    "rva": "0x11d6098",
+    "name": "??_R4?$wrapexcept@Vinvalid_argument@std@@@boost@@6B@_1"
+  },
+  {
+    "rva": "0x11d60c0",
+    "name": "??_R4?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x11d60e8",
+    "name": "??_R3?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d6100",
+    "name": "??_R2?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d6118",
+    "name": "??_R1A@?0A@EA@?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d6140",
+    "name": "??_R4?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x11d6168",
+    "name": "??_R3?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d6180",
+    "name": "??_R2?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11d6198",
+    "name": "??_R1A@?0A@EA@?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11f6f98",
+    "name": "??_R4?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@6B@"
+  },
+  {
+    "rva": "0x11f6fc0",
+    "name": "??_R3?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11f6fd8",
+    "name": "??_R2?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x11f6ff0",
+    "name": "??_R1A@?0A@EA@?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@8"
+  },
+  {
+    "rva": "0x130aaa8",
+    "name": "__CT??_R0?AVclone_base@exception_detail@boost@@@8_140A6B480"
+  },
+  {
+    "rva": "0x130ab20",
+    "name": "__CT??_R0?AVexception@boost@@@8_140A6B490"
+  },
+  {
+    "rva": "0x130ab48",
+    "name": "__TI6?AU?$wrapexcept@Vregex_error@boost@@@boost@@"
+  },
+  {
+    "rva": "0x130ab68",
+    "name": "__CTA6?AU?$wrapexcept@Vregex_error@boost@@@boost@@"
+  },
+  {
+    "rva": "0x130aba0",
+    "name": "__CT??_R0?AU?$wrapexcept@Vregex_error@boost@@@boost@@@8_140A6B1F0"
+  },
+  {
+    "rva": "0x130abc8",
+    "name": "__CT??_R0?AVregex_error@boost@@@8_140A6B4F0"
+  },
+  {
+    "rva": "0x130abf0",
+    "name": "__CT??_R0?AVexception@boost@@@8_140A6B490_0"
+  },
+  {
+    "rva": "0x130ac18",
+    "name": "__TI5?AU?$wrapexcept@Vlogic_error@std@@@boost@@"
+  },
+  {
+    "rva": "0x130ac38",
+    "name": "__CTA5?AU?$wrapexcept@Vlogic_error@std@@@boost@@"
+  },
+  {
+    "rva": "0x130ac68",
+    "name": "__CT??_R0?AU?$wrapexcept@Vlogic_error@std@@@boost@@@8_140A6B0C0"
+  },
+  {
+    "rva": "0x130acb8",
+    "name": "__TI5?AU?$wrapexcept@Vruntime_error@std@@@boost@@"
+  },
+  {
+    "rva": "0x130acd8",
+    "name": "__CTA5?AU?$wrapexcept@Vruntime_error@std@@@boost@@"
+  },
+  {
+    "rva": "0x130ad08",
+    "name": "__CT??_R0?AU?$wrapexcept@Vruntime_error@std@@@boost@@@8_140A6B350"
+  },
+  {
+    "rva": "0x130ad30",
+    "name": "__TI6?AU?$wrapexcept@Vinvalid_argument@std@@@boost@@"
+  },
+  {
+    "rva": "0x130ad50",
+    "name": "__CTA6?AU?$wrapexcept@Vinvalid_argument@std@@@boost@@"
+  },
+  {
+    "rva": "0x130ad88",
+    "name": "__CT??_R0?AU?$wrapexcept@Vinvalid_argument@std@@@boost@@@8_140A6AF90"
+  },
+  {
+    "rva": "0x1329bd8",
+    "name": "??_R0?AVclone_base@exception_detail@boost@@@8"
+  },
+  {
+    "rva": "0x1329c10",
+    "name": "??_R0?AVexception@boost@@@8"
+  },
+  {
+    "rva": "0x1329c38",
+    "name": "??_R0?AU?$wrapexcept@Vregex_error@boost@@@boost@@@8"
+  },
+  {
+    "rva": "0x1329c78",
+    "name": "??_R0?AVregex_error@boost@@@8"
+  },
+  {
+    "rva": "0x1329ca0",
+    "name": "??_R0?AU?$wrapexcept@Vlogic_error@std@@@boost@@@8"
+  },
+  {
+    "rva": "0x1329ce0",
+    "name": "??_R0?AU?$wrapexcept@Vruntime_error@std@@@boost@@@8"
+  },
+  {
+    "rva": "0x1329d40",
+    "name": "??_R0?AU?$wrapexcept@Vinvalid_argument@std@@@boost@@@8"
+  },
+  {
+    "rva": "0x1365cc0",
+    "name": "??_R0?AV?$_Ref_count@V?$basic_regex_implementation@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@re_detail_500@boost@@@std@@@8"
+  },
+  {
+    "rva": "0x1365d60",
+    "name": "??_R0?AV?$_Ref_count@U?$regex_traits_wrapper@U?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@@8"
+  },
+  {
+    "rva": "0x1365de0",
+    "name": "??_R0?AV?$_Ref_count@V?$w32_regex_traits_implementation@D@re_detail_500@boost@@@std@@@8"
+  },
+  {
+    "rva": "0x1389b90",
+    "name": "??_R0?AV?$_Ref_count@V?$regex_iterator_implementation@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DU?$regex_traits@DV?$w32_regex_traits@D@boost@@@boost@@@boost@@@std@@@8"
+  }
+]

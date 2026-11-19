@@ -1,0 +1,26 @@
+{
+  "captured_utc": "2026-11-15T14:51:19.8689482Z",
+  "pool_records": 476905,
+  "scope": "loaded selected records; not visible or profiled emitters",
+  "allowlisted_engine_names": {
+    "ForestParticles_Day": 37,
+    "GEN_RoadLantern_Glow_01": 456,
+    "Particle_LanternGlow_01_Add": 315,
+    "ForestGoldenParticles": 19,
+    "LanternGlow": 180,
+    "ChimneySmoke": 23,
+    "Dust_Night": 65,
+    "Dust_Day": 64,
+    "Particles_MapleLeaves_A": 83,
+    "GEN_RoadLantern_Glow_1": 36
+  },
+  "generic_examples": {
+    "ParticleSystemEx": 2036,
+    "ParticleSystem": 1158
+  },
+  "cue_examples": {
+    "QuestItemParticleSystem": 107,
+    "ParticleSystemClue": 28,
+    "InteractionSparkles": 17
+  }
+}

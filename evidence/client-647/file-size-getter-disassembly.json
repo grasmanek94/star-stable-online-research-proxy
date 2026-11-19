@@ -1,0 +1,27 @@
+{
+  "rva": "0x6CDD0",
+  "role": "file_size getter passes file handle in RDX before tail-call IO+136",
+  "instructions": [
+    "sub     rsp, 28h",
+    "mov     rdx, [rcx+78h]",
+    "test    rdx, rdx",
+    "jnz     short loc_14006CDE4",
+    "xor     eax, eax",
+    "add     rsp, 28h",
+    "retn",
+    "mov     rcx, [rcx+80h]",
+    "test    rcx, rcx",
+    "jz      short loc_14006CDFE",
+    "mov     rax, [rcx]",
+    "add     rsp, 28h",
+    "jmp     qword ptr [rax+88h]",
+    "lea     rcx, off_140EF9DB8; \"C:\\\\Jenkins\\\\workspace\\\\Code-Integratio\"...",
+    "call    sub_140059CA0",
+    "test    al, al",
+    "jz      short loc_14006CE0F",
+    "int     3; Trap to Debugger",
+    "mov     ecx, 3E7h",
+    "call    sub_1409E29B8",
+    "db 0CCh"
+  ]
+}

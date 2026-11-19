@@ -1,0 +1,152 @@
+[
+  {
+    "category": "viewport",
+    "rva": "0x2413c0",
+    "old_samples": 32,
+    "old_percent": 0.054957322204475585,
+    "new_samples": 25,
+    "new_percent": 0.04127660277048558,
+    "old_sample_ms_per_present": 0.008322496749024707,
+    "new_sample_ms_per_present": 0.004262574595055414
+  },
+  {
+    "category": "grass",
+    "rva": "0x2415d0",
+    "old_samples": 28,
+    "old_percent": 0.04808765692891614,
+    "new_samples": 13,
+    "new_percent": 0.021463833440652502,
+    "old_sample_ms_per_present": 0.007282184655396619,
+    "new_sample_ms_per_present": 0.002216538789428815
+  },
+  {
+    "category": "rain",
+    "rva": "0x2427f0",
+    "old_samples": 0,
+    "old_percent": 0.0,
+    "new_samples": 0,
+    "new_percent": 0.0,
+    "old_sample_ms_per_present": 0.0,
+    "new_sample_ms_per_present": 0.0
+  },
+  {
+    "category": "snow",
+    "rva": "0x243140",
+    "old_samples": 0,
+    "old_percent": 0.0,
+    "new_samples": 0,
+    "new_percent": 0.0,
+    "old_sample_ms_per_present": 0.0,
+    "new_sample_ms_per_present": 0.0
+  },
+  {
+    "category": "flare",
+    "rva": "0x1383f0",
+    "old_samples": 10,
+    "old_percent": 0.01717416318889862,
+    "new_samples": 17,
+    "new_percent": 0.028068089883930194,
+    "old_sample_ms_per_present": 0.002600780234070221,
+    "new_sample_ms_per_present": 0.002898550724637681
+  },
+  {
+    "category": "trail",
+    "rva": "0x136af0",
+    "old_samples": 13,
+    "old_percent": 0.022326412145568207,
+    "new_samples": 25,
+    "new_percent": 0.04127660277048558,
+    "old_sample_ms_per_present": 0.0033810143042912874,
+    "new_sample_ms_per_present": 0.004262574595055414
+  },
+  {
+    "category": "particle",
+    "rva": "0x112970",
+    "old_samples": 120,
+    "old_percent": 0.20608995826678345,
+    "new_samples": 123,
+    "new_percent": 0.20308088563078905,
+    "old_sample_ms_per_present": 0.031209362808842653,
+    "new_sample_ms_per_present": 0.020971867007672635
+  },
+  {
+    "category": "particleEx",
+    "rva": "0x10aec0",
+    "old_samples": 1711,
+    "old_percent": 2.938499321620554,
+    "new_samples": 2526,
+    "new_percent": 4.1705879439298625,
+    "old_sample_ms_per_present": 0.44499349804941485,
+    "new_sample_ms_per_present": 0.43069053708439897
+  },
+  {
+    "category": "particleExCore",
+    "rva": "0x10af80",
+    "old_samples": 687,
+    "old_percent": 1.1798650110773352,
+    "new_samples": 1030,
+    "new_percent": 1.7005960341440058,
+    "old_sample_ms_per_present": 0.1786736020806242,
+    "new_sample_ms_per_present": 0.17561807331628304
+  },
+  {
+    "category": "wholeFrameRenderer-not-shadow-only",
+    "rva": "0x6e79e0",
+    "old_samples": 10641,
+    "old_percent": 18.275027049307024,
+    "new_samples": 13162,
+    "new_percent": 21.731305826605247,
+    "old_sample_ms_per_present": 2.767490247074122,
+    "new_sample_ms_per_present": 2.2441602728047743
+  },
+  {
+    "category": "ShadowMap-actual-pass",
+    "rva": "0x6ed000",
+    "old_samples": 1788,
+    "old_percent": 3.0707403781750733,
+    "new_samples": 335,
+    "new_percent": 0.5531064771245068,
+    "old_sample_ms_per_present": 0.4650195058517555,
+    "new_sample_ms_per_present": 0.05711849957374254
+  },
+  {
+    "category": "Reins-simulate-nodes",
+    "rva": "0x107ba0",
+    "old_samples": 150,
+    "old_percent": 0.2576124478334793,
+    "new_samples": 12,
+    "new_percent": 0.01981276932983308,
+    "old_sample_ms_per_present": 0.03901170351105332,
+    "new_sample_ms_per_present": 0.0020460358056265983
+  },
+  {
+    "category": "Reins-bone-orientation",
+    "rva": "0x107020",
+    "old_samples": 0,
+    "old_percent": 0.0,
+    "new_samples": 0,
+    "new_percent": 0.0,
+    "old_sample_ms_per_present": 0.0,
+    "new_sample_ms_per_present": 0.0
+  },
+  {
+    "category": "Reins-callback-registration",
+    "rva": "0x106e00",
+    "old_samples": 115,
+    "old_percent": 0.19750287667233413,
+    "new_samples": 212,
+    "new_percent": 0.3500255914937177,
+    "old_sample_ms_per_present": 0.02990897269180754,
+    "new_sample_ms_per_present": 0.036146632566069904
+  },
+  {
+    "category": "Reins-animation-callback",
+    "rva": "0x1072c0",
+    "old_samples": 228,
+    "old_percent": 0.39157092070688854,
+    "new_samples": 22,
+    "new_percent": 0.03632341043802731,
+    "old_sample_ms_per_present": 0.05929778933680104,
+    "new_sample_ms_per_present": 0.0037510656436487637
+  }
+]

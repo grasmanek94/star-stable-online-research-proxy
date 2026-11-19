@@ -1,0 +1,949 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "scope": "Focused static body grammar, not a whole-protocol proxy or live compatibility test",
+  "host_offsets_are_not_wire_offsets": true,
+  "schemas": {
+    "Transform": [
+      {
+        "name": "position",
+        "wire": "Vec3"
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4"
+      }
+    ],
+    "Activity": [
+      {
+        "name": "value",
+        "wire": "varu32",
+        "host_offset": 0
+      },
+      {
+        "name": "f4",
+        "wire": "u8",
+        "host_offset": 4
+      },
+      {
+        "name": "f5",
+        "wire": "u8",
+        "host_offset": 5
+      }
+    ],
+    "PlayerShared": [
+      {
+        "name": "player_id",
+        "wire": "varu32",
+        "host_offset": 0
+      },
+      {
+        "name": "user_id",
+        "wire": "varu32",
+        "host_offset": 4
+      },
+      {
+        "name": "name_part_a",
+        "wire": "string",
+        "host_offset": 8
+      },
+      {
+        "name": "name_part_b",
+        "wire": "string",
+        "host_offset": 40
+      },
+      {
+        "name": "f72",
+        "wire": "varu32",
+        "host_offset": 72
+      },
+      {
+        "name": "f76",
+        "wire": "u8",
+        "host_offset": 76
+      },
+      {
+        "name": "f77",
+        "wire": "u8",
+        "host_offset": 77
+      },
+      {
+        "name": "f78",
+        "wire": "u8",
+        "host_offset": 78
+      },
+      {
+        "name": "f79",
+        "wire": "u8",
+        "host_offset": 79
+      },
+      {
+        "name": "f80",
+        "wire": "u8",
+        "host_offset": 80
+      },
+      {
+        "name": "f81",
+        "wire": "u8",
+        "host_offset": 81
+      },
+      {
+        "name": "f82",
+        "wire": "u8",
+        "host_offset": 82
+      },
+      {
+        "name": "f83",
+        "wire": "u8",
+        "host_offset": 83
+      },
+      {
+        "name": "f84",
+        "wire": "u8",
+        "host_offset": 84
+      },
+      {
+        "name": "f88",
+        "wire": "varu32",
+        "host_offset": 88
+      },
+      {
+        "name": "f92",
+        "wire": "varu32",
+        "host_offset": 92
+      },
+      {
+        "name": "equipment",
+        "wire": "equipment_map",
+        "host_offset": 96
+      },
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 160
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 172
+      },
+      {
+        "name": "f188",
+        "wire": "varu32",
+        "host_offset": 188
+      },
+      {
+        "name": "f192",
+        "wire": "varu32",
+        "host_offset": 192
+      },
+      {
+        "name": "f200",
+        "wire": "string",
+        "host_offset": 200
+      },
+      {
+        "name": "look_bytes",
+        "wire": {
+          "kind": "raw",
+          "size": 8
+        },
+        "host_offset": 232
+      },
+      {
+        "name": "activity",
+        "wire": "Activity",
+        "host_offset": 240
+      }
+    ],
+    "HorseBase": [
+      {
+        "name": "horse_id",
+        "wire": "varu32",
+        "host_offset": 0
+      },
+      {
+        "name": "name",
+        "wire": "string",
+        "host_offset": 8
+      },
+      {
+        "name": "owner_player_id",
+        "wire": "varu32",
+        "host_offset": 40
+      },
+      {
+        "name": "f44",
+        "wire": "varu32",
+        "host_offset": 44
+      },
+      {
+        "name": "f48",
+        "wire": "varu32",
+        "host_offset": 48
+      },
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 52
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 64
+      },
+      {
+        "name": "slot_state_bytes",
+        "wire": {
+          "kind": "raw",
+          "size": 13
+        },
+        "host_offset": 80
+      },
+      {
+        "name": "equipment",
+        "wire": "equipment_map",
+        "host_offset": 96
+      },
+      {
+        "name": "f160",
+        "wire": "varu32",
+        "host_offset": 160
+      },
+      {
+        "name": "f164",
+        "wire": "varu32",
+        "host_offset": 164
+      },
+      {
+        "name": "f168",
+        "wire": "varu32",
+        "host_offset": 168
+      },
+      {
+        "name": "f172",
+        "wire": "zigzag32",
+        "host_offset": 172
+      },
+      {
+        "name": "f176",
+        "wire": "varu32",
+        "host_offset": 176
+      },
+      {
+        "name": "f180",
+        "wire": "zigzag32",
+        "host_offset": 180
+      },
+      {
+        "name": "f184",
+        "wire": "u8",
+        "host_offset": 184
+      },
+      {
+        "name": "f185",
+        "wire": "u8",
+        "host_offset": 185
+      },
+      {
+        "name": "f186",
+        "wire": "u8",
+        "host_offset": 186
+      },
+      {
+        "name": "f187",
+        "wire": "u8",
+        "host_offset": 187
+      },
+      {
+        "name": "f188",
+        "wire": "u8",
+        "host_offset": 188
+      },
+      {
+        "name": "f189",
+        "wire": "u8",
+        "host_offset": 189
+      },
+      {
+        "name": "f190",
+        "wire": "u8",
+        "host_offset": 190
+      },
+      {
+        "name": "f191",
+        "wire": "u8",
+        "host_offset": 191
+      },
+      {
+        "name": "f192",
+        "wire": "u8",
+        "host_offset": 192
+      },
+      {
+        "name": "f193",
+        "wire": "u8",
+        "host_offset": 193
+      }
+    ],
+    "HorseMaster": [
+      {
+        "name": "base",
+        "wire": "HorseBase",
+        "host_offset": 0
+      },
+      {
+        "name": "f200",
+        "wire": {
+          "kind": "raw",
+          "size": 16
+        },
+        "host_offset": 200
+      },
+      {
+        "name": "f216",
+        "wire": "varu32",
+        "host_offset": 216
+      },
+      {
+        "name": "f220",
+        "wire": "varu32",
+        "host_offset": 220
+      },
+      {
+        "name": "f224",
+        "wire": "u8",
+        "host_offset": 224
+      },
+      {
+        "name": "f225",
+        "wire": "u8",
+        "host_offset": 225
+      },
+      {
+        "name": "f226",
+        "wire": "u8",
+        "host_offset": 226
+      },
+      {
+        "name": "f227",
+        "wire": "u8",
+        "host_offset": 227
+      },
+      {
+        "name": "f228",
+        "wire": "u8",
+        "host_offset": 228
+      },
+      {
+        "name": "f229",
+        "wire": "u8",
+        "host_offset": 229
+      },
+      {
+        "name": "f230",
+        "wire": "u8",
+        "host_offset": 230
+      },
+      {
+        "name": "f231",
+        "wire": "u8",
+        "host_offset": 231
+      }
+    ],
+    "Movement0": [
+      {
+        "name": "f0",
+        "wire": "u8",
+        "host_offset": 0
+      },
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 4
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 16
+      },
+      {
+        "name": "velocity",
+        "wire": "Vec3",
+        "host_offset": 32
+      },
+      {
+        "name": "f44",
+        "wire": {
+          "kind": "raw",
+          "size": 4
+        },
+        "host_offset": 44
+      },
+      {
+        "name": "f48",
+        "wire": {
+          "kind": "raw",
+          "size": 4
+        },
+        "host_offset": 48
+      },
+      {
+        "name": "f52",
+        "wire": "varu32",
+        "host_offset": 52
+      },
+      {
+        "name": "f56",
+        "wire": {
+          "kind": "optional",
+          "value": "varu32"
+        },
+        "host_offset": 56
+      }
+    ],
+    "Movement1": [
+      {
+        "name": "f0",
+        "wire": "u8",
+        "host_offset": 0
+      },
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 4
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 16
+      },
+      {
+        "name": "velocity",
+        "wire": "Vec3",
+        "host_offset": 32
+      },
+      {
+        "name": "f44",
+        "wire": "Vec3",
+        "host_offset": 44
+      },
+      {
+        "name": "f56",
+        "wire": {
+          "kind": "raw",
+          "size": 4
+        },
+        "host_offset": 56
+      },
+      {
+        "name": "f60",
+        "wire": {
+          "kind": "raw",
+          "size": 4
+        },
+        "host_offset": 60
+      },
+      {
+        "name": "time_or_sequence",
+        "wire": "varu32",
+        "host_offset": 64
+      }
+    ],
+    "PetMotion": [
+      {
+        "name": "position",
+        "wire": "Vec3",
+        "host_offset": 0
+      },
+      {
+        "name": "orientation",
+        "wire": "Normalized4",
+        "host_offset": 12
+      },
+      {
+        "name": "f28",
+        "wire": {
+          "kind": "optional",
+          "value": "varu32"
+        },
+        "host_offset": 28
+      },
+      {
+        "name": "f36",
+        "wire": "u8",
+        "host_offset": 36
+      },
+      {
+        "name": "ground_state",
+        "wire": "u8",
+        "host_offset": 37
+      }
+    ],
+    "PlayerState": [
+      {
+        "name": "actor_mode",
+        "wire": "u8",
+        "host_offset": 0
+      },
+      {
+        "name": "flags1",
+        "wire": "u8",
+        "host_offset": 1
+      },
+      {
+        "name": "flags2",
+        "wire": "u8",
+        "host_offset": 2
+      },
+      {
+        "name": "horse_id",
+        "wire": "varu32",
+        "host_offset": 12
+      },
+      {
+        "name": "transform",
+        "wire": {
+          "kind": "optional",
+          "value": "Transform"
+        },
+        "host_offset": 16
+      },
+      {
+        "name": "movement",
+        "wire": {
+          "kind": "variant",
+          "alternatives": [
+            "Movement0",
+            "Movement1"
+          ]
+        },
+        "host_offset": 48
+      },
+      {
+        "name": "pet_motion",
+        "wire": {
+          "kind": "optional",
+          "value": "PetMotion"
+        },
+        "host_offset": 120
+      },
+      {
+        "name": "flags164",
+        "wire": "u8",
+        "host_offset": 164
+      },
+      {
+        "name": "f168",
+        "wire": "varu32",
+        "host_offset": 168
+      },
+      {
+        "name": "f4",
+        "wire": {
+          "kind": "optional",
+          "value": "varu32"
+        },
+        "host_offset": 4
+      },
+      {
+        "name": "f172",
+        "wire": "varu32",
+        "host_offset": 172
+      }
+    ],
+    "PositionRecord": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "state",
+        "wire": "PlayerState"
+      }
+    ],
+    "RemoteSpawn": [
+      {
+        "name": "prefix_flag",
+        "wire": "u8"
+      },
+      {
+        "name": "prefix_value",
+        "wire": "varu32"
+      },
+      {
+        "name": "player",
+        "wire": "PlayerShared"
+      },
+      {
+        "name": "horse",
+        "wire": "HorseBase"
+      }
+    ],
+    "RemoteRemove": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      }
+    ],
+    "AppearancePair": [
+      {
+        "name": "f0",
+        "wire": "varu32"
+      },
+      {
+        "name": "f4",
+        "wire": "zigzag32"
+      },
+      {
+        "name": "f8",
+        "wire": "varu32"
+      }
+    ],
+    "EquipmentPush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "item_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "owner",
+        "wire": "u8"
+      },
+      {
+        "name": "slot",
+        "wire": "varu32"
+      }
+    ],
+    "PetStatePush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "item_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "owner",
+        "wire": "u8"
+      },
+      {
+        "name": "slot",
+        "wire": "varu32"
+      },
+      {
+        "name": "ground_state",
+        "wire": "u8"
+      }
+    ],
+    "HorseNamePush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "name",
+        "wire": "string"
+      }
+    ],
+    "RemoteActorPush": [
+      {
+        "name": "actor_path",
+        "wire": "string"
+      },
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "argument",
+        "wire": "varu32"
+      }
+    ],
+    "HorseAppearancePush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "horse_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "selector",
+        "wire": "u8"
+      },
+      {
+        "name": "appearance",
+        "wire": {
+          "kind": "optional",
+          "value": {
+            "kind": "array",
+            "value": "AppearancePair",
+            "count": 2
+          }
+        }
+      }
+    ],
+    "HorseEffectPush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "effect_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "horse_id",
+        "wire": "varu32"
+      }
+    ],
+    "PlayerMakeupPush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "makeup",
+        "wire": "u8"
+      }
+    ],
+    "PlayerAppearancePush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "values",
+        "wire": {
+          "kind": "raw",
+          "size": 6
+        }
+      }
+    ],
+    "ActivityPush": [
+      {
+        "name": "player_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "activity",
+        "wire": "Activity"
+      }
+    ],
+    "PetStateRequest": [
+      {
+        "name": "item_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "owner",
+        "wire": "u8"
+      },
+      {
+        "name": "slot",
+        "wire": "varu32"
+      },
+      {
+        "name": "horse_id",
+        "wire": "varu32"
+      },
+      {
+        "name": "ground_state",
+        "wire": "u8"
+      }
+    ],
+    "MasterDecompressed": [
+      {
+        "name": "player",
+        "wire": "PlayerShared",
+        "host_offset": 0
+      },
+      {
+        "name": "f248",
+        "wire": "string",
+        "host_offset": 248
+      },
+      {
+        "name": "f280",
+        "wire": "zigzag32",
+        "host_offset": 280
+      },
+      {
+        "name": "f284",
+        "wire": "zigzag32",
+        "host_offset": 284
+      },
+      {
+        "name": "f288",
+        "wire": "varu32",
+        "host_offset": 288
+      },
+      {
+        "name": "f292",
+        "wire": "varu32",
+        "host_offset": 292
+      },
+      {
+        "name": "f296",
+        "wire": "varu32",
+        "host_offset": 296
+      },
+      {
+        "name": "f300",
+        "wire": "varu32",
+        "host_offset": 300
+      },
+      {
+        "name": "horse",
+        "wire": "HorseMaster",
+        "host_offset": 304
+      },
+      {
+        "name": "f536",
+        "wire": "u8",
+        "host_offset": 536
+      },
+      {
+        "name": "contained_stream",
+        "wire": "blob"
+      }
+    ]
+  },
+  "push284_subtypes": {
+    "1": "EquipmentPush",
+    "2": "PetStatePush",
+    "3": "HorseNamePush",
+    "4": "RemoteActorPush",
+    "5": "HorseMaster",
+    "6": "HorseMaster",
+    "7": "HorseAppearancePush",
+    "8": "HorseEffectPush",
+    "9": "HorseEffectPush",
+    "10": "PlayerMakeupPush",
+    "11": "PlayerAppearancePush",
+    "12": "ActivityPush"
+  },
+  "ordinary_packet_bodies": {
+    "203": "PetStateRequest",
+    "280": [
+      {
+        "name": "state",
+        "wire": "PlayerState"
+      },
+      {
+        "name": "time",
+        "wire": "varu32"
+      }
+    ],
+    "281": [
+      {
+        "name": "state",
+        "wire": "PlayerState"
+      },
+      {
+        "name": "time",
+        "wire": "varu32"
+      }
+    ],
+    "285": "RemoteSpawn",
+    "286": "RemoteRemove",
+    "190": "HorseMaster",
+    "192": "HorseMaster",
+    "187": {
+      "kind": "vector",
+      "value": "HorseMaster",
+      "maximum_count": 16000
+    },
+    "189": {
+      "kind": "vector",
+      "value": "HorseMaster",
+      "maximum_count": 16000
+    },
+    "225": [
+      {
+        "name": "value",
+        "wire": "varu32"
+      },
+      {
+        "name": "horse",
+        "wire": "HorseMaster"
+      },
+      {
+        "name": "value2",
+        "wire": "varu32"
+      }
+    ],
+    "228": [
+      {
+        "name": "value",
+        "wire": "varu32"
+      },
+      {
+        "name": "horse_a",
+        "wire": "HorseMaster"
+      },
+      {
+        "name": "horse_b",
+        "wire": "HorseMaster"
+      }
+    ]
+  },
+  "special_packet_bodies": {
+    "282": "PositionRecord repeated until body EOF; no count",
+    "284": "u8 subtype, then SUBTYPES entry",
+    "master": "MasterDecompressed after outer ID9 decompression"
+  },
+  "reader_rvas": {
+    "PlayerShared": [
+      "0x7aa8f0",
+      "0x7af3d0"
+    ],
+    "HorseBase": [
+      "0x347560",
+      "0x349af0"
+    ],
+    "HorseMaster": [
+      "0x3474b0",
+      "0x349dc0"
+    ],
+    "PlayerState": [
+      "0x80bfe0"
+    ],
+    "Movement0": [
+      "0x80bdb0"
+    ],
+    "Movement1": [
+      "0x80bce0"
+    ],
+    "PetMotion": [
+      "0x80bb90"
+    ],
+    "RemoteSpawn": [
+      "0x7d08d0"
+    ],
+    "RemoteRemove": [
+      "0x7d08d0"
+    ],
+    "PlayerMakeupPush": [
+      "0x7f3e10",
+      "0x80b9f0"
+    ],
+    "PlayerAppearancePush": [
+      "0x7f3e10",
+      "0x80b9f0"
+    ],
+    "MasterDecompressed": [
+      "0x7cb340",
+      "0xa4bf80"
+    ],
+    "PetStateRequest": [
+      "0x2ee9f0"
+    ]
+  }
+}

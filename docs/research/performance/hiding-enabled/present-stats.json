@@ -1,0 +1,16 @@
+{
+  "presents": 5865,
+  "first_seconds": 0.0007920000000000149,
+  "last_seconds": 60.874626,
+  "presents_per_second": 96.33038720708802,
+  "mean_interval_ms": 10.380940313778991,
+  "median_interval_ms": 10.224499999999637,
+  "p95_interval_ms": 11.51354999999832,
+  "p99_interval_ms": 14.720060000002558,
+  "max_interval_ms": 29.41399999999561,
+  "intervals_over_25ms": 6,
+  "intervals_over_50ms": 0,
+  "kernel_present_threads": {
+    "14384": 5865
+  }
+}

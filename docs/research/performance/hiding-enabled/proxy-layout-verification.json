@@ -1,0 +1,15 @@
+{
+  "method": "Full file byte comparison; only PE COFF and debug directory timestamp bytes differ. Every other code/data/relocation/layout byte is identical to the tested reference; its symbol map is applicable.",
+  "actual_sha256": "d652276046c057e5f9307db25a6b6f979fcc0d8c55901f42baa12c969c575bf0",
+  "reference_sha256": "d80f609afd9362202fb372d30990ec1e6ad9309422a45e99d49f1a508b4a6715",
+  "changed_file_offsets": [
+    "0x110",
+    "0x111",
+    "0x24bf4",
+    "0x24bf5"
+  ],
+  "permitted_timestamp_fields": [
+    "0x110",
+    "0x24bf4"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "start_us": 139005,
+  "stop_us": 61015659,
+  "seconds": 60.876654,
+  "reason": "Exclude ETW/WPR stop/merge tail; keep only the foreground play recording requested by the user."
+}

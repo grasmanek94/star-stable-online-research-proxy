@@ -1,0 +1,90 @@
+[
+  {
+    "string_rva": "0xf30408",
+    "direct": [
+      {
+        "from_rva": "0x9a1f9",
+        "function_rva": "0x9a140"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0xf30448",
+    "direct": [
+      {
+        "from_rva": "0x9a2d4",
+        "function_rva": "0x9a140"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0x1035398",
+    "direct": [
+      {
+        "from_rva": "0x908193",
+        "function_rva": "0x908120"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0x10355b0",
+    "direct": [
+      {
+        "from_rva": "0x90806d",
+        "function_rva": "0x907fd0"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0x1035818",
+    "direct": [
+      {
+        "from_rva": "0x909aaa",
+        "function_rva": "0x909aa0"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0x105f970",
+    "direct": [
+      {
+        "from_rva": "0x99971d",
+        "function_rva": "0x9992a0"
+      }
+    ],
+    "context_functions": []
+  },
+  {
+    "string_rva": "0x109f098",
+    "direct": [
+      {
+        "from_rva": "0x109f078",
+        "function_rva": null
+      }
+    ],
+    "context_functions": [
+      "0xa290f0"
+    ]
+  },
+  {
+    "string_rva": "0x109f0d8",
+    "direct": [
+      {
+        "from_rva": "0x109f0b8",
+        "function_rva": null
+      },
+      {
+        "from_rva": "0x109f108",
+        "function_rva": null
+      }
+    ],
+    "context_functions": [
+      "0xa27a50"
+    ]
+  }
+]

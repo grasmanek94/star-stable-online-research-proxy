@@ -1,0 +1,34 @@
+[
+  {
+    "rva": "0x109f000",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\src\\Core\\PXJSon.cpp"
+  },
+  {
+    "rva": "0x109f098",
+    "text": "CPXJson::Insert"
+  },
+  {
+    "rva": "0x109f0d8",
+    "text": "CPXJson::CreateValue"
+  },
+  {
+    "rva": "0x109f0f0",
+    "text": "pJSONValue"
+  },
+  {
+    "rva": "0x1363dc0",
+    "text": ".?AV?$GenericSchemaValidator@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@U?$BaseReaderHandler@U?$UTF8@D@rapidjson@@X@2@VCrtAllocator@2@@rapidjson@@"
+  },
+  {
+    "rva": "0x1363ee0",
+    "text": ".?AV?$ISchemaStateFactory@V?$Schema@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@@internal@rapidjson@@@internal@rapidjson@@"
+  },
+  {
+    "rva": "0x1363fd8",
+    "text": ".?AVISchemaValidator@internal@rapidjson@@"
+  },
+  {
+    "rva": "0x1364020",
+    "text": ".?AV?$IValidationErrorHandler@V?$Schema@V?$GenericSchemaDocument@V?$GenericValue@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@@rapidjson@@VCrtAllocator@2@@rapidjson@@@internal@rapidjson@@@internal@rapidjson@@"
+  }
+]

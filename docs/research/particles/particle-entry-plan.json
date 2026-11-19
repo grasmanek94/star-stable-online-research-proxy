@@ -1,0 +1,12 @@
+{
+  "particleExEntry": {
+    "rva": "0x10aec0",
+    "patch_offset": 0,
+    "patch_rva": "0x10aec0",
+    "target_rva": "0xb3390",
+    "kind": "particle_entry",
+    "patch_length": 5,
+    "window": "48 89 5c 24 08 48 89 74 24 10 57 48 83 ec 30 49 8b f8 48 8b f2 48 8b d9 e8 63 a5 fa ff 4c 8b c0 48 8d 54 24 20 48 8b cb e8 63 17 fc ff f3 0f 10 87 44 01 00 00 f3 0f 10 97 40 01 00 00 f3 0f 10 8f 48 01 00 00 f3 0f 5c 10 f3 0f 5c 40 04 f3 0f 5c 48 08 f3 0f 59 d2 f3 0f 59 c0 f3 0f 59 c9 f3 0f 58 d0 0f 57 c0 f3 0f 58 d1 0f 2e c2 77 09 0f 57 c0 f3 0f 51 c2 eb 08 0f 28 c2 e8 c0 57 8f 00 4c 8b c7 f3 0f 11 83 b8 04 00 00 48 8b d6 48 8b cb e8 2a 00 00 00 4c 8b c7 48 8b d6 48 8b cb 48 8b 5c 24 40 48 8b 74 24 48 48 83 c4 30 5f e9 1d 84 fa ff",
+    "pattern": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 49 8B F8 48 8B F2 48 8B D9 E8 63 A5 FA FF 4C 8B C0 48 8D 54 24 20 48 8B CB E8 63 17 FC FF F3 0F 10 87 44 01 00 00 F3 0F 10 97 40 01 00 00 F3 0F 10 8F 48 01 00 00 F3 0F 5C 10 F3 0F 5C 40 04 F3 0F 5C 48 08 F3 0F 59 D2 F3 0F 59 C0 F3 0F 59 C9 F3 0F 58 D0 0F 57 C0 F3 0F 58 D1 0F 2E C2 77 09 0F 57 C0 F3 0F 51 C2 EB 08 0F 28 C2 E8 C0 57 8F 00 4C 8B C7 F3 0F 11 83 B8 04 00 00 48 8B D6 48 8B CB E8 2A 00 00 00 4C 8B C7 48 8B D6 48 8B CB 48 8B 5C 24 40 48 8B 74 24 48 48 83 C4 30 5F E9 1D 84 FA FF"
+  }
+}

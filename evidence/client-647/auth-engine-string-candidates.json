@@ -1,0 +1,142 @@
+[
+  {
+    "rva": "0x878812",
+    "text": "templateArguments"
+  },
+  {
+    "rva": "0x87893d",
+    "text": "templateArguments"
+  },
+  {
+    "rva": "0xeecef8",
+    "text": "AccessToken"
+  },
+  {
+    "rva": "0xeed078",
+    "text": "NetworkUserName"
+  },
+  {
+    "rva": "0xeed088",
+    "text": "NetworkUserId"
+  },
+  {
+    "rva": "0xeed098",
+    "text": "NetworkTicket"
+  },
+  {
+    "rva": "0xeed158",
+    "text": "LoginQueueToken"
+  },
+  {
+    "rva": "0xeed200",
+    "text": "Invalid format on argument 'MetricsGroup'"
+  },
+  {
+    "rva": "0xeedb50",
+    "text": "Format specifier requires numeric or pointer argument."
+  },
+  {
+    "rva": "0xeedb88",
+    "text": "Format specifier requires numeric argument."
+  },
+  {
+    "rva": "0xeedce0",
+    "text": "Precision not allowed for this argument type."
+  },
+  {
+    "rva": "0xef7b48",
+    "text": "Argument not found."
+  },
+  {
+    "rva": "0xef83f0",
+    "text": "Error when registering command '%s': bad data type for argument %u"
+  },
+  {
+    "rva": "0xefcb10",
+    "text": "m_NrOfArguments <= PX_ARGINDEX_MAX"
+  },
+  {
+    "rva": "0xefcb88",
+    "text": "Command arguments cannot exceed %d"
+  },
+  {
+    "rva": "0xefcdf0",
+    "text": "m_NrOfArguments <= INT_MAX"
+  },
+  {
+    "rva": "0xefcf58",
+    "text": "typeList.size() == m_NrOfArguments"
+  },
+  {
+    "rva": "0xf39978",
+    "text": "arguments.GetNrOfArguments() == 1"
+  },
+  {
+    "rva": "0xf399a0",
+    "text": "SetCurve command must contain exactly 1 (one) argument"
+  },
+  {
+    "rva": "0xf39a68",
+    "text": "SetCurve command argument must be a non-null value pointer"
+  },
+  {
+    "rva": "0xf39b10",
+    "text": "arguments.HasReturnValue()"
+  },
+  {
+    "rva": "0xf39bd8",
+    "text": "SetUseCurve command must contain exactly 1 (one) argument"
+  },
+  {
+    "rva": "0xf39cc0",
+    "text": "SetUseCurve command argument must be a bool"
+  },
+  {
+    "rva": "0xf39e08",
+    "text": "SetGradient command must contain exactly 1 (one) argument"
+  },
+  {
+    "rva": "0xf39fa8",
+    "text": "SetUseGradient command must contain exactly 1 (one) argument"
+  },
+  {
+    "rva": "0xf3a058",
+    "text": "SetUseGradient command argument must be a bool"
+  },
+  {
+    "rva": "0xf3a1a0",
+    "text": "SetParticleSystemSettingsBool command must contain exactly 1 (one) argument"
+  },
+  {
+    "rva": "0xf3a268",
+    "text": "SetParticleSystemSettingsBool command argument must be a bool"
+  },
+  {
+    "rva": "0xf3db50",
+    "text": "textPassword"
+  },
+  {
+    "rva": "0x1093f38",
+    "text": "Invalid argument"
+  },
+  {
+    "rva": "0x10a1738",
+    "text": "Can't pass ColorAttachmentSlot::Count as an argument"
+  },
+  {
+    "rva": "0x10a4d90",
+    "text": "Invalid texture unit argument! Must be between GL_TEXTURE0 and GL_TEXTURE0 + %hhu"
+  },
+  {
+    "rva": "0x10af788",
+    "text": "Must send at least one argument that's not nullopt"
+  },
+  {
+    "rva": "0x10af7f0",
+    "text": "`anonymous-namespace'::KillProgramIfInvalidTessellationArguments"
+  },
+  {
+    "rva": "0x10af860",
+    "text": "validTessellationArguments"
+  }
+]

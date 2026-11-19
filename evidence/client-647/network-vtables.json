@@ -1,0 +1,542 @@
+[
+  {
+    "rva": "0xf4b618",
+    "name": "??_7ByteStreamWriter@PXEngine@@6B@",
+    "methods": [
+      "0x1d5840",
+      "0x1a530",
+      "0x1f6c10",
+      "0xeefe80",
+      "0xf4b658",
+      "0xf4b680",
+      "-0x13ffffffe",
+      "-0x13ffffe04",
+      "0x4d6e696a13585043",
+      "0x74655338fa687365",
+      "0x6873654c2e696b53",
+      "0x656c426028706c41"
+    ]
+  },
+  {
+    "rva": "0xf50be8",
+    "name": "??_7?$_Func_impl_no_alloc@P6A_NW4PX_NETWORK_MESSAGES@@AEAVByteStreamWriter@PXEngine@@@ZXW41@AEAV23@@std@@6B@",
+    "methods": [
+      "0x210710",
+      "0x210710",
+      "0x210730",
+      "0x210ac0",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11a8968",
+      "0x2106f0",
+      "0x2106f0",
+      "0x210730",
+      "0x210ab0",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0xf50c20",
+    "name": "??_7?$_Func_impl_no_alloc@P6AXW4PX_NETWORK_MESSAGES@@AEAVByteStreamWriter@PXEngine@@@ZXW41@AEAV23@@std@@6B@",
+    "methods": [
+      "0x2106f0",
+      "0x2106f0",
+      "0x210730",
+      "0x210ab0",
+      "0x1ab40",
+      "0x1ae90",
+      "0xf50c80",
+      "0xf50d10",
+      "0xf50d30",
+      "-0x13ffffff8",
+      "-0x13fffffb6",
+      "-0x140000000"
+    ]
+  },
+  {
+    "rva": "0xf9e398",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_4__@?0???0ActivityManager@PXEngine@@QEAA@XZ@XW4PX_NETWORK_MESSAGES@@AEAVByteStreamWriter@3@@std@@6B@",
+    "methods": [
+      "0x475da0",
+      "0x475da0",
+      "0x475dc0",
+      "0x475fe0",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11b4b80",
+      "0x475db0",
+      "0x475db0",
+      "0x475ea0",
+      "0x475ff0",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0xf9e3d0",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_5__@?0???0ActivityManager@PXEngine@@QEAA@XZ@XW4PX_NETWORK_MESSAGES@@AEAVByteStreamWriter@3@@std@@6B@",
+    "methods": [
+      "0x475db0",
+      "0x475db0",
+      "0x475ea0",
+      "0x475ff0",
+      "0x1ab40",
+      "0x1ae90",
+      "0xf50c80",
+      "0xf50d10",
+      "0xf50d30",
+      "-0x13ffffff8",
+      "-0x13fffffb6",
+      "0xf50c80"
+    ]
+  },
+  {
+    "rva": "0xfb1950",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_1_@?4??PreCalculate@PledgeManager@PXEngine@@UEAAXAEBVActorContext@4@@Z@XAEAVByteStreamReader@4@@std@@6B@",
+    "methods": [
+      "0x4e3c60",
+      "0x4e3c60",
+      "0x4e3ca0",
+      "0x4e3cd0",
+      "0x12e870",
+      "0x1ae90",
+      "0x11b78d0",
+      "0x4e3c80",
+      "0x4e3c80",
+      "0x4e3ca0",
+      "0x4e3ce0",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0xfb1988",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_2_@?4??PreCalculate@PledgeManager@PXEngine@@UEAAXAEBVActorContext@4@@Z@XAEAVByteStreamReader@4@@std@@6B@",
+    "methods": [
+      "0x4e3c80",
+      "0x4e3c80",
+      "0x4e3ca0",
+      "0x4e3ce0",
+      "0x12e870",
+      "0x1ae90",
+      "0xf64730",
+      "0xf647c0",
+      "0xf647e0",
+      "-0x13ffffffe",
+      "-0x13fffffa4",
+      "0xf64730"
+    ]
+  },
+  {
+    "rva": "0x1002b80",
+    "name": "??_7ByteStreamReader@PXEngine@@6B@",
+    "methods": [
+      "0x19e10",
+      "0x1a520",
+      "0x736dc0",
+      "0x11c2498",
+      "0x736ec0",
+      "0x736ec0",
+      "0x736ee0",
+      "0x736f00",
+      "0x1ab40",
+      "0x1ae90",
+      "-0x13fffd6d8",
+      "0x73656971346e6520"
+    ]
+  },
+  {
+    "rva": "0x101ad60",
+    "name": "??_7ConnectionManager@PXEngine@@6B@",
+    "methods": [
+      "0x8040b0",
+      "0x8042b0",
+      "0x805190",
+      "0x8051f0",
+      "0x804f10",
+      "0x804ee0",
+      "0x619340",
+      "0x101adc0",
+      "0x101ae50",
+      "0x101ae80",
+      "-0x13ffffff8",
+      "-0x13fffffb8"
+    ]
+  },
+  {
+    "rva": "0x101b120",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_1_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@PEBW4byte@std@@I@std@@6B@",
+    "methods": [
+      "0x805240",
+      "0x805240",
+      "0x805360",
+      "0x805900",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8c28",
+      "0x805280",
+      "0x805280",
+      "0x8054c0",
+      "0x805920",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b158",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_2_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@VReceivedMessage@4@@std@@6B@",
+    "methods": [
+      "0x805280",
+      "0x805280",
+      "0x8054c0",
+      "0x805920",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8ca8",
+      "0x805300",
+      "0x805300",
+      "0x8057b0",
+      "0x805960",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b190",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_6_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XVReceivedPacket@4@@std@@6B@",
+    "methods": [
+      "0x805300",
+      "0x805300",
+      "0x8057b0",
+      "0x805960",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8d28",
+      "0x805320",
+      "0x805320",
+      "0x805830",
+      "0x805970",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b1c8",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_7_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XVSendingMessage@4@@std@@6B@",
+    "methods": [
+      "0x805320",
+      "0x805320",
+      "0x805830",
+      "0x805970",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8da8",
+      "0x805340",
+      "0x805340",
+      "0x8058f0",
+      "0x805980",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b200",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_8_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEBUReceiveData@4@@std@@6B@",
+    "methods": [
+      "0x805340",
+      "0x805340",
+      "0x8058f0",
+      "0x805980",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8e28",
+      "0x805260",
+      "0x805260",
+      "0x8053e0",
+      "0x805910",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x101b238",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_1_@?3??RunStatusThread@ConnectionManager@PXEngine@@AEAAXXZ@X$$V@std@@6B@",
+    "methods": [
+      "0x805260",
+      "0x805260",
+      "0x8053e0",
+      "0x805910",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c8ea8",
+      "0x8052a0",
+      "0x8052a0",
+      "0x805560",
+      "0x805930",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b270",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_3_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@VReceivedPacket@4@@std@@6B@",
+    "methods": [
+      "0x8052a0",
+      "0x8052a0",
+      "0x805560",
+      "0x805930",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8f28",
+      "0x8052c0",
+      "0x8052c0",
+      "0x805610",
+      "0x805940",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b2a8",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_4_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@AEAVSendingMessage@4@@std@@6B@",
+    "methods": [
+      "0x8052c0",
+      "0x8052c0",
+      "0x805610",
+      "0x805940",
+      "0x1ab40",
+      "0x1ae90",
+      "0x11c8fa8",
+      "0x8052e0",
+      "0x8052e0",
+      "0x8056a0",
+      "0x805950",
+      "0x1ab40"
+    ]
+  },
+  {
+    "rva": "0x101b2e0",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_5_@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@_NAEAVNetworkEndpoint@4@V?$duration@IU?$ratio@$00$0DOI@@std@@@chrono@std@@AEBUStatusUpdateParameters@4@@std@@6B@",
+    "methods": [
+      "0x8052e0",
+      "0x8052e0",
+      "0x8056a0",
+      "0x805950",
+      "0x1ab40",
+      "0x1ae90",
+      "0x6261696b25527349",
+      "-0x116d79a94",
+      "0x1018f60",
+      "0x101b348",
+      "0x101b310",
+      "-0x13ffffffe"
+    ]
+  },
+  {
+    "rva": "0x101b3f0",
+    "name": "??_7UdpMessageLayer@PXEngine@@6B@",
+    "methods": [
+      "0x808b60",
+      "0x808c10",
+      "0x808e80",
+      "0x809050",
+      "0x80a170",
+      "0x80a020",
+      "0x8091a0",
+      "0x809f50",
+      "0x808d50",
+      "0x11c90f8",
+      "0x19e10",
+      "0x1a530"
+    ]
+  },
+  {
+    "rva": "0x101b440",
+    "name": "??_7PreallocatedByteStreamWriter@PXEngine@@6B@",
+    "methods": [
+      "0x19e10",
+      "0x1a530",
+      "0x80a160",
+      "0x101b480",
+      "0x101b510",
+      "0xeec5c5",
+      "-0x13ffffff0",
+      "-0x13fffff82",
+      "0x696b6e640a5c3a43",
+      "0x736b726e375c736e",
+      "0x646f435b25636170",
+      "0x726765732e492d65"
+    ]
+  },
+  {
+    "rva": "0x101ba28",
+    "name": "??_7UdpNetworkLayer@PXEngine@@6B@",
+    "methods": [
+      "0x80ac50",
+      "0x80ad10",
+      "0x80b420",
+      "0x80afd0",
+      "0x80b890",
+      "0x80afb0",
+      "0x80b750",
+      "0x80afc0",
+      "0x101ba90",
+      "0x101bb20",
+      "0xeec5c5",
+      "-0x13ffffff0"
+    ]
+  },
+  {
+    "rva": "0x10204a0",
+    "name": "??_7GameServerEncryptedNetworkLayer@PXEngine@@6B@",
+    "methods": [
+      "0x80db30",
+      "0x80dbe0",
+      "0x80e160",
+      "0x80dee0",
+      "0x80e300",
+      "0x80dbf0",
+      "0x80e170",
+      "0x80ddf0",
+      "0x80e2a0",
+      "0x70a070",
+      "0x1020520",
+      "0x10205b0"
+    ]
+  },
+  {
+    "rva": "0x10207e0",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_1_@?1??Launch@GameServerEncryptedNetworkLayer@PXEngine@@UEAAXV?$function@$$A6AXAEBUReceiveData@PXEngine@@@Z@std@@@Z@XAEBUReceiveData@4@@std@@6B@",
+    "methods": [
+      "0x80e310",
+      "0x80e310",
+      "0x80e330",
+      "0x80e3a0",
+      "0x1ab40",
+      "0x1ae90",
+      "-0x140000000",
+      "-0x140000000",
+      "-0x140000000",
+      "0x11c9428",
+      "0x80e740",
+      "0x793640"
+    ]
+  },
+  {
+    "rva": "0x10258c0",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_1_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fbd0",
+      "0x82fbd0",
+      "0x82fcb0",
+      "0x82fcc0",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9d18",
+      "0x82fbf0",
+      "0x82fbf0",
+      "0x82fcb0",
+      "0x82fcd0",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x10258f8",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_2_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fbf0",
+      "0x82fbf0",
+      "0x82fcb0",
+      "0x82fcd0",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9d98",
+      "0x82fc10",
+      "0x82fc10",
+      "0x82fcb0",
+      "0x82fce0",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x1025930",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_3_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fc10",
+      "0x82fc10",
+      "0x82fcb0",
+      "0x82fce0",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9e18",
+      "0x82fc30",
+      "0x82fc30",
+      "0x82fcb0",
+      "0x82fcf0",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x1025968",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_4_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fc30",
+      "0x82fc30",
+      "0x82fcb0",
+      "0x82fcf0",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9e98",
+      "0x82fc50",
+      "0x82fc50",
+      "0x82fcb0",
+      "0x82fd00",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x10259a0",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_5_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fc50",
+      "0x82fc50",
+      "0x82fcb0",
+      "0x82fd00",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9f18",
+      "0x82fc70",
+      "0x82fc70",
+      "0x82fcb0",
+      "0x82fd10",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x10259d8",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_6_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fc70",
+      "0x82fc70",
+      "0x82fcb0",
+      "0x82fd10",
+      "0x12e870",
+      "0x1ae90",
+      "0x11c9f98",
+      "0x82fc90",
+      "0x82fc90",
+      "0x82fcb0",
+      "0x82fd20",
+      "0x12e870"
+    ]
+  },
+  {
+    "rva": "0x1025a10",
+    "name": "??_7?$_Func_impl_no_alloc@V_lambda_7_@?BK@??PreCalculate@GardenCentre@@UEAAXAEBVActorContext@PXEngine@@@Z@XAEAVByteStreamReader@5@@std@@6B@",
+    "methods": [
+      "0x82fc90",
+      "0x82fc90",
+      "0x82fcb0",
+      "0x82fd20",
+      "0x12e870",
+      "0x1ae90",
+      "0xf64730",
+      "0xf647c0",
+      "0xf647e0",
+      "-0x13ffffffe",
+      "-0x13fffffa4",
+      "0xf64730"
+    ]
+  }
+]

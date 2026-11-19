@@ -1,0 +1,65 @@
+{
+  "project_version": "1.1.0",
+  "platform": "Windows x64",
+  "toolchain": "MSVC 19.51.36252.0, Visual Studio 2026, SDK 10.0.26100.0",
+  "cmake": "4.5.0-rc1",
+  "builds": {
+    "Release": {
+      "dll_sha256": "d80f609afd9362202fb372d30990ec1e6ad9309422a45e99d49f1a508b4a6715",
+      "dll_bytes": 188928,
+      "config_rva": "0x5e9e0",
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ],
+      "native_runtime_cases": 16,
+      "opengl_exports": 368,
+      "classifier_cases": 81,
+      "assembly_wrapper_cases": 144,
+      "assembly_forwarder_cases": 12,
+      "ctest_suites_passed": 5
+    },
+    "Debug": {
+      "dll_sha256": "cdd310d5002d1b078dc7cdfde891bd657fee855a5ba917f8c49ae529fb2731f1",
+      "dll_bytes": 1009664,
+      "config_rva": "0x11fa60",
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ],
+      "native_runtime_cases": 16,
+      "opengl_exports": 368,
+      "classifier_cases": 81,
+      "assembly_wrapper_cases": 144,
+      "assembly_forwarder_cases": 12,
+      "ctest_suites_passed": 5
+    },
+    "RelWithDebInfo": {
+      "dll_sha256": "fc3ac8c9c2cb28bef2d12c6e893c28684a8df9c85da4c4ca49b8b280d0103bf6",
+      "dll_bytes": 189952,
+      "config_rva": "0x5e9e0",
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll"
+      ],
+      "native_runtime_cases": 16,
+      "opengl_exports": 368,
+      "classifier_cases": 81,
+      "assembly_wrapper_cases": 144,
+      "assembly_forwarder_cases": 12,
+      "ctest_suites_passed": 5
+    }
+  },
+  "portability_checks": {
+    "extracted_source_zip_in_path_with_spaces": "pass",
+    "Python_explicitly_disabled_native_build_and_tests": "pass",
+    "Cheat_Engine_build_or_runtime_dependency": false,
+    "Ninja_Release_build_and_4_CTest_suites": "pass",
+    "CTest_helpers_only_no_game_process_access": true
+  },
+  "not_validated": [
+    "Live proxy gameplay / FPS",
+    "VS 2022 (presets and CI workflow supplied, local installation is VS 2026)",
+    "GitHub Actions remote run"
+  ]
+}

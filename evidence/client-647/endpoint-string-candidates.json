@@ -1,0 +1,22 @@
+[
+  {
+    "rva": "0xfff728",
+    "text": "https://2db44162a1ce4acb9c69ae99005b7fc0@sentry.io/1474641",
+    "references": [
+      {
+        "from_rva": "0x7210bc",
+        "function_rva": "0x720ef0"
+      }
+    ]
+  },
+  {
+    "rva": "0xfff768",
+    "text": "https://d6899ca5bc3f402ca4ccac66d43e3555@sentry.io/1474641",
+    "references": [
+      {
+        "from_rva": "0x7210c5",
+        "function_rva": "0x720ef0"
+      }
+    ]
+  }
+]

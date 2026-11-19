@@ -1,0 +1,7 @@
+{
+  "checked_input_sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "id_jump_table_entries": 436,
+  "rpc_id_words_and_vtable_slots": 175,
+  "errors": [],
+  "method": "Read source ID jump table, exact NUL-terminated name bytes, method-ID uint16 words and HandlerStub vtable slot1 with IDA; see JOURNAL.md."
+}

@@ -1,0 +1,23 @@
+Number of Processors : 24
+CPU Speed            : 3686 MHz
+OS Version           : 10.00.00.00
+OS Build Number      : 19045
+Clock type           : PerfCounter
+Boot time            : 2026/11/14:22:49:37.5000000
+Native Pointer Size  : 8 (64bit)
+Start time (UTC)     : 2026/11/15:14:23:18.5798543
+End time (UTC)       : 2026/11/15:14:24:40.1294356  (+         0:00:01:21.5495813)
+Total # Lost Buffers : 0
+Total # Lost Events  : 0
+
+Number of Traces     : 1
+
+Trace name: C:\Users\Rafal\Documents\Codex\2026-11-15\tr\outputs\hiding-enabled\starstable-hiding-enabled.etl
+    Log file mode        : Sequential Relogged
+    Pointer size         : 8 (64bit)
+    Start time (UTC)     : 2026/11/15:14:23:18.5798543
+    End time (UTC)       : 2026/11/15:14:24:40.1294356  (+         0:00:01:21.5495813)
+    Start time (Local)   : 2026/11/15:15:23:18.5798543
+    End time (Local)     : 2026/11/15:15:24:40.1294356
+    # Lost Buffers       : 0
+    # Lost Events        : 0

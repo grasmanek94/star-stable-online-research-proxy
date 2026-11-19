@@ -1,0 +1,1214 @@
+[
+  {
+    "ea": "0x140f45bc0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\include\\NetworkClient/PXPlayerTPNet.h"
+  },
+  {
+    "ea": "0x140f4f150",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\include\\Base/Serialize/NetSerialize/PXNetIntegral.h"
+  },
+  {
+    "ea": "0x140f50c80",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\include\\NetworkShared/RPC/PXRpcExecutor.h"
+  },
+  {
+    "ea": "0x140f61990",
+    "text": "PXEngine::SafeActorPtrAs<class CPXNetwork>::GetValidated"
+  },
+  {
+    "ea": "0x140f64730",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\include\\Base/Serialize/NetSerialize/PXNetSerializeStd.h"
+  },
+  {
+    "ea": "0x140f6cd08",
+    "text": "Serialize GameServerMessages::UnstackItem!"
+  },
+  {
+    "ea": "0x140f6e9b8",
+    "text": "Serialize GameServerMessages::MailAttachedRewardItem!"
+  },
+  {
+    "ea": "0x140f6ea98",
+    "text": "Serialize GameServerMessages::BuyHorseName!"
+  },
+  {
+    "ea": "0x140f71650",
+    "text": "No CPXNetwork Instance"
+  },
+  {
+    "ea": "0x140f77968",
+    "text": "CPXNetwork is null!"
+  },
+  {
+    "ea": "0x140f90360",
+    "text": "TestSet: Missing Network connection when initializing game."
+  },
+  {
+    "ea": "0x140f90878",
+    "text": "conditionMessage"
+  },
+  {
+    "ea": "0x140f934a0",
+    "text": "CPXDailyRandom can't run without network connection."
+  },
+  {
+    "ea": "0x140f99d30",
+    "text": "PermissionSendMessagesCheckBox"
+  },
+  {
+    "ea": "0x140f9e0e0",
+    "text": "lobbyInfo.has_value() && response == ClientMessages::LOBBY_CREATE_RESPONSE::OK"
+  },
+  {
+    "ea": "0x140fa7c70",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\Base\\include\\Base/Serialize/PXSerializeStd.h"
+  },
+  {
+    "ea": "0x140fd9e40",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\include\\NetworkShared/Enums/PXPlayerLookType.h"
+  },
+  {
+    "ea": "0x14100d4b0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXPlayerTPNet.cpp"
+  },
+  {
+    "ea": "0x1410102c0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXNetwork.cpp"
+  },
+  {
+    "ea": "0x141010338",
+    "text": "CPXNetwork::CreateClassObject"
+  },
+  {
+    "ea": "0x141010358",
+    "text": "GetNetworkLoginServerAddress"
+  },
+  {
+    "ea": "0x141010378",
+    "text": "NetworkLoginServerUsername"
+  },
+  {
+    "ea": "0x141010398",
+    "text": "SetNetworkLoginServerReleaseVersion"
+  },
+  {
+    "ea": "0x1410103c0",
+    "text": "NetworkLoginServerDayOfWeek"
+  },
+  {
+    "ea": "0x1410103e0",
+    "text": "NetworkLoginServerClientUsername"
+  },
+  {
+    "ea": "0x141010428",
+    "text": "GetNetworkLoginServerNeedLoginInfo"
+  },
+  {
+    "ea": "0x141010490",
+    "text": "GetNetworkDisconnectReasonMessage"
+  },
+  {
+    "ea": "0x141010588",
+    "text": "NetworkLoginServerConnect"
+  },
+  {
+    "ea": "0x1410105a8",
+    "text": "NetworkLoginServerDisconnect"
+  },
+  {
+    "ea": "0x1410105c8",
+    "text": "NetworkLoginServerLogin"
+  },
+  {
+    "ea": "0x141010e00",
+    "text": "OnNetworkLoginServerConnect"
+  },
+  {
+    "ea": "0x141010e20",
+    "text": "OnNetworkLoginServerConnectError"
+  },
+  {
+    "ea": "0x141010e48",
+    "text": "OnNetworkLoginServerConnectSuccess"
+  },
+  {
+    "ea": "0x141010e70",
+    "text": "OnNetworkLoginServerDisconnect"
+  },
+  {
+    "ea": "0x141010e90",
+    "text": "OnNetworkLoginServerDisconnectError"
+  },
+  {
+    "ea": "0x141010eb8",
+    "text": "OnNetworkLoginServerDisconnectSuccess"
+  },
+  {
+    "ea": "0x141010ee0",
+    "text": "OnNetworkLoginServerDisconnected"
+  },
+  {
+    "ea": "0x141010f08",
+    "text": "OnNetworkLoginServerLogin"
+  },
+  {
+    "ea": "0x141010f28",
+    "text": "OnNetworkLoginServerLoginError"
+  },
+  {
+    "ea": "0x141010f48",
+    "text": "OnNetworkLoginServerLoginSuccess"
+  },
+  {
+    "ea": "0x1410111a0",
+    "text": "CPXNetwork::PostCopy"
+  },
+  {
+    "ea": "0x141011458",
+    "text": "CPXNetwork::OnCommand"
+  },
+  {
+    "ea": "0x141011660",
+    "text": "CPXNetwork::PlayerCreateMaster"
+  },
+  {
+    "ea": "0x141011a80",
+    "text": "Equipment Manager is not available in PXNetwork::PlayerCreateMaster"
+  },
+  {
+    "ea": "0x141011be0",
+    "text": "CPXNetwork::PlayerCreateSlave"
+  },
+  {
+    "ea": "0x141011d00",
+    "text": "Equipment Manager is not available in PXNetwork::PlayerCreateSlave"
+  },
+  {
+    "ea": "0x141011d90",
+    "text": "CPXNetwork::ReceivePlayerEquipPush"
+  },
+  {
+    "ea": "0x141011e38",
+    "text": "CPXNetwork::ReceivePetStateChangePush"
+  },
+  {
+    "ea": "0x141011ec0",
+    "text": "CPXNetwork::ReceiveRemoteStartActorPush"
+  },
+  {
+    "ea": "0x1410122c8",
+    "text": "CPXNetwork::OnGroupMemberInviteResponse"
+  },
+  {
+    "ea": "0x1410124c8",
+    "text": "CPXNetwork::OnGroupMemberJoinResponse"
+  },
+  {
+    "ea": "0x141012738",
+    "text": "CPXNetwork::OnGroupChallengeEndNotify"
+  },
+  {
+    "ea": "0x1410128c8",
+    "text": "CPXNetwork::OnCharacterNameChanged"
+  },
+  {
+    "ea": "0x1410129b0",
+    "text": "CPXNetwork::Process"
+  },
+  {
+    "ea": "0x141012aa8",
+    "text": "CPXNetwork::GetFriendViewData"
+  },
+  {
+    "ea": "0x141012af0",
+    "text": "CPXNetwork::GetFriendViewData::<lambda_2>::operator ()"
+  },
+  {
+    "ea": "0x141012ba0",
+    "text": "CPXNetwork::GetFriendViewData::<lambda_4>::operator ()"
+  },
+  {
+    "ea": "0x141012c58",
+    "text": "CPXNetwork::GetFriendViewData::<lambda_6>::operator ()"
+  },
+  {
+    "ea": "0x141012d10",
+    "text": "CPXNetwork::GetFriendViewData::<lambda_8>::operator ()"
+  },
+  {
+    "ea": "0x141012d70",
+    "text": "CPXNetwork::ProcessServerMessage"
+  },
+  {
+    "ea": "0x141012e20",
+    "text": "Unknown message '%s' received from server that isn't handled by the RPC executor!"
+  },
+  {
+    "ea": "0x141012e78",
+    "text": "Failed to deserialize ConnectionResponse!"
+  },
+  {
+    "ea": "0x141012ed0",
+    "text": "CPXNetwork::OnServerDisconnect"
+  },
+  {
+    "ea": "0x141012f40",
+    "text": "CPXNetwork::OnConsumeItemReactivateBuffUiResponse"
+  },
+  {
+    "ea": "0x141012fa0",
+    "text": "CPXNetwork::ProcessDispatcherMessage"
+  },
+  {
+    "ea": "0x1410133c0",
+    "text": "Failed to deserialize GameServerMessages::ServerError!"
+  },
+  {
+    "ea": "0x141013498",
+    "text": "CPXNetwork::SendCompetitionBestScoreRequest"
+  },
+  {
+    "ea": "0x141013530",
+    "text": "CPXNetwork::SendShowJumpingFinished"
+  },
+  {
+    "ea": "0x141013558",
+    "text": "Serialize GameServerMessages::SendShowJumpingFinished!"
+  },
+  {
+    "ea": "0x1410135b8",
+    "text": "CPXNetwork::SendShowJumpingLeaderboardRequest"
+  },
+  {
+    "ea": "0x1410135f0",
+    "text": "Serialize GameServerMessages::SendShowJumpingLeaderboardRequest!"
+  },
+  {
+    "ea": "0x141013660",
+    "text": "CPXNetwork::SendShowJumpingPersonalBestRequest"
+  },
+  {
+    "ea": "0x141013690",
+    "text": "Serialize GameServerMessages::SendShowJumpingPersonalBestRequest!"
+  },
+  {
+    "ea": "0x141013700",
+    "text": "CPXNetwork::SendPlayerEmote"
+  },
+  {
+    "ea": "0x1410137c8",
+    "text": "CPXNetwork::AddFreeAppearanceChangeResponse"
+  },
+  {
+    "ea": "0x141013820",
+    "text": "CPXNetwork::SendChatMessage"
+  },
+  {
+    "ea": "0x141013a90",
+    "text": "CPXNetwork::ReceiveSwapStableHorsePush"
+  },
+  {
+    "ea": "0x141013b10",
+    "text": "CPXNetwork::TrySendPositionUpdate"
+  },
+  {
+    "ea": "0x141013b80",
+    "text": "CPXNetwork::TrySendPositionUpdate: Failed to serialize BroadcastPositionRequest message!"
+  },
+  {
+    "ea": "0x141013c78",
+    "text": "CPXNetwork::LoginServerConnect"
+  },
+  {
+    "ea": "0x141013d98",
+    "text": "CPXNetwork::ProcessConnect"
+  },
+  {
+    "ea": "0x141014088",
+    "text": "CPXNetwork::LoginServerLogin"
+  },
+  {
+    "ea": "0x141014120",
+    "text": "CPXNetwork::SendDispatcherMessage"
+  },
+  {
+    "ea": "0x141014330",
+    "text": "CPXNetwork::InspectPlayer"
+  },
+  {
+    "ea": "0x141014438",
+    "text": "CPXNetwork::InspectPlayerResponse"
+  },
+  {
+    "ea": "0x141014490",
+    "text": "Equipment Manager is not available in PXNetwork::InspectPlayerResponse"
+  },
+  {
+    "ea": "0x141014538",
+    "text": "CPXNetwork::ReceiveChangeAppearancePush"
+  },
+  {
+    "ea": "0x1410145c0",
+    "text": "CPXNetwork::ReceiveHorseActivateEffectPush"
+  },
+  {
+    "ea": "0x141014640",
+    "text": "CPXNetwork::ReceiveHorseDeactivateEffectPush"
+  },
+  {
+    "ea": "0x141014698",
+    "text": "CPXNetwork::ReceiveCharacterActivityModifiedPush"
+  },
+  {
+    "ea": "0x141014860",
+    "text": "CPXNetwork::DisplaySocialLockedMessageByLockType"
+  },
+  {
+    "ea": "0x141014988",
+    "text": "CPXNetwork::ReceivePlayerPush"
+  },
+  {
+    "ea": "0x141014a20",
+    "text": "CPXNetwork::ReceiveHorseBuyNamePush"
+  },
+  {
+    "ea": "0x141014aa8",
+    "text": "CPXNetwork::OnDevCommandChange"
+  },
+  {
+    "ea": "0x141014f68",
+    "text": "CPXNetwork::OnLoginResponse"
+  },
+  {
+    "ea": "0x141014fc8",
+    "text": "CPXNetwork::OnPlayerCreateResponse"
+  },
+  {
+    "ea": "0x1410150d0",
+    "text": "CPXNetwork::ClientIntegrityPingMessage"
+  },
+  {
+    "ea": "0x141015120",
+    "text": "CPXNetwork::ShutDownStateChange"
+  },
+  {
+    "ea": "0x141015200",
+    "text": "CPXNetwork::GetSelectedCollectedPlayers"
+  },
+  {
+    "ea": "0x1410152b8",
+    "text": "CPXNetwork::CreateClassObjectNoCopyImpl"
+  },
+  {
+    "ea": "0x141015dd8",
+    "text": "PXEngine::SafeActorPtrAs<class CPXNetworkChat>::GetValidated"
+  },
+  {
+    "ea": "0x141016d00",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\include\\NetworkClient/PXGameMasterTool.h"
+  },
+  {
+    "ea": "0x141016dc0",
+    "text": "SendMessageToPlayer"
+  },
+  {
+    "ea": "0x141016f70",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXGameMasterTool.cpp"
+  },
+  {
+    "ea": "0x1410171b0",
+    "text": "SendMessageTextView"
+  },
+  {
+    "ea": "0x1410171f0",
+    "text": "CPXGameMasterTool::SendMessageToPlayer"
+  },
+  {
+    "ea": "0x1410174e0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\include\\NetworkClient/PXServerTimer.h"
+  },
+  {
+    "ea": "0x1410179e0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXServerTimer.cpp"
+  },
+  {
+    "ea": "0x141018020",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXNetworkChat.cpp"
+  },
+  {
+    "ea": "0x141018098",
+    "text": "CPXNetworkChat::PreCalculate"
+  },
+  {
+    "ea": "0x141018198",
+    "text": "CPXNetworkChat::StartChatWindow"
+  },
+  {
+    "ea": "0x141018250",
+    "text": "CPXNetworkChat::CreateClassObjectImpl"
+  },
+  {
+    "ea": "0x141018420",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXNetworkMail.cpp"
+  },
+  {
+    "ea": "0x1410185d0",
+    "text": "Failed to deserialize std::vector<ClientMessages::MailSyncData>!"
+  },
+  {
+    "ea": "0x141018cc0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXClientRpcBinding.cpp"
+  },
+  {
+    "ea": "0x141018da0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXClientModerationHandler.cpp"
+  },
+  {
+    "ea": "0x141018f60",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\include\\NetworkShared/NetworkConnection/PXMessage.h"
+  },
+  {
+    "ea": "0x141019020",
+    "text": "PXEngine::ReceivedPacket::ReceivedPacket"
+  },
+  {
+    "ea": "0x141019120",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkClient\\src\\PXClientGameServerConnection.cpp"
+  },
+  {
+    "ea": "0x141019200",
+    "text": "ClientGameServerConnection: Failed to serialize ConnectionRequest!"
+  },
+  {
+    "ea": "0x1410192d0",
+    "text": "ClientGameServerConnection: Failed to deserialize ConnectionResponse!"
+  },
+  {
+    "ea": "0x141019530",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\PXNetManager.cpp"
+  },
+  {
+    "ea": "0x141019690",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\PlayerLook\\PXNetPlayerLookManager.cpp"
+  },
+  {
+    "ea": "0x141019ab0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\PXNetManagerObject.cpp"
+  },
+  {
+    "ea": "0x141019bd0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\Activity\\PXNetActivity.cpp"
+  },
+  {
+    "ea": "0x14101a1e0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\Activity\\PXNetActivityManager.cpp"
+  },
+  {
+    "ea": "0x14101a6d0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Enums\\PXFeatureServerLocks.cpp"
+  },
+  {
+    "ea": "0x14101a950",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXConnectionManagerStats.cpp"
+  },
+  {
+    "ea": "0x14101a9e8",
+    "text": "PXEngine::ConnectionManagerStats::GetOrCreateMessageStats"
+  },
+  {
+    "ea": "0x14101ab10",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXNetworkEventProcessor.cpp"
+  },
+  {
+    "ea": "0x14101adc0",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXConnectionManager.cpp"
+  },
+  {
+    "ea": "0x14101b0c8",
+    "text": "NETWORK ERROR: Could not serialize packet header!"
+  },
+  {
+    "ea": "0x14101b348",
+    "text": "PXEngine::PacketHeader::GetReliableHeader"
+  },
+  {
+    "ea": "0x14101b3b8",
+    "text": "PXEngine::PacketHeader::GetReliableSplitHeader"
+  },
+  {
+    "ea": "0x14101b480",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXUdpMessageLayer.cpp"
+  },
+  {
+    "ea": "0x14101b510",
+    "text": "PXEngine::UdpMessageLayer::SendReliableACKPacket"
+  },
+  {
+    "ea": "0x14101b548",
+    "text": "PXUdpMessageLayer: Failed Serialize Packet Header!"
+  },
+  {
+    "ea": "0x14101b688",
+    "text": "PXUdpMessageLayer: Failed Serialize Splitted Packet Header!"
+  },
+  {
+    "ea": "0x14101b780",
+    "text": "Message size of %u bytes is too large for an unreliable packet for message #%d, max is %u bytes!"
+  },
+  {
+    "ea": "0x14101b7e8",
+    "text": "Serialize Packet Header!"
+  },
+  {
+    "ea": "0x14101b808",
+    "text": "Incoming packets and messages"
+  },
+  {
+    "ea": "0x14101b858",
+    "text": "reliable_packets"
+  },
+  {
+    "ea": "0x14101b900",
+    "text": "Outgoing packets and messages"
+  },
+  {
+    "ea": "0x14101ba90",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\NetworkConnection\\PXUdpNetworkLayer.cpp"
+  },
+  {
+    "ea": "0x14101bcd0",
+    "text": "[%s] UdpNetworkLayer tried to send packet with invalid size: %u (max: %zu)!"
+  },
+  {
+    "ea": "0x14101be70",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\Game\\NetManager\\PlayerLook\\PXPlayerLook.cpp"
+  },
+  {
+    "ea": "0x14101c0a8",
+    "text": "PX_NETWORK_MESSAGE_CONNECTION_REQUEST"
+  },
+  {
+    "ea": "0x14101c0d0",
+    "text": "PX_NETWORK_MESSAGE_CONNECTION_RESPONSE"
+  },
+  {
+    "ea": "0x141020520",
+    "text": "C:\\Jenkins\\workspace\\Code-Integration-BuildWin32-P4-Sync-1\\PXRelease2026_47\\Source\\NetworkShared\\src\\PXGameServerEncryptedNetworkLayer.cpp"
+  },
+  {
+    "ea": "0x1410205b0",
+    "text": "GetPacketHeaderFromData"
+  },
+  {
+    "ea": "0x1410205c8",
+    "text": "Could not deserialize Packet Header!"
+  },
+  {
+    "ea": "0x14105b0a8",
+    "text": "TCP-ACCEPT"
+  },
+  {
+    "ea": "0x14105b0b8",
+    "text": "Could not set TCP_NODELAY: %s"
+  },
+  {
+    "ea": "0x14105b108",
+    "text": "Set TCP_KEEP* on fd=%zu"
+  },
+  {
+    "ea": "0x14105b120",
+    "text": "Failed to set TCP_KEEPIDLE on fd %zu: errno %d"
+  },
+  {
+    "ea": "0x14105b150",
+    "text": "Failed to set TCP_KEEPINTVL on fd %zu: errno %d"
+  },
+  {
+    "ea": "0x14105b180",
+    "text": "Failed to set TCP_KEEPCNT on fd %zu: errno %d"
+  },
+  {
+    "ea": "0x14105fae0",
+    "text": "schannel: failed to receive handshake, SSL/TLS connection failed"
+  },
+  {
+    "ea": "0x141064890",
+    "text": "Cannot write a 0 size RTP packet."
+  },
+  {
+    "ea": "0x141065878",
+    "text": "Malformed ACK packet, rejecting"
+  },
+  {
+    "ea": "0x1410658f0",
+    "text": "invalid blocksize value in OACK packet"
+  },
+  {
+    "ea": "0x1410659b0",
+    "text": "invalid tsize -:%s:- value in OACK packet"
+  },
+  {
+    "ea": "0x141065ac8",
+    "text": "Received last DATA packet block %d again."
+  },
+  {
+    "ea": "0x141065af8",
+    "text": "Received unexpected DATA packet block %d, expecting block %d"
+  },
+  {
+    "ea": "0x141065c90",
+    "text": "Received too short packet"
+  },
+  {
+    "ea": "0x141065cc0",
+    "text": "Internal error: Unexpected packet"
+  },
+  {
+    "ea": "0x1410667d8",
+    "text": "Failed to encode DoH packet [%d]"
+  },
+  {
+    "ea": "0x141113f88",
+    "text": "ReserveReadPipePackets"
+  },
+  {
+    "ea": "0x141113fa0",
+    "text": "ReserveWritePipePackets"
+  },
+  {
+    "ea": "0x141113ff0",
+    "text": "GetNumPipePackets"
+  },
+  {
+    "ea": "0x141114008",
+    "text": "GetMaxPipePackets"
+  },
+  {
+    "ea": "0x141114020",
+    "text": "GroupReserveReadPipePackets"
+  },
+  {
+    "ea": "0x141114040",
+    "text": "GroupReserveWritePipePackets"
+  },
+  {
+    "ea": "0x14130f502",
+    "text": "GetCPInfo"
+  },
+  {
+    "ea": "0x14130f716",
+    "text": "GetConsoleOutputCP"
+  },
+  {
+    "ea": "0x141327470",
+    "text": ".?AV?$_Front_binder@P8CPXNetwork@@EAAXVReceivedMessage@PXEngine@@@ZPEAV1@@std@@"
+  },
+  {
+    "ea": "0x14133b468",
+    "text": ".?AV?$SafeActorPtrAs@VCPXNetwork@@@PXEngine@@"
+  },
+  {
+    "ea": "0x14133d8c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8PlayerLookManager@PXEngine@@EAAXAEBUBuyMakeUpResponse@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUBuyMakeUpResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyMakeUpResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133d9f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8PlayerLookManager@PXEngine@@EAAXAEBUBuyAppearanceResponse@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUBuyAppearanceResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyAppearanceResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133ef80",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXAchievementManager@@EAAXV?$vector@UAchievementInitData@ClientMessages@PXEngine@@V?$allocator@UAchievementInitData@ClientMessages@PXEngine@@@std@@@std@@@Z@detail@PXEngine@@EAAXV?$vector@UAchievementInitData@ClientMessages@PXEngine@@V?$allocator@UAchievementInitData@ClientMessages@PXEngine@@@std@@@std@@@ZV123@@std@@V?$tuple@V?$vector@UAchievementInitData@ClientMessages@PXEngine@@V?$allocator@UAchievementInitData@ClientMessages@PXEngine@@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133f310",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXQuestManager@@EAAXAEBUQuestUpdateResponseMessage@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUQuestUpdateResponseMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UQuestUpdateResponseMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133f460",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXQuestManager@@EAAXAEBUBuyItemQuestTimeUnlockDependencyResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBuyItemQuestTimeUnlockDependencyResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyItemQuestTimeUnlockDependencyResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133f700",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CompetitionManager@PXEngine@@EAAXAEBURaceCompetitionUpdateResponseMessage@ModuleMessages@2@@Z@detail@PXEngine@@EAAXAEBURaceCompetitionUpdateResponseMessage@ModuleMessages@3@@ZV123@@std@@V?$tuple@URaceCompetitionUpdateResponseMessage@ModuleMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133f9a0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXLocationManager@@EAAXAEBUSetHomeLocationResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUSetHomeLocationResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@USetHomeLocationResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133faf0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXLocationManager@@EAAXAEBULocationVisitedResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBULocationVisitedResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@ULocationVisitedResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14133fc40",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXLocationManager@@EAAXAEBULocationTransportResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBULocationTransportResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@ULocationTransportResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340080",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUBuyHorseNameResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBuyHorseNameResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyHorseNameResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413401c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUBuyHorseLevelResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBuyHorseLevelResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyHorseLevelResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340300",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUBuyStarterHorseAppearanceResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBuyStarterHorseAppearanceResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyStarterHorseAppearanceResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340470",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUUseHorseWellbeingBoostItemResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUUseHorseWellbeingBoostItemResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UUseHorseWellbeingBoostItemResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340690",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUConsumeItemMessage@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUConsumeItemMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UConsumeItemMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413407d0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUConsumeCurrencyItemToBuyItemResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUConsumeCurrencyItemToBuyItemResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UConsumeCurrencyItemToBuyItemResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340940",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUMailAttachedRewardItemResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUMailAttachedRewardItemResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UMailAttachedRewardItemResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340aa0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUFavoriteItemResponseMessage@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUFavoriteItemResponseMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UFavoriteItemResponseMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340bf0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUGiveItem@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUGiveItem@GameServerMessages@3@@ZV123@@std@@V?$tuple@UGiveItem@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141340dc0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXPlayerItemManager@@EAAXAEBUBuyItemWellbeingResponse@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBuyItemWellbeingResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBuyItemWellbeingResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141341200",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXHorseManager@@EAAXAEBUHorseBondingTimerElapsedMessage@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUHorseBondingTimerElapsedMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UHorseBondingTimerElapsedMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141341360",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXHorseManager@@EAAXAEBUBondingAcknowledge@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUBondingAcknowledge@GameServerMessages@3@@ZV123@@std@@V?$tuple@UBondingAcknowledge@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413418c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXIAEBUHorseCreateMasterMessage@PXEngine@@0@Z@detail@PXEngine@@EAAXIAEBUHorseCreateMasterMessage@3@0@ZV123@@std@@V?$tuple@IUHorseCreateMasterMessage@PXEngine@@U12@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413419d0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBUMyStableInviteMessage@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUMyStableInviteMessage@3@@ZV123@@std@@V?$tuple@UMyStableInviteMessage@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141341ad0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBUMyStableBuyCareResponseMessage@ClientMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUMyStableBuyCareResponseMessage@ClientMessages@3@@ZV123@@std@@V?$tuple@UMyStableBuyCareResponseMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141341c20",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXUHorseInspirationResponseMessage@GameServerMessages@PXEngine@@@Z@detail@PXEngine@@EAAXUHorseInspirationResponseMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UHorseInspirationResponseMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141341f50",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXIAEBUHorseCreateMasterMessage@PXEngine@@I@Z@detail@PXEngine@@EAAXIAEBUHorseCreateMasterMessage@3@I@ZV123@@std@@V?$tuple@IUHorseCreateMasterMessage@PXEngine@@I@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141342250",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBUHorseLevelUpResponseData@ClientMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUHorseLevelUpResponseData@ClientMessages@3@@ZV123@@std@@V?$tuple@UHorseLevelUpResponseData@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141342390",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBUWellbeingResponseMsg@ClientMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUWellbeingResponseMsg@ClientMessages@3@@ZV123@@std@@V?$tuple@UWellbeingResponseMsg@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413424c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXW4PX_BUY_HORSE_RESPONSE@@UHorseCreateMasterMessage@PXEngine@@I@Z@detail@PXEngine@@EAAXW4PX_BUY_HORSE_RESPONSE@@UHorseCreateMasterMessage@3@I@ZV123@@std@@V?$tuple@W4PX_BUY_HORSE_RESPONSE@@UHorseCreateMasterMessage@PXEngine@@I@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141342610",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBV?$vector@UHorseCreateMasterMessage@PXEngine@@V?$allocator@UHorseCreateMasterMessage@PXEngine@@@std@@@std@@@Z@detail@PXEngine@@EAAXAEBV?$vector@UHorseCreateMasterMessage@PXEngine@@V?$allocator@UHorseCreateMasterMessage@PXEngine@@@std@@@std@@@ZV123@@std@@V?$tuple@V?$vector@UHorseCreateMasterMessage@PXEngine@@V?$allocator@UHorseCreateMasterMessage@PXEngine@@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141342800",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXMyStable@@EAAXAEBUHorseCreateMasterMessage@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUHorseCreateMasterMessage@3@@ZV123@@std@@V?$tuple@UHorseCreateMasterMessage@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141343fd0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXConsumableManager@@EAAXAEBV?$vector@UActiveConsumableReponse@ClientMessages@PXEngine@@V?$allocator@UActiveConsumableReponse@ClientMessages@PXEngine@@@std@@@std@@@Z@detail@PXEngine@@EAAXAEBV?$vector@UActiveConsumableReponse@ClientMessages@PXEngine@@V?$allocator@UActiveConsumableReponse@ClientMessages@PXEngine@@@std@@@std@@@ZV123@@std@@V?$tuple@V?$vector@UActiveConsumableReponse@ClientMessages@PXEngine@@V?$allocator@UActiveConsumableReponse@ClientMessages@PXEngine@@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413446d0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXCollectionManager@@EAAXAEBV?$vector@UCollection@ClientMessages@PXEngine@@V?$allocator@UCollection@ClientMessages@PXEngine@@@std@@@std@@@Z@detail@PXEngine@@EAAXAEBV?$vector@UCollection@ClientMessages@PXEngine@@V?$allocator@UCollection@ClientMessages@PXEngine@@@std@@@std@@@ZV123@@std@@V?$tuple@V?$vector@UCollection@ClientMessages@PXEngine@@V?$allocator@UCollection@ClientMessages@PXEngine@@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141344cd0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXReportPlayer@@EAAXW4ReportAMessageResponse@PXEngine@@@ZPEAV1@@std@@V?$tuple@W4ReportAMessageResponse@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141345950",
+    "text": ".?AV?$SafeActorPtrAs@VCPXNetworkChat@@@PXEngine@@"
+  },
+  {
+    "ea": "0x141345a70",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXAEBV?$variant@UClubState@PXEngine@@W4PX_NETWORK_CLUB_CREATE_ERROR@@@std@@@Z@detail@PXEngine@@EAAXAEBV?$variant@UClubState@PXEngine@@W4PX_NETWORK_CLUB_CREATE_ERROR@@@std@@@ZV123@@std@@V?$tuple@V?$variant@UClubState@PXEngine@@W4PX_NETWORK_CLUB_CREATE_ERROR@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141345bf0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4PX_NETWORK_CLUB_MEMBER_INVITE_RESPONSE@@@Z@detail@PXEngine@@EAAXW4PX_NETWORK_CLUB_MEMBER_INVITE_RESPONSE@@@ZV123@@std@@V?$tuple@W4PX_NETWORK_CLUB_MEMBER_INVITE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141345d20",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4PX_NETWORK_CLUB_UPDATE_RESPONSE@@AEBV?$optional@UClubMemberUpdateMsg@ClientMessages@PXEngine@@@std@@@Z@detail@PXEngine@@EAAXW4PX_NETWORK_CLUB_UPDATE_RESPONSE@@AEBV?$optional@UClubMemberUpdateMsg@ClientMessages@PXEngine@@@std@@@ZV123@@std@@V?$tuple@W4PX_NETWORK_CLUB_UPDATE_RESPONSE@@V?$optional@UClubMemberUpdateMsg@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141345f00",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4CLUB_NAME_VALIDATION_RESPONSE@ClientMessages@2@@Z@detail@PXEngine@@EAAXW4CLUB_NAME_VALIDATION_RESPONSE@ClientMessages@3@@ZV123@@std@@V?$tuple@W4CLUB_NAME_VALIDATION_RESPONSE@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346040",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXAEBUClubUpdateResponseMessage@ClientMessages@2@@Z@detail@PXEngine@@EAAXAEBUClubUpdateResponseMessage@ClientMessages@3@@ZV123@@std@@V?$tuple@UClubUpdateResponseMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346180",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4PX_NETWORK_CLUB_DELETE_RESPONSE@@@Z@detail@PXEngine@@EAAXW4PX_NETWORK_CLUB_DELETE_RESPONSE@@@ZV123@@std@@V?$tuple@W4PX_NETWORK_CLUB_DELETE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346340",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXAEBUClubTextUpdate@ClientMessages@2@@Z@detail@PXEngine@@EAAXAEBUClubTextUpdate@ClientMessages@3@@ZV123@@std@@V?$tuple@UClubTextUpdate@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346750",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4PX_NETWORK_CLUB_MEMBER_LEAVE_RESPONSE@@@Z@detail@PXEngine@@EAAXW4PX_NETWORK_CLUB_MEMBER_LEAVE_RESPONSE@@@ZV123@@std@@V?$tuple@W4PX_NETWORK_CLUB_MEMBER_LEAVE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413469d0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXW4PX_NETWORK_CLUB_UPDATE_RESPONSE@@@Z@detail@PXEngine@@EAAXW4PX_NETWORK_CLUB_UPDATE_RESPONSE@@@ZV123@@std@@V?$tuple@W4PX_NETWORK_CLUB_UPDATE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346ae0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXAEBUClubJoinResponse@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUClubJoinResponse@GameServerMessages@3@@ZV123@@std@@V?$tuple@UClubJoinResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141346d00",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ClubManager@PXEngine@@EAAXUClubMemberDeleteResponseData@GameServerMessages@2@@Z@detail@PXEngine@@EAAXUClubMemberDeleteResponseData@GameServerMessages@3@@ZV123@@std@@V?$tuple@UClubMemberDeleteResponseData@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141347620",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXW4LOBBY_CREATE_RESPONSE@ClientMessages@2@AEBV?$optional@ULobbyInfo@ClientMessages@PXEngine@@@std@@@Z@detail@PXEngine@@EAAXW4LOBBY_CREATE_RESPONSE@ClientMessages@3@AEBV?$optional@ULobbyInfo@ClientMessages@PXEngine@@@std@@@ZV123@@std@@V?$tuple@W4LOBBY_CREATE_RESPONSE@ClientMessages@PXEngine@@V?$optional@ULobbyInfo@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348050",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityFinishMsg@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityFinishMsg@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityFinishMsg@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413481e0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityStartMsg@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityStartMsg@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityStartMsg@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348370",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityParameterChangeResponse@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityParameterChangeResponse@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityParameterChangeResponse@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348530",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityParameterChangedMessage@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityParameterChangedMessage@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityParameterChangedMessage@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413486f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivitySendEventMessage@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivitySendEventMessage@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivitySendEventMessage@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348890",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityStateInitMessage@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityStateInitMessage@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityStateInitMessage@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348a30",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityMemberJoinedMessage@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityMemberJoinedMessage@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityMemberJoinedMessage@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348be0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUActivityMemberLeft@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUActivityMemberLeft@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UActivityMemberLeft@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141348e90",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8ActivityManager@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@2@AEBUTransferOwner@ModuleMessages@2@@Z@detail@PXEngine@@EAAXV?$StrongTypeId@UActivtyIdType@@@3@AEBUTransferOwner@ModuleMessages@3@@ZV123@@std@@V?$tuple@V?$StrongTypeId@UActivtyIdType@@@PXEngine@@UTransferOwner@ModuleMessages@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141349540",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8EquipmentManager@PXEngine@@EAAXAEBUEquipmentSetDataMessage@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUEquipmentSetDataMessage@GameServerMessages@3@@ZV123@@std@@V?$tuple@UEquipmentSetDataMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141349d70",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CustomizationRulesManager@PXEngine@@EAAXAEBV?$vector@UApplyCustomizationResponse@MyStable@ModuleMessages@PXEngine@@V?$allocator@UApplyCustomizationResponse@MyStable@ModuleMessages@PXEngine@@@std@@@std@@_N1@ZPEAV12@@std@@V?$tuple@V?$vector@UApplyCustomizationResponse@MyStable@ModuleMessages@PXEngine@@V?$allocator@UApplyCustomizationResponse@MyStable@ModuleMessages@PXEngine@@@std@@@std@@_N_N@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141349f50",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CustomizationRulesManager@PXEngine@@EAAXAEBV?$vector@UAppliedCustomizationData@MyStable@ModuleMessages@PXEngine@@V?$allocator@UAppliedCustomizationData@MyStable@ModuleMessages@PXEngine@@@std@@@std@@@ZPEAV12@@std@@V?$tuple@V?$vector@UAppliedCustomizationData@MyStable@ModuleMessages@PXEngine@@V?$allocator@UAppliedCustomizationData@MyStable@ModuleMessages@PXEngine@@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134a700",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8RanksManager@PXEngine@@EAAXW4ChampionshipRankResponseMessage@ClientMessages@2@UChampionshipRankData@2@@Z@detail@PXEngine@@EAAXW4ChampionshipRankResponseMessage@ClientMessages@3@UChampionshipRankData@3@@ZV123@@std@@V?$tuple@W4ChampionshipRankResponseMessage@ClientMessages@PXEngine@@UChampionshipRankData@3@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134b220",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8FashionWeekManager@PXEngine@@EAAXV?$expected@UFashionWeekStateResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_STATE_ERROR@3@@tl@@@Z@detail@PXEngine@@EAAXV?$expected@UFashionWeekStateResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_STATE_ERROR@3@@tl@@@ZV123@@std@@V?$tuple@V?$expected@UFashionWeekStateResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_STATE_ERROR@3@@tl@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134b5c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8FashionWeekManager@PXEngine@@EAAXAEBUFashionWeekFetchSubmissionsMessage@ClientMessages@2@@Z@detail@PXEngine@@EAAXAEBUFashionWeekFetchSubmissionsMessage@ClientMessages@3@@ZV123@@std@@V?$tuple@UFashionWeekFetchSubmissionsMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134b830",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8FashionWeekManager@PXEngine@@EAAXAEBV?$expected@UFashionWeekLeaderboardResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_LEADERBOARD_ERROR@3@@tl@@@Z@detail@PXEngine@@EAAXAEBV?$expected@UFashionWeekLeaderboardResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_LEADERBOARD_ERROR@3@@tl@@@ZV123@@std@@V?$tuple@V?$expected@UFashionWeekLeaderboardResponse@ClientMessages@PXEngine@@W4FASHION_WEEK_LEADERBOARD_ERROR@3@@tl@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134bdb0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CraftingManager@PXEngine@@EAAXAEBUCraftingInitResponseData@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUCraftingInitResponseData@GameServerMessages@3@@ZV123@@std@@V?$tuple@UCraftingInitResponseData@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134bf00",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CraftingManager@PXEngine@@EAAXAEBUCraftingPerformCraftingResponseData@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUCraftingPerformCraftingResponseData@GameServerMessages@3@@ZV123@@std@@V?$tuple@UCraftingPerformCraftingResponseData@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x14134c070",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CraftingManager@PXEngine@@EAAXAEBUFailedCraftingCraftingActionResponseData@GameServerMessages@2@@Z@detail@PXEngine@@EAAXAEBUFailedCraftingCraftingActionResponseData@GameServerMessages@3@@ZV123@@std@@V?$tuple@UFailedCraftingCraftingActionResponseData@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354128",
+    "text": ".?AVCPXNetwork@@"
+  },
+  {
+    "ea": "0x141354610",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4ClientExitCode@PXEngine@@AEBV?$optional@ULoginResponseData@ClientMessages@PXEngine@@@std@@@ZPEAV1@@std@@V?$tuple@W4ClientExitCode@PXEngine@@V?$optional@ULoginResponseData@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354740",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4ClientExitCode@PXEngine@@AEBVCompressedBlob@3@@ZPEAV1@@std@@V?$tuple@W4ClientExitCode@PXEngine@@VCompressedBlob@2@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354820",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBVActorContext@PXEngine@@II@ZPEAV1@V23@@std@@V?$tuple@II@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413548c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBVActorContext@PXEngine@@AEBUServerDisconnectMessage@ClientMessages@3@@ZPEAV1@V23@@std@@V?$tuple@UServerDisconnectMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413549c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_IGNORE_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_IGNORE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354a80",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@ZPEAV1@@std@@V?$tuple@V?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354be0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXUPlayerDebugMessageResponse@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UPlayerDebugMessageResponse@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354cd0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUServerError@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UServerError@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354da0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8NetworkMail@PXEngine@@EAAXAEBUMailNotifyMessage@GameServerMessages@2@@ZV?$not_null@PEAVNetworkMail@PXEngine@@@gsl@@@std@@V?$tuple@UMailNotifyMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354eb0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8NetworkMail@PXEngine@@EAAXAEBVCompressedBlob@2@@ZV?$not_null@PEAVNetworkMail@PXEngine@@@gsl@@@std@@V?$tuple@VCompressedBlob@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141354f90",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8NetworkMail@PXEngine@@EAAXAEBUSendMailResponseMessage@ClientMessages@2@@ZV?$not_null@PEAVNetworkMail@PXEngine@@@gsl@@@std@@V?$tuple@USendMailResponseMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413550a0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@ZPEAV1@@std@@V?$tuple@IV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413551a0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXUIntegrityPingMessage@ModuleMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UIntegrityPingMessage@ModuleMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413555f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXClientModerationHandler@@EAAXAEBURelocateData@ClientMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@URelocateData@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413556d0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXXZPEAV1@@std@@V?$tuple@$$V@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355750",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUConsumeItemMessage@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UConsumeItemMessage@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355830",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUActivateScheduledEvent@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UActivateScheduledEvent@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355920",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUDeactivateScheduledEvent@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UDeactivateScheduledEvent@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355a10",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXH@ZPEAV1@@std@@V?$tuple@H@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355a90",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBVActorContext@PXEngine@@AEBUDevApiChange@GameServerMessages@3@@ZPEAV1@V23@@std@@V?$tuple@UDevApiChange@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355b80",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@_N@ZPEAV1@@std@@V?$tuple@V?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@_N@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355c70",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@ZPEAV1@@std@@V?$tuple@V?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355de0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_GAME_SERVER_STATE@@@ZPEAV1@@std@@V?$tuple@W4PX_GAME_SERVER_STATE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355e90",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$optional@UInspectPlayerMessage@PXEngine@@@std@@@ZPEAV1@@std@@V?$tuple@V?$optional@UInspectPlayerMessage@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141355f70",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_SOCIAL_LOCK_LEVEL@@@ZPEAV1@@std@@V?$tuple@W4PX_SOCIAL_LOCK_LEVEL@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356020",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@@ZPEAV1@@std@@V?$tuple@V?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356110",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUInitializePlaylistResponseMessage@ClientMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UInitializePlaylistResponseMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356210",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUGroupInviteNotify@GameServerMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UGroupInviteNotify@GameServerMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413562f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_JOIN_RESPONSE@@AEBV?$optional@UGroupInfo@ClientMessages@PXEngine@@@std@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_JOIN_RESPONSE@@V?$optional@UGroupInfo@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356420",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_INVITE_RESPONSE@@AEBV?$optional@UGroupInfo@ClientMessages@PXEngine@@@std@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_INVITE_RESPONSE@@V?$optional@UGroupInfo@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356550",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXIV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@ZPEAV1@@std@@V?$tuple@IV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413566c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@W4PX_NETWORK_GROUP_LEAVE_REASON@@@ZPEAV1@@std@@V?$tuple@V?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@W4PX_NETWORK_GROUP_LEAVE_REASON@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413567f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXIM@ZPEAV1@@std@@V?$tuple@IM@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356870",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_CHALLENGE_INVITE_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_CHALLENGE_INVITE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356950",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_CHALLENGE_END_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_CHALLENGE_END_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356a20",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXIV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@M@ZPEAV1@@std@@V?$tuple@IV?$StrongTypeId@UCharacterIdType@PXEngine@@@PXEngine@@M@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356b10",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_CHALLENGE_UPDATE_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_CHALLENGE_UPDATE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356bf0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUGroupChallengeUpdateNotifyMessage@ClientMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UGroupChallengeUpdateNotifyMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356cf0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_CHALLENGE_JOIN_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_CHALLENGE_JOIN_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356dc0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXII@ZPEAV1@@std@@V?$tuple@II@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356e40",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_GROUP_CHALLENGE_START_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_GROUP_CHALLENGE_START_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356f20",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUHorseCreateMasterMessage@PXEngine@@@ZPEAV1@@std@@V?$tuple@UHorseCreateMasterMessage@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141356ff0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXW4PX_NETWORK_FRIEND_INVITE_RESPONSE@@@ZPEAV1@@std@@V?$tuple@W4PX_NETWORK_FRIEND_INVITE_RESPONSE@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413570c0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBUFriendAcceptSuccessData@ClientMessages@PXEngine@@@ZPEAV1@@std@@V?$tuple@UFriendAcceptSuccessData@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413571a0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXAEBV?$variant@W4PX_NETWORK_FRIEND_ACCEPT_ERROR@@UFriendAcceptSuccessData@ClientMessages@PXEngine@@@std@@@ZPEAV1@@std@@V?$tuple@V?$variant@W4PX_NETWORK_FRIEND_ACCEPT_ERROR@@UFriendAcceptSuccessData@ClientMessages@PXEngine@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413572f0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8NetworkMail@PXEngine@@EAAXH@ZPEAV12@@std@@V?$tuple@H@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141357380",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8CPXNetwork@@EAAXV?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@ZPEAV1@@std@@V?$tuple@V?$optional@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x1413576c0",
+    "text": ".?AV?$_Func_impl_no_alloc@V?$_Front_binder@P8CPXNetwork@@EAAXVReceivedMessage@PXEngine@@@ZPEAV1@@std@@XVReceivedMessage@PXEngine@@@std@@"
+  },
+  {
+    "ea": "0x1413589a0",
+    "text": ".?AV?$HandlerStub@V?$_Front_binder@P8?$Wrapper@P8CPXGameMasterTool@@EAAXAEBUModeratorResponseMessage@ClientMessages@PXEngine@@@Z@detail@PXEngine@@EAAXAEBUModeratorResponseMessage@ClientMessages@3@@ZV123@@std@@V?$tuple@UModeratorResponseMessage@ClientMessages@PXEngine@@@2@@RpcExecutor@PXEngine@@"
+  },
+  {
+    "ea": "0x141358ba0",
+    "text": ".?AVCPXNetworkChat@@"
+  },
+  {
+    "ea": "0x141359300",
+    "text": ".?AV?$_Func_base@XVReceivedPacket@PXEngine@@@std@@"
+  },
+  {
+    "ea": "0x141359450",
+    "text": ".?AV?$_Func_base@XAEAVNetworkEndpoint@PXEngine@@VReceivedPacket@2@@std@@"
+  },
+  {
+    "ea": "0x1413598c0",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@PEBW4byte@std@@I@std@@"
+  },
+  {
+    "ea": "0x141359960",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@VReceivedMessage@4@@std@@"
+  },
+  {
+    "ea": "0x141359a00",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_6>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XVReceivedPacket@4@@std@@"
+  },
+  {
+    "ea": "0x141359a80",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_7>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XVSendingMessage@4@@std@@"
+  },
+  {
+    "ea": "0x141359c00",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_3>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@VReceivedPacket@4@@std@@"
+  },
+  {
+    "ea": "0x141359ca0",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@XAEAVNetworkEndpoint@4@AEAVSendingMessage@4@@std@@"
+  },
+  {
+    "ea": "0x141359d40",
+    "text": ".?AV?$_Func_impl_no_alloc@V<lambda_5>@?1??Launch@ConnectionManager@PXEngine@@UEAAXXZ@_NAEAVNetworkEndpoint@4@V?$duration@IU?$ratio@$00$0DOI@@std@@@chrono@std@@AEBUStatusUpdateParameters@4@@std@@"
+  }
+]

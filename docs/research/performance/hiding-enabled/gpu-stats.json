@@ -1,0 +1,15 @@
+{
+  "matched_game_packets": 43783,
+  "scheduled_seconds_union": 19.07683999999999,
+  "percent_of_trace": 31.336873409632517,
+  "unmatched_stops_all_processes": 1,
+  "unfinished_starts": 2,
+  "unmapped_completed_packets": 0,
+  "nodes": {
+    "0": {
+      "seconds": 19.07683999999999,
+      "packets": 43783
+    }
+  },
+  "all_processes_node0_union_seconds": 26.713436999999846
+}

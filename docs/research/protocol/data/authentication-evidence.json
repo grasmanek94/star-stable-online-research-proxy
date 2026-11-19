@@ -1,0 +1,895 @@
+{
+  "client": "647.349716",
+  "sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+  "analysis": "Static installed application code and IDA; no live account/session/registry data collected",
+  "launcher": {
+    "file": "app.asar",
+    "sha256": "390abe5340bfc5dc665bd8f5894b3e77af5f3d92cdea105f712d87bfd40f6b20",
+    "size": 243677227,
+    "package_name": "StarStableOnline",
+    "package_version": "2.60.0",
+    "main": "dist/index.js",
+    "purpose": "Static installed application code only; no user storage or live credentials read",
+    "sources": [
+      {
+        "path": "dist/services/Account/account.js",
+        "local_file": "source-00.js",
+        "size": 15006,
+        "sha256": "a0bfadf7eee5471a9e79a70ca7d424adb9d0ee22522fbc915eb8e29df5940026",
+        "lines": 349,
+        "landmarks": [
+          {
+            "needle": "async authenticateUser(",
+            "line": 37
+          },
+          {
+            "needle": "async refreshSessionFromFile(",
+            "line": 217
+          },
+          {
+            "needle": "async refreshSession()",
+            "line": 241
+          },
+          {
+            "needle": "decodeAccessToken(token)",
+            "line": 319
+          }
+        ]
+      },
+      {
+        "path": "dist/services/Account/helpers/apiClient.js",
+        "local_file": "source-01.js",
+        "size": 8471,
+        "sha256": "20ae6a1180068bad41ab04c899250c1579a797804e9798929c9a3526c7ec7418",
+        "lines": 221,
+        "landmarks": [
+          {
+            "needle": "createSession =",
+            "line": 42
+          },
+          {
+            "needle": "refreshSession =",
+            "line": 107
+          },
+          {
+            "needle": "initializeUser =",
+            "line": 132
+          },
+          {
+            "needle": "resendVerificationCode =",
+            "line": 24
+          }
+        ]
+      },
+      {
+        "path": "dist/services/Session/session.js",
+        "local_file": "source-02.js",
+        "size": 18871,
+        "sha256": "837200cf4c34e3f8867dc0713030974cf45cf319d154d68981f6672d1f059e76",
+        "lines": 438,
+        "landmarks": [
+          {
+            "needle": "algorithm =",
+            "line": 57
+          },
+          {
+            "needle": "async getSession()",
+            "line": 269
+          },
+          {
+            "needle": "async saveSession(",
+            "line": 293
+          },
+          {
+            "needle": "async encrypt(",
+            "line": 328
+          },
+          {
+            "needle": "async decrypt(",
+            "line": 349
+          },
+          {
+            "needle": "async deriveKeyFromPassphrase(",
+            "line": 367
+          },
+          {
+            "needle": "getShouldAccessTokenRefresh()",
+            "line": 379
+          },
+          {
+            "needle": "getShouldAccessTokenRefresh()",
+            "line": 405
+          },
+          {
+            "needle": "async ensureValidAccessToken()",
+            "line": 399
+          }
+        ]
+      },
+      {
+        "path": "dist/utils/fetch.js",
+        "local_file": "source-03.js",
+        "size": 4126,
+        "sha256": "d18be309b6d559429ce371758f0b1f915448c85039ed3e6068bb91aa6f91bdd4",
+        "lines": 105,
+        "landmarks": [
+          {
+            "needle": "agent =",
+            "line": 36
+          },
+          {
+            "needle": "async request(",
+            "line": 50
+          },
+          {
+            "needle": "Authorization:",
+            "line": 69
+          }
+        ]
+      },
+      {
+        "path": "dist/utils/cli.js",
+        "local_file": "source-04.js",
+        "size": 3525,
+        "sha256": "0e69229e327f12234fa61a1cd975a73b9c51770b18fa22605d438557b580673f",
+        "lines": 87,
+        "landmarks": [
+          {
+            "needle": "--httpProxy",
+            "line": 29
+          },
+          {
+            "needle": "--proxy",
+            "line": 27
+          },
+          {
+            "needle": "--gateway",
+            "line": 28
+          },
+          {
+            "needle": "--gameArgument",
+            "line": 34
+          }
+        ]
+      },
+      {
+        "path": "dist/windows/game/helpers/executable.js",
+        "local_file": "source-05.js",
+        "size": 2760,
+        "sha256": "82a49baf9a9c2b633b0eb53c0670a687889274aea1a8b22f2fd5f2727115b8c6",
+        "lines": 60,
+        "landmarks": [
+          {
+            "needle": "function formatExecutableArguments",
+            "line": 26
+          },
+          {
+            "needle": "NetworkUserId:",
+            "line": 30
+          },
+          {
+            "needle": "NetworkLauncherHash:",
+            "line": 51
+          },
+          {
+            "needle": "return Object.keys",
+            "line": 59
+          }
+        ]
+      },
+      {
+        "path": "dist/windows/game/helpers/gameStart.js",
+        "local_file": "source-06.js",
+        "size": 4501,
+        "sha256": "282eb996e192162f4fa38481acded54aae79eb16bd884414cf50875584e66276",
+        "lines": 110,
+        "landmarks": [
+          {
+            "needle": "function gameStart",
+            "line": 43
+          },
+          {
+            "needle": "logger.debug",
+            "line": 45
+          },
+          {
+            "needle": "logger.debug",
+            "line": 78
+          },
+          {
+            "needle": "logger.debug",
+            "line": 99
+          },
+          {
+            "needle": "shell: true",
+            "line": 51
+          }
+        ]
+      },
+      {
+        "path": "dist/windows/game/helpers/loginQueue.js",
+        "local_file": "source-07.js",
+        "size": 4496,
+        "sha256": "db6691ef4b563da019981a895e14ee62bd8a9defe937852a714f9de4bae59aa7",
+        "lines": 114,
+        "landmarks": [
+          {
+            "needle": "token()",
+            "line": 42
+          },
+          {
+            "needle": "async pollQueue",
+            "line": 57
+          },
+          {
+            "needle": "async queue(",
+            "line": 81
+          }
+        ]
+      },
+      {
+        "path": "dist/windows/game/helpers/apiClient.js",
+        "local_file": "source-08.js",
+        "size": 15553,
+        "sha256": "b5cea225522d8c00727f14f8d15c37c2300deb06c4594fb569cfb0f04e07bdfa",
+        "lines": 418,
+        "landmarks": [
+          {
+            "needle": "deleteQueueToken =",
+            "line": 17
+          },
+          {
+            "needle": "checkQueuePosition =",
+            "line": 33
+          },
+          {
+            "needle": "createLoginQueuePosition =",
+            "line": 50
+          }
+        ]
+      },
+      {
+        "path": "dist/windows/game/index.js",
+        "local_file": "source-09.js",
+        "size": 42580,
+        "sha256": "ce0da940c8c1f71d91e6789f9a0a3a081537e08e14b8231739c3e58d0b7d86ba",
+        "lines": 941,
+        "landmarks": [
+          {
+            "needle": "GAME_WINDOW_ACTIONS.PLAY_NOW",
+            "line": 524
+          },
+          {
+            "needle": "GAME_WINDOW_ACTIONS.PLAY_NOW",
+            "line": 649
+          },
+          {
+            "needle": "await this.sessionService.ensureValidAccessToken()",
+            "line": 528
+          },
+          {
+            "needle": "await this.sessionService.ensureValidAccessToken()",
+            "line": 578
+          },
+          {
+            "needle": "serviceBaseUrl:",
+            "line": 535
+          }
+        ]
+      },
+      {
+        "path": "node_modules/@ssol-common/constants/dist/cjs/endpoints.js",
+        "local_file": "source-10.js",
+        "size": 2534,
+        "sha256": "48a7bf5d9a44bbd27b6324ebae640a26d0ebd6a39cc439d55b9f5bcf1e5a549b",
+        "lines": 31,
+        "landmarks": [
+          {
+            "needle": "exports.LOGIN_QUEUE_ENDPOINT =",
+            "line": 3
+          },
+          {
+            "needle": "exports.LOGIN_QUEUE_ENDPOINT =",
+            "line": 8
+          }
+        ]
+      },
+      {
+        "path": "node_modules/@ssol-common/constants/dist/cjs/platform.js",
+        "local_file": "source-11.js",
+        "size": 741,
+        "sha256": "3cc1e25f11ecb8a6dc13bbcd84c118aa5913f33c89289f1d1bc396bc96df4690",
+        "lines": 17,
+        "landmarks": [
+          {
+            "needle": "exports.LAUNCHER_PLATFORM =",
+            "line": 3
+          },
+          {
+            "needle": "exports.LAUNCHER_PLATFORM =",
+            "line": 16
+          },
+          {
+            "needle": "exports.API_GATEWAY_PLATFORM =",
+            "line": 3
+          },
+          {
+            "needle": "exports.API_GATEWAY_PLATFORM =",
+            "line": 17
+          }
+        ]
+      },
+      {
+        "path": "dist/index.js",
+        "local_file": "source-12.js",
+        "size": 15715,
+        "sha256": "a5590121bc0be0f295c43b8d672bcc41cbd5db505629b01f383de0a24f31cd1e",
+        "lines": 360,
+        "landmarks": [
+          {
+            "needle": "const uniqueDeviceId =",
+            "line": 161
+          },
+          {
+            "needle": "clearStorageData",
+            "line": 159
+          },
+          {
+            "needle": "getDeviceInfo:",
+            "line": 210
+          }
+        ]
+      },
+      {
+        "path": "dist/utils/deviceId.js",
+        "local_file": "source-13.js",
+        "size": 1860,
+        "sha256": "14e9f140727dd38ed8f1ceed21cf2edb77ac53a616f1fb94693fcfa5697b3597",
+        "lines": 49,
+        "landmarks": [
+          {
+            "needle": "const id =",
+            "line": 41
+          },
+          {
+            "needle": "return \"\"",
+            "line": 46
+          }
+        ]
+      },
+      {
+        "path": "dist/utils/systeminfo.js",
+        "local_file": "source-14.js",
+        "size": 13256,
+        "sha256": "a4e629367c90e8da9df854b3fd56bda98a6aa38bad4be0ecd71b7b02d5b6588a",
+        "lines": 329,
+        "landmarks": [
+          {
+            "needle": "const gatherSystemInfo",
+            "line": 107
+          },
+          {
+            "needle": "const gatherHardwareInfo",
+            "line": 128
+          },
+          {
+            "needle": "getDeviceInfo =",
+            "line": 187
+          },
+          {
+            "needle": "schema_version:",
+            "line": 198
+          },
+          {
+            "needle": "total_bytes:",
+            "line": 223
+          }
+        ]
+      },
+      {
+        "path": "node_modules/node-machine-id/index.js",
+        "local_file": "source-15.js",
+        "size": 2761,
+        "sha256": "97cb1695ce8506e856bdf01895d6aed76bd25cd05d6ac832bb48aa989c180b98",
+        "lines": 80,
+        "landmarks": [
+          {
+            "needle": "function hash",
+            "line": 31
+          },
+          {
+            "needle": "function expose",
+            "line": 35
+          },
+          {
+            "needle": "export function machineId(",
+            "line": 68
+          }
+        ]
+      },
+      {
+        "path": "node_modules/node-machine-id/dist/index.js",
+        "local_file": "source-16.js",
+        "size": 18860,
+        "sha256": "fbc7e17e8465a0bcedf37f2beb9a24b907a9b801b9783f14968e937b7cd85bf2",
+        "lines": 1,
+        "landmarks": [
+          {
+            "needle": "sha256",
+            "line": 1
+          },
+          {
+            "needle": "machineId",
+            "line": 1
+          }
+        ]
+      },
+      {
+        "path": "dist/utils/config.js",
+        "local_file": "source-17.js",
+        "size": 4043,
+        "sha256": "18c0398799dbc44ee5235c276d0b0ac8a9b81533d9c2b55e15598dcdfcf9882f",
+        "lines": 99,
+        "landmarks": [
+          {
+            "needle": "const getEnvPath",
+            "line": 72
+          },
+          {
+            "needle": "dotenv.config",
+            "line": 79
+          },
+          {
+            "needle": "API_ENDPOINT: env.",
+            "line": 85
+          },
+          {
+            "needle": "API_GATEWAY_ENDPOINT: env.",
+            "line": 86
+          }
+        ]
+      }
+    ],
+    "configuration_endpoints": {
+      "path": "dist/.env",
+      "sha256": "a0a02f0fbd0c18da12cef22b628fc267cd11db7de2bd1722e63c185e58d69101",
+      "endpoint_allowlist_only": true,
+      "entries": [
+        {
+          "key": "API_ENDPOINT",
+          "value": "https://lb-pub.prod.starstable.com/proxy-launcher",
+          "line": 4
+        },
+        {
+          "key": "API_GATEWAY_ENDPOINT",
+          "value": "https://lb-pub.prod.starstable.com/api-gateway/1.0",
+          "line": 5
+        },
+        {
+          "key": "AUTO_UPDATE_URL",
+          "value": "https://launcher-release-prod.starstable.com",
+          "line": 7
+        },
+        {
+          "key": "PRODUCTION",
+          "value": "true",
+          "line": 11
+        }
+      ]
+    }
+  },
+  "procedure_rvas": [
+    "0x1d770",
+    "0x603f0",
+    "0x60730",
+    "0x60e50",
+    "0x60ec0",
+    "0x617a0",
+    "0x644b0",
+    "0x6ca30",
+    "0x6cb10",
+    "0x6cdd0",
+    "0x6cff0",
+    "0x8aac0",
+    "0x99530",
+    "0x99630",
+    "0x99710",
+    "0x99ab0",
+    "0x99b20",
+    "0x99b50",
+    "0x9a790",
+    "0x37f2a0",
+    "0x37fb10",
+    "0x380120",
+    "0x3803e0",
+    "0x380770",
+    "0x612fd0",
+    "0x614190",
+    "0x63d700",
+    "0x63db90",
+    "0x63dbf0",
+    "0x63dc00",
+    "0x63dc10",
+    "0x63dc80",
+    "0x7a68b0",
+    "0x7a7da0",
+    "0x7a8330",
+    "0x7a9470",
+    "0x7a98e0",
+    "0x7aa810",
+    "0x7af880",
+    "0x7c10c0",
+    "0x7c1800",
+    "0x7c1af0",
+    "0x7caf80",
+    "0x7cfc20",
+    "0x7d0120",
+    "0x7f1530",
+    "0x7f2310",
+    "0x80dc00",
+    "0x80dff0",
+    "0x80e170",
+    "0x80e2a0",
+    "0x9992a0",
+    "0x9cb860",
+    "0x9cb870",
+    "0xa43d70",
+    "0xa440c0",
+    "0xa441d0",
+    "0xa46670",
+    "0xa47360",
+    "0xa47b80",
+    "0xa485a0",
+    "0xa4c0a0"
+  ],
+  "procedure_roles": {
+    "0x1d770": "Windows entry: parse CLI and populate StudioInitialize",
+    "0x617a0": "CommandLineToArgvW and UTF8 conversion",
+    "0x603f0": "Argument container construction",
+    "0x60730": "Option presence lookup",
+    "0x60ec0": "Option string lookup",
+    "0x60e50": "Option integer lookup",
+    "0x63d700": "StudioInitialize constructor",
+    "0x63dbf0": "Queue opaque128 getter +944",
+    "0x63dc00": "Pack metadata vector getter +960",
+    "0x63dc10": "Move archive metadata vector to +960",
+    "0x63dc80": "Parse queue token text",
+    "0xa440c0": "UUID text validation",
+    "0xa441d0": "UUID text to sequential bytes",
+    "0xa43d70": "Opaque128 nonzero presence test",
+    "0xa4c0a0": "Windows registry MachineGuid fallback",
+    "0x380120": "Copy service base and access token; start bootstrap",
+    "0x3803e0": "RequestGameServerData",
+    "0x37f2a0": "HandleGameServerDataResult",
+    "0x380770": "RequestGameServerTicket",
+    "0x37fb10": "HandleGameServerTicketResult",
+    "0x99630": "Embedded CA blob accessor",
+    "0x99710": "Native HTTP request constructor including empty POST body",
+    "0x99ab0": "CURLOPT_CAINFO_BLOB setter",
+    "0x99b20": "HTTP header appender",
+    "0x99b50": "HTTP user agent setter",
+    "0x9a790": "HTTP multi request submission",
+    "0x99530": "HTTP write/header callback setup",
+    "0x612fd0": "CPXPackFileArchive constructor including vector +248",
+    "0x7c1af0": "LoginServerLogin construction",
+    "0x7af880": "Login6 wire tuple serializer",
+    "0x7c1800": "Login endpoint and port selection",
+    "0x7d0120": "ProcessConnect protocol534",
+    "0x7f1530": "ConnectionRequest ID1",
+    "0x7f2310": "ConnectionResponse handling",
+    "0x7aa810": "Successful response2 body reader",
+    "0x80e2a0": "Install connection crypto words",
+    "0xa46670": "CPXCrypto constructor, 8 cycles",
+    "0xa485a0": "Install eight crypto words",
+    "0xa47360": "Envelope decrypt and checks",
+    "0xa47b80": "Envelope encrypt and checksum",
+    "0x80dff0": "Bootstrap crypto context initialization",
+    "0x80dc00": "Encrypted receive and context fallback",
+    "0x80e170": "Encrypted send context selection",
+    "0x614190": "Pack archive Open: header/data filename-size-CRC producer",
+    "0x6cdd0": "File size getter, handle passed in RDX to IO+136",
+    "0x6cb10": "File CRC32 wrapper",
+    "0x6ca30": "File chunk CRC32 accumulation",
+    "0x9cb860": "CRC32 wrapper",
+    "0x9cb870": "CRC32/ISO-HDLC implementation",
+    "0x644b0": "C file size via seek-to-end/tell/restore",
+    "0x8aac0": "Memory IO backing size",
+    "0x7caf80": "OnLoginResponse success/error/retry handling",
+    "0x7cfc20": "Process timed state change and state10 login resend",
+    "0x63db90": "Clear initializer pack metadata after login success",
+    "0x7c10c0": "Login7 tuple reader/callback",
+    "0x7a7da0": "Optional LoginResponseData reader",
+    "0x7a98e0": "Game feature list reader and last-wins mask folding",
+    "0x7a9470": "Client feature list reader and last-wins mask folding",
+    "0x7a68b0": "Optional login6 first record",
+    "0x7a8330": "Pack metadata vector codec",
+    "0x9992a0": "Schannel initial handshake and certificate failure paths",
+    "0x6cff0": "File-to-memory open with IO file size"
+  },
+  "procedure_sha256": {
+    "0x1d770": "f4df33799d1f47de777666a11a9e37114f76344c39e987b4f78c4af35d4aca54",
+    "0x603f0": "5a1198eae4038965ecaa09031980e5390e36d4192dccd3fe83ba0647224239f5",
+    "0x60730": "e66d30f4f39ee8030711aedb56fd0293ecf957969acb02486897b26c7fc51ae6",
+    "0x60e50": "05a67ff7b3499f4742ea6df5cb0042cfbbf73197c4bf61a4f121273cce17203b",
+    "0x60ec0": "8ca2f662f4274267308f7fa140969262dd82a2139e155d2e9f1bb647012f7b6c",
+    "0x617a0": "11cfa10f46ee74acead21ab4bdf335e8bc6c80a15122a602f8760bf3e80cd60b",
+    "0x644b0": "aa4dd11dd5096b83d8ce9999a61acdc04280cb196afbcfb09a0191149485d749",
+    "0x6ca30": "89d3031ec14d58bdf6f6965e11845063b9de4514a22ead4b48875a37851ef44d",
+    "0x6cb10": "2198c25f02fd6bb45181182eee60a71d33f5e1b7da2ebbacaa36ca8c2a9ee160",
+    "0x6cdd0": "a9350bb4b54d70197eb61bb7138af0ac77a1f633fbf8a75441290cc74d9b8d74",
+    "0x6cff0": "f4ba36baed350e1ad333184f9159591a0e801dce6ba9249195d89f428ef39bb9",
+    "0x8aac0": "43208ee387e359749d4428b352c6403814896b981e294171bd59e5430b13d941",
+    "0x99530": "07a2258d9bad5db618ac724269b34bf8f033bf1504ec6f40b9cae11a54a5c2b7",
+    "0x99630": "d180fb75c94cdbbb6253d65741d16e46d9634e17439652660637e101c3d0840c",
+    "0x99710": "4826ad45403decd832a3eb7bb71450b9cc402b5aa683d47cf938a8ae60736129",
+    "0x99ab0": "5e7a78520b272a4b6297ac63badc63603554c59f6eaf173ddebdbf09144cdf87",
+    "0x99b20": "bead0bf4dda1bf98038917c68e054d8432c51c122991ba8a25b318ea07442b98",
+    "0x99b50": "e5d9c76af1b0899b0587b18cc841376b91fcf70e0cea9d544b87b385c1781ad7",
+    "0x9a790": "bfdc1a57167ec6b9aecbe09048833ae1775c05ea846437c8925814a6e9c47072",
+    "0x37f2a0": "5c06962e1b1477cad82322817049c138ff269fa441b5a95e969f4f13cb80ce98",
+    "0x37fb10": "4e0e041dd35dc617e94d2ed1504aee1f6a546a2e73045cb6d3956dbf4b5864d2",
+    "0x380120": "5ed7376a7aa8d0ab14a16bcf3e0cf17089d994fff73061c0ec5a16544637bc8e",
+    "0x3803e0": "a60e2d078e6d49c64ebe6edfe57e2e50e79838a4204d25b5b756206607b8fc8b",
+    "0x380770": "54228b98cfe068132d68f2150bbb03b64a10dfa9fbba993ae970bc05b3163fc0",
+    "0x612fd0": "d9d2b06e28d337996d2bdec463ec708850fbed93e2880f46fd15b1ba69570de5",
+    "0x614190": "901cea893cade03bea4a0326c49f7dfbcb9caa7dcaac0e9050377b69080a6c14",
+    "0x63d700": "d97b0127f0642ddda125b73789bc94ee3dc5ccb52b12b4ecdca2eb98a33adbde",
+    "0x63db90": "62bb7eec3a83220fe39c117bdd26f47441aedcf512f9d21fee3ec9c1b7415af4",
+    "0x63dbf0": "34e485dd41a9ee239ff05afd8e5e57cbe87bfcfa14686f536f96f1db63dfe87e",
+    "0x63dc00": "c6be91c23eb490dc6ced365681b3004c18b12cc7334330dea38a9ce4ab53ca0d",
+    "0x63dc10": "9854b598d918b266ece8d00231a31b1653b8a8933730c5a58da6d291361f7699",
+    "0x63dc80": "4e6f2713f0f56efb035a71ee20465a438c8a26defe29651097e2e345631c78e9",
+    "0x7a68b0": "937ab5c5a3e491e35b1b14f28d4c1f43786bd5d11bb030a000e89623753110f4",
+    "0x7a7da0": "8fbfcf44d58af9d6578e6762920e3fcb9b3669792b77fc4c5a2797e4dc3c4ccd",
+    "0x7a8330": "54234080cd5f2fa274504a784d6e2d00265d361e6afd39a15f892b0944b3bb88",
+    "0x7a9470": "592d6ad52c69fdf7b0c396c25233d3c5b3b7bbb7a6d93cf41fa7bd3bb1ca7814",
+    "0x7a98e0": "712e5d757c30be00f2941a0a538f41d57419fedfa850b374560edbcf53c6fdbd",
+    "0x7aa810": "9e76ca8d6c3d55a5706349939a42264160edd220dab85ba9c461e165842d766e",
+    "0x7af880": "7d74b7f8b3ee781b2a774f3c53307102441c912c5a41e8460950b901f1d7b9e6",
+    "0x7c10c0": "bbab57ca1ed6b30a8f7747750813e91344989e783fbf4330dc5e8926f0a477cb",
+    "0x7c1800": "657139f308ad975069e4147d630432cfafce85a3af1d07f6f9e7e7e3514b3e7d",
+    "0x7c1af0": "52a24c40de9bb8e47ed14c50ee69aa8d174a7f97ccf70338639853118e807d77",
+    "0x7caf80": "2a8e91704207aa11804860f8754f669b95de39a3a579a20f69b96470f280aff0",
+    "0x7cfc20": "73ff183bfd15e14734c1ed582e644573261dbd77bfda7bb2574c1e3f2cbc2f36",
+    "0x7d0120": "88057e4b2f0b5db04215a3c975a90f7d53ecbfbadf4ca8198c8273c1b084637e",
+    "0x7f1530": "eea2378807c4d52f799fb91e6dc6f78daeef36b0bfa7360234f5d875b22d2a15",
+    "0x7f2310": "293471805fdb9dfbfcfc48d531f1ac0d508f83034f1e39ee7996c9dedebfc06e",
+    "0x80dc00": "640fdfad1076f3b31bef92593fa9723b5636bd4e4347630b361c1f0a4c8d054a",
+    "0x80dff0": "a5756dbeae2a7f85b6edb9f2721b8a5e768e2cc9334853143f589bc8fe5d6e84",
+    "0x80e170": "3d8d752472c29339ff9e76cf7dee5ed78620dd1aad7d553ed5d8243ff1734ecd",
+    "0x80e2a0": "9bd17883012d9677733b95c47df9d0a09fac4ec90c3f0b7cd228dad6bef80643",
+    "0x9992a0": "6efc70988e8a59112e4d5a8a708fa4af37bb7de6351fc8f52a288df5364fc7cf",
+    "0x9cb860": "ec9b31cae915ac37862e75c9c0ebc59ef823166e06393cc2e73aacf36ba85801",
+    "0x9cb870": "11e9574d158ee1a3cb8d1ea7c8fe4cae87131365abf3ecbeeeaf2634b09affdb",
+    "0xa43d70": "91eb66f562fab09ff05893bdce5f3cc0e2c6c5775ea59c9453f23f2176e43c0d",
+    "0xa440c0": "86fcc22dcde7b2edcf57e768d64daa3a111d0ee40c097dadbac0acfdf7ccfe2c",
+    "0xa441d0": "b2ea5c2c1c6965ceb2f09f6bdd02ee44c53c0cc7083523915d7bd7fb66e6db9c",
+    "0xa46670": "5c134502fc2db2e2ce3b100aef6f6522a6462ef2ef67582ab3b5a4ffa59f31fa",
+    "0xa47360": "95b0f291f7da5e084d793b837905226a84f1d5f6e747edadf4c1f81358f8e90a",
+    "0xa47b80": "65de207a3cc5efe45f50da4aeecbf93daea5e597aba8995420037985bf3199a5",
+    "0xa485a0": "0f660aec85ceb6ed096f90fa76ce97b3e4aaf63ecd7e730a6b8a5f3b81196f44",
+    "0xa4c0a0": "1970cb277485dd23239f43ca1b17d7946f6ad4246ecc90c1c7f2f47e5e426ba4"
+  },
+  "native_ca_bundle": {
+    "rva": "0xEFE720",
+    "size": 203132,
+    "sha256": "fa7f864fadeda60a41645c7318f61992d91b25889989872da8f5d0e9dbb03040"
+  },
+  "windows_argument_syntax": "-Name=\"value\"",
+  "windows_handoff_arguments": [
+    "Language",
+    "NetworkUserId",
+    "AccessToken",
+    "ServiceBaseUrl",
+    "MetricsServer",
+    "MetricsGroup",
+    "LoginQueueToken",
+    "EnableActorSerializationOnDemand",
+    "EnableNebula",
+    "NetworkLauncherHash",
+    "ProjectUserDataPath",
+    "NetworkLauncherServer"
+  ],
+  "not_emitted_by_default_launcher": [
+    "NetworkUserName",
+    "NetworkTicket",
+    "NetworkServer",
+    "NetworkServerPort"
+  ],
+  "native_http": [
+    {
+      "method": "POST",
+      "body_bytes": 0,
+      "path": "api-gateway/1.0/game-server/data",
+      "bearer_source": "StudioInitialize+352 -> CPXPlayerSetup+192",
+      "request_rva": "0x3803E0",
+      "result_rva": "0x37F2A0"
+    },
+    {
+      "method": "POST",
+      "body_bytes": 0,
+      "path": "api-gateway/1.0/game-server/ticket",
+      "bearer_source": "StudioInitialize+352 -> CPXPlayerSetup+192",
+      "request_rva": "0x380770",
+      "result_rva": "0x37FB10",
+      "result": "ticket string -> StudioInitialize+320"
+    }
+  ],
+  "login6_wire_order": [
+    {
+      "name": "optional_record",
+      "wire": "u8 presence; if present string,varu32,u8",
+      "source": "initialized absent"
+    },
+    {
+      "name": "username",
+      "wire": "byte string",
+      "source": "StudioInitialize+280"
+    },
+    {
+      "name": "game_server_ticket",
+      "wire": "byte string",
+      "source": "StudioInitialize+320"
+    },
+    {
+      "name": "machine_identifier",
+      "wire": "byte string",
+      "source": "StudioInitialize+432 if nonempty; else registry MachineGuid"
+    },
+    {
+      "name": "queue_token",
+      "wire": "u8 presence then opaque16",
+      "source": "StudioInitialize+944"
+    },
+    {
+      "name": "user_id",
+      "wire": "varu32",
+      "source": "StudioInitialize+312"
+    },
+    {
+      "name": "constant_one",
+      "wire": "varu32",
+      "source": "caller constant1"
+    },
+    {
+      "name": "pack_metadata",
+      "wire": "varu32 count<=16000; repeated[byte string filename,varu32 size_bytes,varu32 crc32]",
+      "source": "StudioInitialize+960; moved from CPXPackFileArchive+248"
+    }
+  ],
+  "transport_crypto": {
+    "cycles": 8,
+    "half_updates": 16,
+    "bootstrap_rva": "0x1020478",
+    "bootstrap_context_hex": "3a190000a2a6000062070000ca0100003ea60000d00b000002fb00007a010000",
+    "installed_words": 8,
+    "block_key_words_used": 4,
+    "checksum": "FNV-1a-32(unpadded_plaintext || wire[4:8])",
+    "encrypted_context_not_derived_from": [
+      "AccessToken",
+      "refresh_token",
+      "ticket",
+      "queueToken"
+    ]
+  },
+  "unresolved": [
+    "server JWT signature and claims policy",
+    "ticket lifetime, binding and reuse policy",
+    "native use of emitted NetworkLauncherHash/NetworkLauncherServer",
+    "all StudioInitialize+432 override writers",
+    "TLS negotiated parameters, pinning and inspection compatibility",
+    "live decoder/native differential compatibility",
+    "login6 unused optional record semantic names",
+    "login7 response string semantic meaning",
+    "server interpretation of metadata and login constant1"
+  ],
+  "external_semantics_sources": [
+    "https://curl.se/libcurl/c/CURLOPT_POSTFIELDS.html",
+    "https://curl.se/libcurl/c/CURLOPT_SSLVERSION.html",
+    "https://curl.se/libcurl/c/CURLOPT_CONNECTTIMEOUT.html",
+    "https://raw.githubusercontent.com/curl/curl/master/include/curl/curl.h"
+  ],
+  "procedure_hash_format": "SHA256 of stripped UTF8 pseudocode with normalized LF, matching procedure-index.json",
+  "followup": {
+    "date": "2026-11-19",
+    "resolved": [
+      "device_info upstream callback and complete constructed JSON shape",
+      "launcher device ID normalization and SHA256 hex versus native MachineGuid string",
+      "pack metadata size/CRC32 field meanings and vector lifetime",
+      "native HTTPS minimum TLS and timeout policies",
+      "login7 success, retry timers and feature duplicate semantics"
+    ],
+    "crc32_table": {
+      "rva": "0x1069060",
+      "entries_verified": 256,
+      "sha256": "12f3e0576d447eb37b36d82ba0c1c5481b8f0d12fdc70347ce4a076b229d4c86",
+      "reflected_polynomial": "0xEDB88320",
+      "algorithm": "CRC32/ISO-HDLC"
+    },
+    "pack_metadata": {
+      "producer_rva": "0x614190",
+      "base_filename_format": "p_%08d.csa",
+      "header_suffix": "header",
+      "entry_order": [
+        "header",
+        "data"
+      ],
+      "size_wire": "varu32 byte count",
+      "checksum_wire": "varu32 CRC32",
+      "data_crc_conditional": "Open argument4 false stores0; inspected entry passes1",
+      "clear_after_success_rva": "0x63DB90"
+    },
+    "file_size_getter_disassembly": {
+      "rva": "0x6CDD0",
+      "role": "file_size getter passes file handle in RDX before tail-call IO+136",
+      "instructions": [
+        "sub     rsp, 28h",
+        "mov     rdx, [rcx+78h]",
+        "test    rdx, rdx",
+        "jnz     short loc_14006CDE4",
+        "xor     eax, eax",
+        "add     rsp, 28h",
+        "retn",
+        "mov     rcx, [rcx+80h]",
+        "test    rcx, rcx",
+        "jz      short loc_14006CDFE",
+        "mov     rax, [rcx]",
+        "add     rsp, 28h",
+        "jmp     qword ptr [rax+88h]",
+        "lea     rcx, off_140EF9DB8; \"C:\\\\Jenkins\\\\workspace\\\\Code-Integratio\"...",
+        "call    sub_140059CA0",
+        "test    al, al",
+        "jz      short loc_14006CE0F",
+        "int     3; Trap to Debugger",
+        "mov     ecx, 3E7h",
+        "call    sub_1409E29B8",
+        "db 0CCh"
+      ]
+    },
+    "initializer_432_search": {
+      "client_sha256": "62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1",
+      "range_rva": [
+        "0x1000",
+        "0xA4D000"
+      ],
+      "direct_memory_destination_displacement": 432,
+      "matching_sites": 273,
+      "matching_initializer_neighborhood": [
+        {
+          "rva": "0x63d958",
+          "function_rva": "0x63d700",
+          "instruction": "movups  xmmword ptr [rcx+1B0h], xmm0"
+        },
+        {
+          "rva": "0x63d971",
+          "function_rva": "0x63d700",
+          "instruction": "mov     [rcx+1B0h], r8b"
+        }
+      ],
+      "limit": "Direct operand0 writes only; excludes address-taken aliases, copies, different base offsets and unreviewed paths. Not proof no override exists."
+    },
+    "http_options": {
+      "minimum_tls": "1.2",
+      "sslversion_option32": 6,
+      "connect_timeout_seconds": 10,
+      "total_timeout_seconds": 15,
+      "pinning": "No pin set by reviewed request constructor/setters/submission; runtime/live unknown"
+    },
+    "login7": {
+      "success_code": 0,
+      "success_requires_optional_data": true,
+      "retry_code": 3060,
+      "retry_condition": "CPXNetwork+448 attempt byte <3",
+      "retry_state": 10,
+      "retry_countdown": 10.0,
+      "other_failure_state": 8,
+      "other_failure_countdown": 1.0,
+      "process_rva": "0x7CFC20",
+      "feature_duplicates": "accepted known names; last nonzero/zero enabled byte wins",
+      "callback_does_not_check_eof": true,
+      "registration_id_word_rva": "0x1313E30",
+      "registration_id_word_value": 7
+    }
+  },
+  "endpoint_reference": "endpoint-evidence.json"
+}

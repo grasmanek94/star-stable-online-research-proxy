@@ -1,0 +1,442 @@
+[
+  {
+    "string": "CPXNetwork::ProcessServerMessage",
+    "ea": "0x141012d70",
+    "refs": [
+      {
+        "from": "0x141012d50",
+        "function": null
+      },
+      {
+        "from": "0x141012da0",
+        "function": null
+      },
+      {
+        "from": "0x141012dc8",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::ProcessDispatcherMessage",
+    "ea": "0x141012fa0",
+    "refs": [
+      {
+        "from": "0x141012f80",
+        "function": null
+      },
+      {
+        "from": "0x141012fd0",
+        "function": null
+      },
+      {
+        "from": "0x141012ff8",
+        "function": null
+      },
+      {
+        "from": "0x141013020",
+        "function": null
+      },
+      {
+        "from": "0x141013048",
+        "function": null
+      },
+      {
+        "from": "0x141013070",
+        "function": null
+      },
+      {
+        "from": "0x141013098",
+        "function": null
+      },
+      {
+        "from": "0x1410130c0",
+        "function": null
+      },
+      {
+        "from": "0x1410130e8",
+        "function": null
+      },
+      {
+        "from": "0x141013110",
+        "function": null
+      },
+      {
+        "from": "0x141013138",
+        "function": null
+      },
+      {
+        "from": "0x141013160",
+        "function": null
+      },
+      {
+        "from": "0x141013188",
+        "function": null
+      },
+      {
+        "from": "0x1410131b0",
+        "function": null
+      },
+      {
+        "from": "0x1410131d8",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::TrySendPositionUpdate",
+    "ea": "0x141013b10",
+    "refs": [
+      {
+        "from": "0x141013af0",
+        "function": null
+      },
+      {
+        "from": "0x141013b58",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::LoginServerConnect",
+    "ea": "0x141013c78",
+    "refs": [
+      {
+        "from": "0x141013ca0",
+        "function": null
+      },
+      {
+        "from": "0x141013cc8",
+        "function": null
+      },
+      {
+        "from": "0x141013cf0",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::ProcessConnect",
+    "ea": "0x141013d98",
+    "refs": [
+      {
+        "from": "0x141013d78",
+        "function": null
+      },
+      {
+        "from": "0x141013dc0",
+        "function": null
+      },
+      {
+        "from": "0x141013de8",
+        "function": null
+      },
+      {
+        "from": "0x141013e10",
+        "function": null
+      },
+      {
+        "from": "0x141013e38",
+        "function": null
+      },
+      {
+        "from": "0x141013e60",
+        "function": null
+      },
+      {
+        "from": "0x141013e88",
+        "function": null
+      },
+      {
+        "from": "0x141013eb0",
+        "function": null
+      },
+      {
+        "from": "0x141013ed8",
+        "function": null
+      },
+      {
+        "from": "0x141013f00",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::LoginServerLogin",
+    "ea": "0x141014088",
+    "refs": [
+      {
+        "from": "0x1410140b0",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "CPXNetwork::SendDispatcherMessage",
+    "ea": "0x141014120",
+    "refs": [
+      {
+        "from": "0x141014100",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "PXEngine::ReceivedPacket::ReceivedPacket",
+    "ea": "0x141019020",
+    "refs": [
+      {
+        "from": "0x141019000",
+        "function": null
+      }
+    ]
+  },
+  {
+    "string": "ClientGameServerConnection: Failed to serialize ConnectionRequest!",
+    "ea": "0x141019200",
+    "refs": [
+      {
+        "from": "0x1407f162e",
+        "function": "0x1407f1530"
+      }
+    ]
+  },
+  {
+    "string": "ClientGameServerConnection: Failed to deserialize ConnectionResponse!",
+    "ea": "0x1410192d0",
+    "refs": [
+      {
+        "from": "0x1407f257d",
+        "function": "0x1407f2310"
+      }
+    ]
+  },
+  {
+    "string": "NETWORK ERROR: Could not serialize packet header!",
+    "ea": "0x14101b0c8",
+    "refs": [
+      {
+        "from": "0x140803f4e",
+        "function": "0x140803eb0"
+      }
+    ]
+  },
+  {
+    "string": "Could not deserialize Packet Header!",
+    "ea": "0x1410205c8",
+    "refs": [
+      {
+        "from": "0x14080dd2e",
+        "function": "0x14080dc00"
+      },
+      {
+        "from": "0x14080de81",
+        "function": "0x14080de00"
+      }
+    ]
+  },
+  {
+    "import": "connect",
+    "ea": "0x140ee5c70",
+    "refs": [
+      {
+        "from": "0x1409789be",
+        "function": "0x140978920"
+      },
+      {
+        "from": "0x1409797bc",
+        "function": "0x1409796e0"
+      },
+      {
+        "from": "0x1409789be",
+        "function": "0x140978920"
+      },
+      {
+        "from": "0x1409797bc",
+        "function": "0x1409796e0"
+      }
+    ]
+  },
+  {
+    "import": "recv",
+    "ea": "0x140ee5bf0",
+    "refs": [
+      {
+        "from": "0x1409787c5",
+        "function": "0x140978710"
+      },
+      {
+        "from": "0x14097913f",
+        "function": "0x1409790f0"
+      },
+      {
+        "from": "0x1409787c5",
+        "function": "0x140978710"
+      },
+      {
+        "from": "0x14097913f",
+        "function": "0x1409790f0"
+      }
+    ]
+  },
+  {
+    "import": "recvfrom",
+    "ea": "0x140ee5c50",
+    "refs": [
+      {
+        "from": "0x1409bafaa",
+        "function": "0x1409baf50"
+      },
+      {
+        "from": "0x140a4ba91",
+        "function": "0x140a4ba20"
+      },
+      {
+        "from": "0x1409bafaa",
+        "function": "0x1409baf50"
+      },
+      {
+        "from": "0x140a4ba91",
+        "function": "0x140a4ba20"
+      }
+    ]
+  },
+  {
+    "import": "send",
+    "ea": "0x140ee5bd8",
+    "refs": [
+      {
+        "from": "0x140956e4d",
+        "function": "0x140956d60"
+      },
+      {
+        "from": "0x140978f3a",
+        "function": "0x140978ec0"
+      },
+      {
+        "from": "0x140956e4d",
+        "function": "0x140956d60"
+      },
+      {
+        "from": "0x140978f3a",
+        "function": "0x140978ec0"
+      }
+    ]
+  },
+  {
+    "import": "sendto",
+    "ea": "0x140ee5c58",
+    "refs": [
+      {
+        "from": "0x1409bb30e",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb3c3",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb452",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb540",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bba3d",
+        "function": "0x1409bb5f0"
+      },
+      {
+        "from": "0x1409bbf99",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc029",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc116",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc29f",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x140a4bbf2",
+        "function": "0x140a4bb70"
+      },
+      {
+        "from": "0x1409bb30e",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb3c3",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb452",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bb540",
+        "function": "0x1409bb200"
+      },
+      {
+        "from": "0x1409bba3d",
+        "function": "0x1409bb5f0"
+      },
+      {
+        "from": "0x1409bbf99",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc029",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc116",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x1409bc29f",
+        "function": "0x1409bbe70"
+      },
+      {
+        "from": "0x140a4bbf2",
+        "function": "0x140a4bb70"
+      }
+    ]
+  },
+  {
+    "import": "socket",
+    "ea": "0x140ee5c40",
+    "refs": [
+      {
+        "from": "0x14097b915",
+        "function": "0x14097b870"
+      },
+      {
+        "from": "0x14097f566",
+        "function": "0x14097f550"
+      },
+      {
+        "from": "0x140a4b4fb",
+        "function": "0x140a4b4d0"
+      },
+      {
+        "from": "0x14097b915",
+        "function": "0x14097b870"
+      },
+      {
+        "from": "0x14097f566",
+        "function": "0x14097f550"
+      },
+      {
+        "from": "0x140a4b4fb",
+        "function": "0x140a4b4d0"
+      }
+    ]
+  }
+]

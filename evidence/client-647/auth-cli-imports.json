@@ -1,0 +1,28 @@
+[
+  {
+    "name": "GetCommandLineA",
+    "rva": "0xee53a8",
+    "callers": [
+      "0xa1cf8c",
+      "0xa1cf8c"
+    ]
+  },
+  {
+    "name": "GetCommandLineW",
+    "rva": "0xee5598",
+    "callers": [
+      "0x1d770",
+      "0xa1cf8c",
+      "0x1d770",
+      "0xa1cf8c"
+    ]
+  },
+  {
+    "name": "CommandLineToArgvW",
+    "rva": "0xee5910",
+    "callers": [
+      "0x617a0",
+      "0x617a0"
+    ]
+  }
+]
