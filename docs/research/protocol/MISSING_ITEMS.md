@@ -19,6 +19,7 @@ Updated 2026-11-21 with the local TCP relay and TLS inspection results. This is 
 | Player/horse/pet spawn/update/remove bodies | Focused supported bodies recovered and offline-tested; full semantic coverage is partial | Actor section and schemas; all284 subtypes1–12; unknown fields keep offsets |
 | Byte-transparent UDP relay and log inspection | Windows CMake relay forwards both ways and logs metadata. Optional trace inspector reuses reviewed body grammars with an explicit test context | CTest exercises separate IPv4 and IPv6 loopback clients, opaque/malformed forwarding, ACKs, fragments, compression and login redaction |
 | Byte-transparent TCP relay and supplied-key TLS inspection | Windows TCP relay preserves stream bytes and half-closes. The inspector uses supplied TLS secrets for HTTP/1.x and HTTP/2 metadata | CTest exercises concurrent UDP, full-duplex TCP, TLS 1.2 HTTP/1.1 and TLS 1.3 HTTP/2, and verifies that synthetic authorization, query, cookie and body values stay out of the output |
+| Optional hostname redirection | The Windows proxy can add temporary loopback mappings for its configured, pre-resolved upstream hostnames | Temporary hosts fixtures cover ownership and reversion. Live routing and gameplay assignments that use an IP literal require separate verification |
 
 Items still unresolved, grouped by what evidence could resolve them:
 

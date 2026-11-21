@@ -5,7 +5,7 @@ if(NOT WIN32)
     message(FATAL_ERROR "The proxy uses Windows Winsock.")
 endif()
 
-add_executable(sso-proxy src/proxy.cpp)
+add_executable(sso-proxy src/proxy.cpp src/hosts_redirect.cpp)
 target_compile_features(sso-proxy PRIVATE cxx_std_20)
 target_compile_definitions(sso-proxy PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX)
 target_link_libraries(sso-proxy PRIVATE ws2_32)
@@ -17,6 +17,13 @@ endif()
 
 include(CTest)
 if(BUILD_TESTING)
+    add_executable(proxy-hosts-test tests/hosts_redirect_test.cpp src/hosts_redirect.cpp)
+    target_compile_features(proxy-hosts-test PRIVATE cxx_std_20)
+    target_compile_definitions(proxy-hosts-test PRIVATE WIN32_LEAN_AND_MEAN NOMINMAX)
+    target_include_directories(proxy-hosts-test PRIVATE src)
+    add_test(NAME proxy-hosts-redirect COMMAND proxy-hosts-test "${CMAKE_CURRENT_BINARY_DIR}/hosts-redirect-fixture.txt")
+    set_tests_properties(proxy-hosts-redirect PROPERTIES TIMEOUT 15)
+
     find_package(Python3 3.11 QUIET COMPONENTS Interpreter)
     if(Python3_Interpreter_FOUND)
         add_test(NAME proxy-smoke COMMAND "${Python3_EXECUTABLE}"

@@ -69,6 +69,24 @@ Either context option can be used on its own. For TLS, start the trace before th
 
 Keep `--trace` connected directly to the inspector when you want decoded logs. The outgoing inspector JSON omits wire bytes. A TCP observation gap ends inspection of the affected TLS stream while forwarding continues. `tls_inspection_complete` reports the number of emitted HTTP records when the input closes. The proxy and inspector use the supplied addresses and context files and leave the game process and certificate settings untouched.
 
+## Temporarily redirect hostnames on Windows
+
+In an elevated PowerShell window, start the proxy with `--redirect-hosts`. Replace `api.example.test` with a resolvable hostname for a server you control.
+
+```powershell
+.\out\proxy\Release\sso-proxy.exe --tcp-upstream api.example.test:443 --redirect-hosts
+```
+
+The proxy resolves all configured upstreams and opens its listeners before adding a marked entry for each upstream hostname. In this mode the listener defaults to `127.0.0.1` and the upstream port. An explicit `--listen` or `--tcp-listen` must use that same port and can select `[::1]`. The change applies to hostname lookups on the Windows machine. The proxy rejects hostnames already mapped in the hosts file. One proxy redirect can be active at a time.
+
+Wait for `Windows hosts redirect applied` before connecting clients. To undo the redirect while keeping the relay open, run this in another elevated terminal:
+
+```powershell
+.\out\proxy\Release\sso-proxy.exe --restore-hosts
+```
+
+Ctrl+C and normal console closure also trigger restoration. The proxy removes its marked entries and keeps unrelated hosts edits. It attempts to flush the Windows DNS cache after each change. Use `--restore-hosts` to recover after a crash or a forced stop. The option requires DNS hostnames for all configured upstreams. Gameplay assignments that use an IP literal require a separate routing mechanism. [Windows DNS cache behavior](https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig)
+
 ## Run the offline checks
 
 Use Python3.11 or newer from the repository root. These scripts use the standard library; no game, IDA, Cheat Engine or third-party Python package is required.

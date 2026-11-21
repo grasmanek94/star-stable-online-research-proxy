@@ -23,3 +23,7 @@ Verified a Release build, the synthetic loopback test, the document validator an
 ## 2026-11-21 — TCP forwarding and TLS trace inspection
 
 Added full-duplex Windows TCP forwarding alongside UDP and a combined inspector that accepts a supplied TLS key log and UDP context. Local tests passed for intact streams and half-closes, simultaneous UDP forwarding, TLS 1.2 HTTP/1.1, and TLS 1.3 HTTP/2. The decoded log reports known commands and identifiers, and excludes synthetic credentials and sensitive HTTP fields. See the [protocol journal](docs/research/protocol/JOURNAL.md#2026-11-21--tcp-forwarding-and-supplied-tls-keys) and [run instructions](README.md#forward-tcp-and-inspect-tls).
+
+## 2026-11-21 — reversible Windows hosts redirection
+
+Added `--redirect-hosts` and `--restore-hosts`. The proxy resolves configured upstreams and binds the required ports before installing marked hosts entries. Clean shutdown and manual restore remove the relevant entries while preserving other edits. Tests exercised the Windows file replacement and restoration against temporary fixtures. See the [run instructions](README.md#temporarily-redirect-hostnames-on-windows).

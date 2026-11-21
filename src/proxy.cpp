@@ -2,6 +2,8 @@
 #include <ws2tcpip.h>
 #include <windows.h>
 
+#include "hosts_redirect.h"
+
 #include <array>
 #include <atomic>
 #include <charconv>
@@ -36,14 +38,29 @@ constexpr std::array<std::string_view, 5> event_names = {
     "udp_datagram", "tcp_open", "tcp_data", "tcp_half_close", "tcp_close"
 };
 std::atomic_bool stopping = false;
+HANDLE hosts_cleanup_done = nullptr;
 
 BOOL WINAPI stop_on_console_event(DWORD event) {
     if (event == CTRL_C_EVENT || event == CTRL_BREAK_EVENT) {
         stopping.store(true);
         return TRUE;
     }
+    if (hosts_cleanup_done != nullptr && (event == CTRL_CLOSE_EVENT || event == CTRL_SHUTDOWN_EVENT
+                                          || event == CTRL_LOGOFF_EVENT)) {
+        stopping.store(true);
+        WaitForSingleObject(hosts_cleanup_done, 4000);
+        return TRUE;
+    }
     return FALSE;
 }
+
+struct HostsCleanupSignal {
+    ~HostsCleanupSignal() {
+        if (hosts_cleanup_done != nullptr) {
+            SetEvent(hosts_cleanup_done);
+        }
+    }
+};
 
 std::runtime_error network_error(std::string_view operation, int code) {
     return std::runtime_error(std::string(operation) + " failed (Winsock " + std::to_string(code) + ")");
@@ -118,7 +135,12 @@ struct Address {
     }
 };
 
-Address resolve(std::string_view endpoint, bool listener, Transport transport) {
+struct Endpoint {
+    std::string hostname;
+    unsigned int port;
+};
+
+Endpoint parse_endpoint(std::string_view endpoint) {
     const auto separator = endpoint.rfind(':');
     if (separator == std::string_view::npos || separator == 0) {
         throw std::runtime_error("Expected HOST:PORT or [IPv6]:PORT");
@@ -132,23 +154,31 @@ Address resolve(std::string_view endpoint, bool listener, Transport transport) {
     }
     unsigned int port = 0;
     const auto [end, error] = std::from_chars(service.data(), service.data() + service.size(), port);
-    if (error != std::errc{} || end != service.data() + service.size() || port > 65535 || (!listener && port == 0)) {
+    if (error != std::errc{} || end != service.data() + service.size() || port > 65535) {
         throw std::runtime_error("Invalid port");
-    }
-    if (listener && host != "127.0.0.1" && host != "::1") {
-        throw std::runtime_error("The listener must use 127.0.0.1 or [::1]");
     }
     if (host.empty()) {
         throw std::runtime_error("Expected a host name or IP address");
+    }
+    return {std::string(host), port};
+}
+
+Address resolve(const Endpoint& endpoint, bool listener, Transport transport) {
+    if (listener && endpoint.hostname != "127.0.0.1" && endpoint.hostname != "::1") {
+        throw std::runtime_error("The listener must use 127.0.0.1 or [::1]");
+    }
+    if (!listener && endpoint.port == 0) {
+        throw std::runtime_error("The upstream port must be nonzero");
     }
 
     addrinfo hints{};
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = transport == Transport::tcp ? SOCK_STREAM : SOCK_DGRAM;
     hints.ai_protocol = transport == Transport::tcp ? IPPROTO_TCP : IPPROTO_UDP;
-    hints.ai_flags = listener ? AI_NUMERICHOST : 0;
+    hints.ai_flags = AI_NUMERICSERV | (listener ? AI_NUMERICHOST : 0);
     addrinfo* results = nullptr;
-    const int status = getaddrinfo(std::string(host).c_str(), std::string(service).c_str(), &hints, &results);
+    const auto port = std::to_string(endpoint.port);
+    const int status = getaddrinfo(endpoint.hostname.c_str(), port.c_str(), &hints, &results);
     if (status != 0) {
         throw network_error("getaddrinfo", status);
     }
@@ -584,18 +614,30 @@ struct Route {
 };
 
 std::optional<Route> make_route(std::string_view upstream, std::string_view local, std::string_view default_local,
-                                Transport transport) {
+                                Transport transport, bool redirect_hosts, std::vector<hosts::Mapping>& mappings) {
     if (upstream.empty()) {
         if (!local.empty()) {
             throw std::runtime_error("A listen address requires a matching upstream");
         }
         return std::nullopt;
     }
-    return Route{resolve(upstream, false, transport), resolve(local.empty() ? default_local : local, true, transport)};
+    const auto destination = parse_endpoint(upstream);
+    const auto listener = redirect_hosts && local.empty()
+        ? Endpoint{"127.0.0.1", destination.port}
+        : parse_endpoint(local.empty() ? default_local : local);
+    if (redirect_hosts) {
+        if (listener.port != destination.port) {
+            throw std::runtime_error("Hosts redirection requires the listener and upstream to use the same port");
+        }
+        mappings.push_back({hosts::normalize_hostname(destination.hostname), listener.hostname});
+    }
+    return Route{resolve(destination, false, transport), resolve(listener, true, transport)};
 }
 
-void run_relays(const std::optional<Route>& udp_route, const std::optional<Route>& tcp_route, bool trace) {
+void run_relays(const std::optional<Route>& udp_route, const std::optional<Route>& tcp_route, bool trace,
+                std::span<const hosts::Mapping> mappings) {
     TrafficLog log(trace);
+    const HostsCleanupSignal cleanup_signal;
     std::optional<UdpRelay> udp;
     std::optional<TcpRelay> tcp;
     if (udp_route) {
@@ -607,6 +649,11 @@ void run_relays(const std::optional<Route>& udp_route, const std::optional<Route
 
     std::vector<WSAPOLLFD> poll;
     poll.reserve(3 * max_sessions + 2);
+    std::optional<hosts::Redirect> redirect;
+    if (!mappings.empty() && !stopping.load()) {
+        redirect.emplace(mappings);
+        redirect->announce();
+    }
     while (!stopping.load()) {
         poll.clear();
         if (udp) {
@@ -627,18 +674,27 @@ void run_relays(const std::optional<Route>& udp_route, const std::optional<Route
             tcp->dispatch(ready.subspan(tcp_start));
         }
     }
+    if (redirect) {
+        redirect->restore();
+    }
 }
 
 void usage(std::ostream& stream) {
     stream << "Usage: sso-proxy [--upstream HOST:PORT [--listen 127.0.0.1:18971]]\n"
-              "                 [--tcp-upstream HOST:PORT [--tcp-listen 127.0.0.1:18443]] [--trace]\n"
-              "Provide at least one upstream. Bracket IPv6 addresses. --trace includes wire bytes in stdout JSON.\n";
+              "                 [--tcp-upstream HOST:PORT [--tcp-listen 127.0.0.1:18443]] [--trace] [--redirect-hosts]\n"
+              "       sso-proxy --restore-hosts\n"
+              "Provide at least one upstream. Bracket IPv6 addresses. --trace includes wire bytes in stdout JSON.\n"
+              "Hosts commands require an elevated terminal. --redirect-hosts uses the upstream ports locally.\n";
 }
 } // namespace
 
 int main(int argc, char** argv) {
     std::cerr.tie(nullptr);
     try {
+        if (argc == 2 && std::string_view(argv[1]) == "--restore-hosts") {
+            hosts::restore_system_hosts();
+            return 0;
+        }
         std::string_view listen;
         std::string_view upstream;
         std::string_view tcp_listen;
@@ -648,6 +704,7 @@ int main(int argc, char** argv) {
             {"--tcp-upstream", &tcp_upstream}, {"--tcp-listen", &tcp_listen},
         };
         bool trace = false;
+        bool redirect_hosts = false;
         for (int index = 1; index < argc; ++index) {
             const std::string_view option = argv[index];
             if (option == "--help" || option == "-h") {
@@ -656,6 +713,8 @@ int main(int argc, char** argv) {
             }
             if (option == "--trace") {
                 trace = true;
+            } else if (option == "--redirect-hosts") {
+                redirect_hosts = true;
             } else if (const auto entry = addresses.find(option); entry != addresses.end() && index + 1 < argc
                        && std::string_view(argv[index + 1]).size() != 0) {
                 *entry->second = argv[++index];
@@ -669,12 +728,20 @@ int main(int argc, char** argv) {
         }
 
         const Winsock winsock;
-        const auto udp = make_route(upstream, listen, "127.0.0.1:18971", Transport::udp);
-        const auto tcp = make_route(tcp_upstream, tcp_listen, "127.0.0.1:18443", Transport::tcp);
+        std::vector<hosts::Mapping> mappings;
+        const auto udp = make_route(upstream, listen, "127.0.0.1:18971", Transport::udp, redirect_hosts, mappings);
+        const auto tcp = make_route(tcp_upstream, tcp_listen, "127.0.0.1:18443", Transport::tcp, redirect_hosts, mappings);
+        if (!mappings.empty()) {
+            // The control handler can run during shutdown. Windows closes this event at process exit.
+            hosts_cleanup_done = CreateEventW(nullptr, TRUE, FALSE, nullptr);
+            if (hosts_cleanup_done == nullptr) {
+                throw std::runtime_error("Could not create the hosts cleanup event");
+            }
+        }
         if (!SetConsoleCtrlHandler(stop_on_console_event, TRUE)) {
             throw std::runtime_error("Could not install the console shutdown handler");
         }
-        run_relays(udp, tcp, trace);
+        run_relays(udp, tcp, trace, mappings);
     } catch (const std::exception& error) {
         std::cerr << error.what() << '\n';
         return 1;
