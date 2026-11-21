@@ -214,30 +214,39 @@ class Inspector:
         return event
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--context-file", type=Path, required=True, help="Binary file with eight little-endian u32 words")
-    args = parser.parse_args()
-    try:
-        with args.context_file.open("rb") as source:
-            context = source.read(33)
-        if len(context) != 32:
-            parser.error("The context file must contain exactly 32 bytes")
-        inspector = Inspector(context)
-    except OSError as error:
-        parser.error(str(error))
+def read_context(path):
+    with path.open("rb") as source:
+        context = source.read(33)
+    if len(context) != 32:
+        raise ValueError("The UDP context file must contain exactly 32 bytes")
+    return context
 
-    while line := sys.stdin.buffer.readline(MAX_TRACE_LINE + 1):
+
+def trace_events(source):
+    while line := source.readline(MAX_TRACE_LINE + 1):
         try:
             if len(line) > MAX_TRACE_LINE:
                 while line and not line.endswith(b"\n"):
-                    line = sys.stdin.buffer.readline(MAX_TRACE_LINE + 1)
+                    line = source.readline(MAX_TRACE_LINE + 1)
                 raise ValueError
             event = json.loads(line)
             if not isinstance(event, dict):
                 raise ValueError
         except ValueError:
             event = {"event": "invalid_trace_line"}
+        yield event
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--context-file", type=Path, required=True, help="Binary file with eight little-endian u32 words")
+    args = parser.parse_args()
+    try:
+        inspector = Inspector(read_context(args.context_file))
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
+
+    for event in trace_events(sys.stdin.buffer):
         print(json.dumps(inspector.inspect(event), allow_nan=False), flush=True)
 
 

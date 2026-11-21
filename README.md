@@ -1,6 +1,6 @@
 # Star Stable Online protocol research
 
-Protocol specifications, reverse-engineering journals, static evidence, offline decoders and a Windows UDP forwarding proxy for controlled endpoints.
+Protocol specifications, reverse-engineering journals, static evidence, and a Windows TCP and UDP forwarding proxy with protocol inspectors for controlled endpoints.
 
 ## Start here
 
@@ -21,9 +21,9 @@ The gameplay protocol recovered here uses custom reliable/encrypted **UDP**. HTT
 
 The primary reference is Windows client **647.349716**, SHA256 `62387b246a92a4874d20329caa6eaf06c7a29830263e94982a8bdad6b6110fe1`, and launcher **2.60.0**. Addresses identify that executable, not arbitrary future versions.
 
-Findings are based on static analysis and synthetic checks. The relay and its inspector have been exercised with local UDP peers. Live game compatibility and TLS plaintext remain unverified. The message catalog supplies names while the focused schemas define the layouts and field meanings established so far.
+Findings are based on static analysis and synthetic checks. Tests exercise both transports and decode local TLS 1.2, TLS 1.3 and encrypted UDP exchanges. Live game compatibility remains unverified. The message catalog supplies names while the focused schemas define the layouts and field meanings established so far.
 
-## Build and run the UDP relay
+## Build the proxy
 
 Use CMake 3.20 or newer and a Windows C++20 compiler. Install Python 3.11 or newer to run the inspector and enable the loopback test at configure time.
 
@@ -32,6 +32,10 @@ cmake -S . -B out/proxy -A x64
 cmake --build out/proxy --config Release
 ctest --test-dir out/proxy -C Release --output-on-failure
 ```
+
+CTest includes the TLS smoke test when TShark and the OpenSSL command line are available at configure time. Set `SSO_TSHARK` and `SSO_OPENSSL` to their executable paths for a custom installation.
+
+## Forward UDP
 
 Start a UDP test server at `127.0.0.1:19000`, run the relay, and point a test client at `127.0.0.1:18971`.
 
@@ -50,7 +54,20 @@ For a controlled client647 test exchange, store its eight little-endian context 
 
 `--trace` emits full wire bytes. The inspector takes one explicit context, verifies the envelope, labels ACKs, assembles supported fragments, and uses the reviewed login and actor body schemas. It includes readable numeric transforms and UTF-8 text where the bytes support it. The output omits raw datagrams and redacts login identifiers, tickets and response 2 context words. Catalog-only payloads are reported as unsupported and unidentified fields retain their recorded labels. The relay sends before queuing the log, and `log_overflow` reports skipped observations when the sink falls behind. Stop the relay with Ctrl+C.
 
-The relay expects the client to use its loopback address explicitly. The assigned gameplay UDP endpoint is separate from the production HTTPS hostname. The build and tests use synthetic or explicitly configured endpoints and test contexts.
+## Forward TCP and inspect TLS
+
+To run TCP by itself, point a test client at `127.0.0.1:18443` and set `--tcp-upstream HOST:PORT` to its upstream. Use `--tcp-listen 127.0.0.1:PORT` or `--tcp-listen [::1]:PORT` to change the local address. The TCP relay forwards each byte stream in both directions, including half-closes. It preserves end-to-end TLS between the client and upstream. TCP metadata includes a connection ID and an offset for each direction.
+
+To inspect both transports, start a UDP test server at `127.0.0.1:19000` and a TLS test server at `127.0.0.1:19443`. Point the clients at the corresponding loopback listeners. The inspector accepts one supplied UDP context and a TLS session key log in NSS format. Install a recent TShark with Wireshark or pass `--tshark` with its executable path. [Wireshark TLS key log support](https://wiki.wireshark.org/TLS)
+
+```powershell
+.\out\proxy\Release\sso-proxy.exe --upstream 127.0.0.1:19000 --tcp-upstream 127.0.0.1:19443 --trace |
+    python docs/research/protocol/tools/inspect_proxy_trace.py --udp-context-file .\private\udp.bin --tls-key-log .\private\tls.keys
+```
+
+Either context option can be used on its own. For TLS, start the trace before the handshake and make matching secrets available in the supplied key log. The inspector pipes a reconstructed TCP capture to TShark in memory. Its HTTP/1.x and HTTP/2 records include methods, response status codes, recognized route paths, and the available request-frame or HTTP/2 stream identifiers. Each decoded record groups fields from one reconstructed frame. Headers carrying authorization or cookies, queries, and bodies are excluded from the output. Arbitrary paths are labeled `unrecognized`. UDP inspection uses the same reviewed message readers as the standalone decoder.
+
+Keep `--trace` connected directly to the inspector when you want decoded logs. The outgoing inspector JSON omits wire bytes. A TCP observation gap ends inspection of the affected TLS stream while forwarding continues. `tls_inspection_complete` reports the number of emitted HTTP records when the input closes. The proxy and inspector use the supplied addresses and context files and leave the game process and certificate settings untouched.
 
 ## Run the offline checks
 

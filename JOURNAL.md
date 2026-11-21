@@ -16,6 +16,10 @@ The repository is research and offline tooling. A live forwarding/filtering prox
 
 ## 2026-11-19 — implement UDP forwarding and synthetic trace inspection
 
-Added the CMake Windows relay and a trace inspector using the existing client647 schemas. The relay resolves a configured upstream before binding, forwards unchanged datagrams in both directions, and writes metadata to stdout. The optional inspector accepts a supplied test context and logs recovered fields with sensitive login values redacted. Build, run and test instructions are in the [root README](README.md#build-and-run-the-udp-relay).
+Added the CMake Windows relay and a trace inspector using the existing client647 schemas. The relay resolves a configured upstream before binding, forwards unchanged datagrams in both directions, and writes metadata to stdout. The optional inspector accepts a supplied test context and logs recovered fields with sensitive login values redacted. Build, run and test instructions are in the [root README](README.md#forward-udp).
 
 Verified a Release build, the synthetic loopback test, the document validator and all three protocol verification scripts. The installed client hash matched the journal. No IDA MCP tool was exposed. This phase exercised separate local UDP peers and synthetic messages. The [protocol journal](docs/research/protocol/JOURNAL.md#2026-11-19--first-c-udp-relay-and-decoded-trace) records the implementation and remaining gaps.
+
+## 2026-11-21 — TCP forwarding and TLS trace inspection
+
+Added full-duplex Windows TCP forwarding alongside UDP and a combined inspector that accepts a supplied TLS key log and UDP context. Local tests passed for intact streams and half-closes, simultaneous UDP forwarding, TLS 1.2 HTTP/1.1, and TLS 1.3 HTTP/2. The decoded log reports known commands and identifiers, and excludes synthetic credentials and sensitive HTTP fields. See the [protocol journal](docs/research/protocol/JOURNAL.md#2026-11-21--tcp-forwarding-and-supplied-tls-keys) and [run instructions](README.md#forward-tcp-and-inspect-tls).
